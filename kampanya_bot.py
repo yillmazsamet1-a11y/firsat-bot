@@ -1,4 +1,5 @@
 import hashlib
+import json
 import os
 import re
 import sqlite3
@@ -13,6 +14,7 @@ BITIS = datetime(2026, 11, 28, 23, 59, 59)
 MIN_IND = 25.0
 MAX_ADET = 6
 DB = os.path.join(os.path.dirname(os.path.abspath(__file__)), "amazon_hafiza.db")
+DURUM_DOSYASI = os.path.join(os.path.dirname(os.path.abspath(__file__)), "durum.json")
 TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 KANAL = os.environ.get("TELEGRAM_CHANNEL_ID", "@anlikiindirim").strip()
 TAG = os.environ.get("AMAZON_ASSOCIATE_TAG", "anlikiindirim-21").strip()
@@ -41,12 +43,10 @@ def baslik_temizle(lines, fallback_title: str) -> str:
         if any(k in low for k in YASAK_BASLIK_KALIPLARI):
             continue
         return t
-    fb = re.sub(r"\s+", " ", fallback_title or "").strip()
-    return fb
+    return re.sub(r"\s+", " ", fallback_title or "").strip()
 
 
 def urun_anahtari(title: str, img_url: str) -> str:
-    # Varyantlari (renk/litre/adet) ayiklayip cekirdek urun imzasi cikar
     clean = re.sub(r"[^\w\sçğıöşüÇĞİÖŞÜ]", " ", (title or "").lower())
     kelimeler = [
         k for k in clean.split()
@@ -133,6 +133,84 @@ def kaydet(c, asin: str, imza: str):
         (imza, simdi),
     )
     c.commit()
+
+
+def mevcut_durumu_oku():
+    if os.path.exists(DURUM_DOSYASI):
+        try:
+            with open(DURUM_DOSYASI, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {
+        "son_tarama": None,
+        "durum": "bekleniyor",
+        "bildirimler": [],
+        "hatalar": [],
+        "son_urun": None,
+        "son_paylasimlar": [],
+        "toplam_paylasim": 0,
+    }
+
+
+def durum_kaydet(
+    durum: str,
+    bulunan_link: int = 0,
+    paylasilan_adet: int = 0,
+    yeni_urunler: list = None,
+    hata_mesaji: str = None,
+    uyari_mesaji: str = None,
+):
+    onceki = mevcut_durumu_oku()
+    simdi = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    bildirimler = onceki.get("bildirimler", [])
+    hatalar = onceki.get("hatalar", [])
+    paylasimlar = onceki.get("son_paylasimlar", [])
+
+    if hata_mesaji:
+        hatalar.insert(0, {"zaman": simdi, "mesaj": hata_mesaji})
+        hatalar = hatalar[:25]
+
+    if uyari_mesaji:
+        bildirimler.insert(0, {"zaman": simdi, "tip": "uyari", "mesaj": uyari_mesaji})
+    elif paylasilan_adet > 0:
+        bildirimler.insert(0, {
+            "zaman": simdi,
+            "tip": "bilgi",
+            "mesaj": f"{paylasilan_adet} yeni fırsat @anlikiindirim kanalına paylaşıldı ({bulunan_link} aday incelendi).",
+        })
+    bildirimler = bildirimler[:25]
+
+    if yeni_urunler:
+        for u in reversed(yeni_urunler):
+            paylasimlar.insert(0, {
+                "zaman": simdi,
+                "asin": u["asin"],
+                "title": u["title"],
+                "satis": tr_para(u["satis"]),
+                "eski": tr_para(u["eski"]) if u.get("eski") else None,
+                "ind": f"%{u['ind']:.0f}",
+                "img": u.get("img", ""),
+                "link": f"https://www.amazon.com.tr/dp/{u['asin']}?tag={TAG}",
+            })
+        paylasimlar = paylasimlar[:15]
+
+    son_urun = paylasimlar[0] if paylasimlar else onceki.get("son_urun")
+    toplam = int(onceki.get("toplam_paylasim", 0)) + paylasilan_adet
+
+    veri = {
+        "son_tarama": simdi,
+        "durum": durum,
+        "bulunan_link": bulunan_link,
+        "paylasilan_adet": paylasilan_adet,
+        "toplam_paylasim": toplam,
+        "bildirimler": bildirimler,
+        "hatalar": hatalar,
+        "son_urun": son_urun,
+        "son_paylasimlar": paylasimlar,
+    }
+    with open(DURUM_DOSYASI, "w", encoding="utf-8") as f:
+        json.dump(veri, f, ensure_ascii=False, indent=2)
 
 
 def gonder(foto_url: str, caption: str):
@@ -248,123 +326,58 @@ def tara():
 def main():
     if datetime.now() > BITIS:
         print("Sure doldu.")
+        durum_kaydet("uyari", uyari_mesaji="Bot çalışma süresi doldu.")
         return
-    adaylar = tara()
-    if not adaylar:
-        print("Uygun yuksek indirimli urun bulunamadi.")
-        return
-    c = db_ac()
-    tur_imzalari = set()
-    n = 0
+
     try:
-        for u in adaylar:
-            if n >= MAX_ADET:
-                break
-            if u["imza"] in tur_imzalari or atildi_mi(c, u["asin"], u["imza"]):
-                continue
-            tur_imzalari.add(u["imza"])
-            link = f"https://www.amazon.com.tr/dp/{u['asin']}?tag={TAG}"
-            f_str = tr_para(u["satis"])
-            if u["eski"]:
-                f_satir = f"{f_str} | %{u['ind']:.0f} indirim (Eski: {tr_para(u['eski'])})"
-            else:
-                f_satir = f"{f_str} | %{u['ind']:.0f} indirim"
-            mesaj = (
-                f"{u['title']}\n\n"
-                f"{f_satir}\n\n"
-                f"{link}\n\n"
-                f"#tanitim #reklam #işbirliği #fırsat #indirim"
-            )
-            gonder(u["img"], mesaj)
-            kaydet(c, u["asin"], u["imza"])
-            n += 1
-            print(f"[YAYINLANDI {n}] %{u['ind']:.0f} -> {u['title'][:45]} ({f_str})")
-            time.sleep(1.5)
-    finally:
-        c.close()
-    print(f"Bitti. {n} urun paylasildi.")
+        adaylar = tara()
+        if not adaylar:
+            print("Uygun yuksek indirimli urun bulunamadi.")
+            durum_kaydet("uyari", bulunan_link=0, paylasilan_adet=0, uyari_mesaji="Taramada %25 ve üzeri uygun ürün bulunamadı.")
+            return
+
+        c = db_ac()
+        tur_imzalari = set()
+        paylasilan_listesi = []
+        n = 0
+        try:
+            for u in adaylar:
+                if n >= MAX_ADET:
+                    break
+                if u["imza"] in tur_imzalari or atildi_mi(c, u["asin"], u["imza"]):
+                    continue
+                tur_imzalari.add(u["imza"])
+                link = f"https://www.amazon.com.tr/dp/{u['asin']}?tag={TAG}"
+                f_str = tr_para(u["satis"])
+                if u["eski"]:
+                    f_satir = f"{f_str} | %{u['ind']:.0f} indirim (Eski: {tr_para(u['eski'])})"
+                else:
+                    f_satir = f"{f_str} | %{u['ind']:.0f} indirim"
+                mesaj = (
+                    f"{u['title']}\n\n"
+                    f"{f_satir}\n\n"
+                    f"{link}\n\n"
+                    f"#tanitim #reklam #işbirliği #fırsat #indirim"
+                )
+                gonder(u["img"], mesaj)
+                kaydet(c, u["asin"], u["imza"])
+                paylasilan_listesi.append(u)
+                n += 1
+                print(f"[YAYINLANDI {n}] %{u['ind']:.0f} -> {u['title'][:45]} ({f_str})")
+                time.sleep(1.5)
+        finally:
+            c.close()
+
+        if n > 0:
+            durum_kaydet("ok", bulunan_link=len(adaylar), paylasilan_adet=n, yeni_urunler=paylasilan_listesi)
+        else:
+            durum_kaydet("uyari", bulunan_link=len(adaylar), paylasilan_adet=0, uyari_mesaji="Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı.")
+        print(f"Bitti. {n} urun paylasildi.")
+    except Exception as e:
+        print(f"Hata olustu: {e}")
+        durum_kaydet("hata", hata_mesaji=str(e))
+        raise
 
 
 if __name__ == "__main__":
     main()
-    import json
-
-DURUM_DOSYASI = os.path.join(os.path.dirname(os.path.abspath(__file__)), "durum.json")
-
-
-def mevcut_durumu_oku():
-    if os.path.exists(DURUM_DOSYASI):
-        try:
-            with open(DURUM_DOSYASI, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            pass
-    return {
-        "son_tarama": None,
-        "durum": "bekleniyor",
-        "bildirimler": [],
-        "hatalar": [],
-        "son_urun": None,
-        "son_paylasimlar": [],
-        "toplam_paylasim": 0,
-    }
-
-
-def durum_kaydet(
-    durum: str,
-    bulunan_link: int = 0,
-    paylasilan_adet: int = 0,
-    yeni_urunler: list = None,
-    hata_mesaji: str = None,
-    uyari_mesaji: str = None,
-):
-    onceki = mevcut_durumu_oku()
-    simdi = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    bildirimler = onceki.get("bildirimler", [])
-    hatalar = onceki.get("hatalar", [])
-    paylasimlar = onceki.get("son_paylasimlar", [])
-
-    if hata_mesaji:
-        hatalar.insert(0, {"zaman": simdi, "mesaj": hata_mesaji})
-        hatalar = hatalar[:25]
-
-    if uyari_mesaji:
-        bildirimler.insert(0, {"zaman": simdi, "tip": "uyari", "mesaj": uyari_mesaji})
-    elif paylasilan_adet > 0:
-        bildirimler.insert(0, {
-            "zaman": simdi,
-            "tip": "bilgi",
-            "mesaj": f"{paylasilan_adet} yeni fırsat @anlikiindirim kanalına paylaşıldı ({bulunan_link} link tarandı).",
-        })
-    bildirimler = bildirimler[:25]
-
-    if yeni_urunler:
-        for u in reversed(yeni_urunler):
-            paylasimlar.insert(0, {
-                "zaman": simdi,
-                "asin": u["asin"],
-                "title": u["title"],
-                "satis": tr_para(u["satis"]),
-                "eski": tr_para(u["eski"]) if u.get("eski") else None,
-                "ind": f"%{u['ind']:.0f}",
-                "img": u.get("img", ""),
-                "link": f"https://www.amazon.com.tr/dp/{u['asin']}?tag={TAG}",
-            })
-        paylasimlar = paylasimlar[:15]
-
-    son_urun = paylasimlar[0] if paylasimlar else onceki.get("son_urun")
-    toplam = int(onceki.get("toplam_paylasim", 0)) + paylasilan_adet
-
-    veri = {
-        "son_tarama": simdi,
-        "durum": durum,
-        "bulunan_link": bulunan_link,
-        "paylasilan_adet": paylasilan_adet,
-        "toplam_paylasim": toplam,
-        "bildirimler": bildirimler,
-        "hatalar": hatalar,
-        "son_urun": son_urun,
-        "son_paylasimlar": paylasimlar,
-    }
-    with open(DURUM_DOSYASI, "w", encoding="utf-8") as f:
-        json.dump(veri, f, ensure_ascii=False, indent=2)
