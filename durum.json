@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-21 22:42:14",
-  "durum": "uyari",
-  "bulunan_link": 0,
-  "paylasilan_adet": 0,
-  "toplam_paylasim": 4,
+  "son_tarama": "2026-11-21 23:23:31",
+  "durum": "ok",
+  "bulunan_link": 36,
+  "paylasilan_adet": 2,
+  "toplam_paylasim": 6,
   "bildirimler": [
+    {
+      "zaman": "2026-11-21 23:23:31",
+      "tip": "bilgi",
+      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (36 aday incelendi)."
+    },
     {
       "zaman": "2026-11-21 22:42:14",
       "tip": "uyari",
@@ -33,16 +38,36 @@
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-21 21:59:46",
-    "asin": "B0DPGL5GRG",
-    "title": "AGV Pista GP RR Motosiklet Kaskı Kapalı Kask Electrum S",
-    "satis": "71.890,00 TL",
-    "eski": "102.700,00 TL",
-    "ind": "%30",
-    "img": "https://m.media-amazon.com/images/I/61sXP1KeZ2L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-    "link": "https://www.amazon.com.tr/dp/B0DPGL5GRG?tag=anlikiindirim-21"
+    "zaman": "2026-11-21 23:23:31",
+    "asin": "B0CGX2PK93",
+    "title": "DURU Fresh Sensations Ocean Sabun, 100 Gramx4",
+    "satis": "95,35 TL",
+    "eski": "159,20 TL",
+    "ind": "%40",
+    "img": "https://m.media-amazon.com/images/I/71BS5FKX-nL._AC_SR480,440_.jpg",
+    "link": "https://www.amazon.com.tr/dp/B0CGX2PK93?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-21 23:23:31",
+      "asin": "B0CGX2PK93",
+      "title": "DURU Fresh Sensations Ocean Sabun, 100 Gramx4",
+      "satis": "95,35 TL",
+      "eski": "159,20 TL",
+      "ind": "%40",
+      "img": "https://m.media-amazon.com/images/I/71BS5FKX-nL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B0CGX2PK93?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-21 23:23:31",
+      "asin": "B0BVBYNL9Q",
+      "title": "AGV Pista GP RR Motosiklet Kaskı Kapalı Kask Mono Glossy Carbon S",
+      "satis": "56.090,00 TL",
+      "eski": "86.365,00 TL",
+      "ind": "%35",
+      "img": "https://m.media-amazon.com/images/I/61KfeGIl7eL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0BVBYNL9Q?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-21 21:59:46",
       "asin": "B0DPGL5GRG",
