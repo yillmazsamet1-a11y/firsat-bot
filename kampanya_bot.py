@@ -1,3 +1,4 @@
+import hashlib
 import os
 import re
 import sqlite3
@@ -8,7 +9,7 @@ import requests
 from playwright.sync_api import sync_playwright
 
 URL = "https://www.amazon.com.tr/gp/goldbox"
-BITIS = datetime(2026, 11, 25, 23, 59, 59)
+BITIS = datetime(2026, 11, 28, 23, 59, 59)
 MIN_IND = 25.0
 MAX_ADET = 6
 DB = os.path.join(os.path.dirname(os.path.abspath(__file__)), "amazon_hafiza.db")
@@ -16,9 +17,44 @@ TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 KANAL = os.environ.get("TELEGRAM_CHANNEL_ID", "@anlikiindirim").strip()
 TAG = os.environ.get("AMAZON_ASSOCIATE_TAG", "anlikiindirim-21").strip()
 
+YASAK_BASLIK_KALIPLARI = [
+    "günün en düşük fiyatı",
+    "gülümseten kasım",
+    "önceki:",
+    "indirim",
+    "fırsatı",
+]
+
 
 def tr_para(tutar: float) -> str:
     return f"{tutar:,.2f} TL".replace(",", "X").replace(".", ",").replace("X", ".")
+
+
+def baslik_temizle(lines, fallback_title: str) -> str:
+    for s in (lines or []):
+        t = re.sub(r"\s+", " ", s).strip()
+        low = t.lower()
+        if len(t) < 10:
+            continue
+        if "tl" in low or "₺" in low or "%" in low:
+            continue
+        if any(k in low for k in YASAK_BASLIK_KALIPLARI):
+            continue
+        return t
+    fb = re.sub(r"\s+", " ", fallback_title or "").strip()
+    return fb
+
+
+def urun_anahtari(title: str, img_url: str) -> str:
+    # Varyantlari (renk/litre/adet) ayiklayip cekirdek urun imzasi cikar
+    clean = re.sub(r"[^\w\sçğıöşüÇĞİÖŞÜ]", " ", (title or "").lower())
+    kelimeler = [
+        k for k in clean.split()
+        if len(k) > 1 and not re.fullmatch(r"\d+(?:[.,]\d+)?(?:l|lt|ml|gr|g|kg|adet|li|lu)?", k)
+    ]
+    cekirdek = " ".join(kelimeler[:6])
+    ham = f"{cekirdek}|{img_url.split('?')[0]}"
+    return hashlib.sha256(ham.encode("utf-8")).hexdigest()[:24]
 
 
 def satir_fiyatlari_al(metin: str):
@@ -65,22 +101,36 @@ def db_ac():
         "CREATE TABLE IF NOT EXISTS paylasilan_urunler ("
         "asin TEXT PRIMARY KEY, paylasim_zamani INTEGER NOT NULL)"
     )
+    c.execute(
+        "CREATE TABLE IF NOT EXISTS paylasilan_imza ("
+        "imza TEXT PRIMARY KEY, paylasim_zamani INTEGER NOT NULL)"
+    )
     c.commit()
     return c
 
 
-def atildi_mi(c, asin):
+def atildi_mi(c, asin: str, imza: str) -> bool:
     esik = int(time.time()) - 86400
-    return c.execute(
+    v1 = c.execute(
         "SELECT 1 FROM paylasilan_urunler WHERE asin = ? AND paylasim_zamani >= ?",
         (asin, esik),
     ).fetchone() is not None
+    v2 = c.execute(
+        "SELECT 1 FROM paylasilan_imza WHERE imza = ? AND paylasim_zamani >= ?",
+        (imza, esik),
+    ).fetchone() is not None
+    return v1 or v2
 
 
-def kaydet(c, asin):
+def kaydet(c, asin: str, imza: str):
+    simdi = int(time.time())
     c.execute(
         "INSERT OR REPLACE INTO paylasilan_urunler (asin, paylasim_zamani) VALUES (?, ?)",
-        (asin, int(time.time())),
+        (asin, simdi),
+    )
+    c.execute(
+        "INSERT OR REPLACE INTO paylasilan_imza (imza, paylasim_zamani) VALUES (?, ?)",
+        (imza, simdi),
     )
     c.commit()
 
@@ -154,7 +204,7 @@ def tara():
         if not m:
             continue
         asin = m.group(1)
-        title = re.sub(r"\s+", " ", r.get("title") or "").strip()
+        title = baslik_temizle(r.get("lines") or [], r.get("title") or "")
         if not title or len(title) < 8:
             continue
 
@@ -190,7 +240,8 @@ def tara():
             continue
 
         img_url = urljoin(URL, r.get("imgSrc") or "") if r.get("imgSrc") else ""
-        out.append({"asin": asin, "title": title, "satis": satis, "eski": eski, "ind": ind, "img": img_url})
+        imza = urun_anahtari(title, img_url)
+        out.append({"asin": asin, "imza": imza, "title": title, "satis": satis, "eski": eski, "ind": ind, "img": img_url})
     return out
 
 
@@ -203,13 +254,15 @@ def main():
         print("Uygun yuksek indirimli urun bulunamadi.")
         return
     c = db_ac()
+    tur_imzalari = set()
     n = 0
     try:
         for u in adaylar:
             if n >= MAX_ADET:
                 break
-            if atildi_mi(c, u["asin"]):
+            if u["imza"] in tur_imzalari or atildi_mi(c, u["asin"], u["imza"]):
                 continue
+            tur_imzalari.add(u["imza"])
             link = f"https://www.amazon.com.tr/dp/{u['asin']}?tag={TAG}"
             f_str = tr_para(u["satis"])
             if u["eski"]:
@@ -223,7 +276,7 @@ def main():
                 f"#tanitim #reklam #işbirliği #fırsat #indirim"
             )
             gonder(u["img"], mesaj)
-            kaydet(c, u["asin"])
+            kaydet(c, u["asin"], u["imza"])
             n += 1
             print(f"[YAYINLANDI {n}] %{u['ind']:.0f} -> {u['title'][:45]} ({f_str})")
             time.sleep(1.5)
