@@ -287,3 +287,84 @@ def main():
 
 if __name__ == "__main__":
     main()
+    import json
+
+DURUM_DOSYASI = os.path.join(os.path.dirname(os.path.abspath(__file__)), "durum.json")
+
+
+def mevcut_durumu_oku():
+    if os.path.exists(DURUM_DOSYASI):
+        try:
+            with open(DURUM_DOSYASI, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {
+        "son_tarama": None,
+        "durum": "bekleniyor",
+        "bildirimler": [],
+        "hatalar": [],
+        "son_urun": None,
+        "son_paylasimlar": [],
+        "toplam_paylasim": 0,
+    }
+
+
+def durum_kaydet(
+    durum: str,
+    bulunan_link: int = 0,
+    paylasilan_adet: int = 0,
+    yeni_urunler: list = None,
+    hata_mesaji: str = None,
+    uyari_mesaji: str = None,
+):
+    onceki = mevcut_durumu_oku()
+    simdi = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    bildirimler = onceki.get("bildirimler", [])
+    hatalar = onceki.get("hatalar", [])
+    paylasimlar = onceki.get("son_paylasimlar", [])
+
+    if hata_mesaji:
+        hatalar.insert(0, {"zaman": simdi, "mesaj": hata_mesaji})
+        hatalar = hatalar[:25]
+
+    if uyari_mesaji:
+        bildirimler.insert(0, {"zaman": simdi, "tip": "uyari", "mesaj": uyari_mesaji})
+    elif paylasilan_adet > 0:
+        bildirimler.insert(0, {
+            "zaman": simdi,
+            "tip": "bilgi",
+            "mesaj": f"{paylasilan_adet} yeni fırsat @anlikiindirim kanalına paylaşıldı ({bulunan_link} link tarandı).",
+        })
+    bildirimler = bildirimler[:25]
+
+    if yeni_urunler:
+        for u in reversed(yeni_urunler):
+            paylasimlar.insert(0, {
+                "zaman": simdi,
+                "asin": u["asin"],
+                "title": u["title"],
+                "satis": tr_para(u["satis"]),
+                "eski": tr_para(u["eski"]) if u.get("eski") else None,
+                "ind": f"%{u['ind']:.0f}",
+                "img": u.get("img", ""),
+                "link": f"https://www.amazon.com.tr/dp/{u['asin']}?tag={TAG}",
+            })
+        paylasimlar = paylasimlar[:15]
+
+    son_urun = paylasimlar[0] if paylasimlar else onceki.get("son_urun")
+    toplam = int(onceki.get("toplam_paylasim", 0)) + paylasilan_adet
+
+    veri = {
+        "son_tarama": simdi,
+        "durum": durum,
+        "bulunan_link": bulunan_link,
+        "paylasilan_adet": paylasilan_adet,
+        "toplam_paylasim": toplam,
+        "bildirimler": bildirimler,
+        "hatalar": hatalar,
+        "son_urun": son_urun,
+        "son_paylasimlar": paylasimlar,
+    }
+    with open(DURUM_DOSYASI, "w", encoding="utf-8") as f:
+        json.dump(veri, f, ensure_ascii=False, indent=2)
