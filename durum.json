@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-21 20:19:45",
-  "durum": "uyari",
-  "bulunan_link": 19,
-  "paylasilan_adet": 0,
-  "toplam_paylasim": 0,
+  "son_tarama": "2026-11-21 20:31:09",
+  "durum": "ok",
+  "bulunan_link": 13,
+  "paylasilan_adet": 1,
+  "toplam_paylasim": 1,
   "bildirimler": [
+    {
+      "zaman": "2026-11-21 20:31:09",
+      "tip": "bilgi",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (13 aday incelendi)."
+    },
     {
       "zaman": "2026-11-21 20:19:45",
       "tip": "uyari",
@@ -12,6 +17,26 @@
     }
   ],
   "hatalar": [],
-  "son_urun": null,
-  "son_paylasimlar": []
+  "son_urun": {
+    "zaman": "2026-11-21 20:31:09",
+    "asin": "B0HDPXL6M3",
+    "title": "Voit Ahşap Reformer Pilates Aleti – Ev ve Stüdyo Kullanımına Uygun Profesyonel Reformer",
+    "satis": "49.900,00 TL",
+    "eski": "69.900,00 TL",
+    "ind": "%29",
+    "img": "https://m.media-amazon.com/images/I/71gt5teth7L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+    "link": "https://www.amazon.com.tr/dp/B0HDPXL6M3?tag=anlikiindirim-21"
+  },
+  "son_paylasimlar": [
+    {
+      "zaman": "2026-11-21 20:31:09",
+      "asin": "B0HDPXL6M3",
+      "title": "Voit Ahşap Reformer Pilates Aleti – Ev ve Stüdyo Kullanımına Uygun Profesyonel Reformer",
+      "satis": "49.900,00 TL",
+      "eski": "69.900,00 TL",
+      "ind": "%29",
+      "img": "https://m.media-amazon.com/images/I/71gt5teth7L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0HDPXL6M3?tag=anlikiindirim-21"
+    }
+  ]
 }
