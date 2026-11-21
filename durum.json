@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-21 21:15:12",
+  "son_tarama": "2026-11-21 21:59:46",
   "durum": "ok",
-  "bulunan_link": 25,
-  "paylasilan_adet": 2,
-  "toplam_paylasim": 3,
+  "bulunan_link": 17,
+  "paylasilan_adet": 1,
+  "toplam_paylasim": 4,
   "bildirimler": [
+    {
+      "zaman": "2026-11-21 21:59:46",
+      "tip": "bilgi",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (17 aday incelendi)."
+    },
     {
       "zaman": "2026-11-21 21:15:12",
       "tip": "bilgi",
@@ -23,16 +28,26 @@
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-21 21:15:12",
-    "asin": "B0BTJ84CB3",
-    "title": "AGV Pista GP RR Motosiklet Kaskı Kapalı Kask Mono Matt Carbon XL",
-    "satis": "56.153,50 TL",
-    "eski": "86.365,00 TL",
-    "ind": "%35",
-    "img": "https://m.media-amazon.com/images/I/614nuHmCp7L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-    "link": "https://www.amazon.com.tr/dp/B0BTJ84CB3?tag=anlikiindirim-21"
+    "zaman": "2026-11-21 21:59:46",
+    "asin": "B0DPGL5GRG",
+    "title": "AGV Pista GP RR Motosiklet Kaskı Kapalı Kask Electrum S",
+    "satis": "71.890,00 TL",
+    "eski": "102.700,00 TL",
+    "ind": "%30",
+    "img": "https://m.media-amazon.com/images/I/61sXP1KeZ2L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+    "link": "https://www.amazon.com.tr/dp/B0DPGL5GRG?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-21 21:59:46",
+      "asin": "B0DPGL5GRG",
+      "title": "AGV Pista GP RR Motosiklet Kaskı Kapalı Kask Electrum S",
+      "satis": "71.890,00 TL",
+      "eski": "102.700,00 TL",
+      "ind": "%30",
+      "img": "https://m.media-amazon.com/images/I/61sXP1KeZ2L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0DPGL5GRG?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-21 21:15:12",
       "asin": "B0BTJ84CB3",
