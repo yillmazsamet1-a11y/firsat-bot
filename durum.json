@@ -1,0 +1,17 @@
+{
+  "son_tarama": "2026-11-21 20:19:45",
+  "durum": "uyari",
+  "bulunan_link": 19,
+  "paylasilan_adet": 0,
+  "toplam_paylasim": 0,
+  "bildirimler": [
+    {
+      "zaman": "2026-11-21 20:19:45",
+      "tip": "uyari",
+      "mesaj": "Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı."
+    }
+  ],
+  "hatalar": [],
+  "son_urun": null,
+  "son_paylasimlar": []
+}
