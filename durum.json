@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-22 11:10:54",
+  "son_tarama": "2026-11-22 11:56:18",
   "durum": "ok",
-  "bulunan_link": 15,
-  "paylasilan_adet": 2,
-  "toplam_paylasim": 32,
+  "bulunan_link": 28,
+  "paylasilan_adet": 6,
+  "toplam_paylasim": 38,
   "bildirimler": [
+    {
+      "zaman": "2026-11-22 11:56:18",
+      "tip": "bilgi",
+      "mesaj": "6 yeni fırsat @anlikiindirim kanalına paylaşıldı (28 aday incelendi)."
+    },
     {
       "zaman": "2026-11-22 11:10:54",
       "tip": "bilgi",
@@ -98,16 +103,76 @@
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-22 11:10:54",
-    "asin": "B0FKH57YQP",
-    "title": "Lian Li PC için 8,8 inç Evrensel Ekran - Herhangi Bir Bilgisayar Kurulumu için Ayarlanabilir Montaj - Özelleştirilebilir ARGB Çerçevesi - PC Sıcaklık Ekran Paneli - LCD Ekran Disply - Mini Monitör",
-    "satis": "4.394,00 TL",
-    "eski": "5.990,00 TL",
-    "ind": "%27",
-    "img": "https://m.media-amazon.com/images/I/71Yi1eGT8NL._AC_SR480,440_.jpg",
-    "link": "https://www.amazon.com.tr/dp/B0FKH57YQP?tag=anlikiindirim-21"
+    "zaman": "2026-11-22 11:56:18",
+    "asin": "B0GFG8TLB5",
+    "title": "Erkek Bot K300285-047 Camper Peu Pista GM Black",
+    "satis": "8.524,45 TL",
+    "eski": "15.499,00 TL",
+    "ind": "%45",
+    "img": "https://m.media-amazon.com/images/I/7142qUhGQoL._AC_SR480,440_.jpg",
+    "link": "https://www.amazon.com.tr/dp/B0GFG8TLB5?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-22 11:56:18",
+      "asin": "B0GFG8TLB5",
+      "title": "Erkek Bot K300285-047 Camper Peu Pista GM Black",
+      "satis": "8.524,45 TL",
+      "eski": "15.499,00 TL",
+      "ind": "%45",
+      "img": "https://m.media-amazon.com/images/I/7142qUhGQoL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B0GFG8TLB5?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-22 11:56:18",
+      "asin": "B0G93P3CQR",
+      "title": "Sony PlayStation Kılıflı Pulse Elite Headset Kulaklık (Resmi Distribütör Bilkom Garantili)",
+      "satis": "7.299,00 TL",
+      "eski": "10.056,36 TL",
+      "ind": "%27",
+      "img": "https://m.media-amazon.com/images/I/619NnSrYabL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B0G93P3CQR?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-22 11:56:18",
+      "asin": "B0D8ZVSLTK",
+      "title": "SKG H5 Mini Taşınabilir Omuz ve Boyun Masaj Aleti, Shiatsu Yoğurma Fonksiyonu, Isıtmalı Masaj, Yıkanabilir Kumaş, Kablosuz Tasarım, Type-C Şarjlı, Ev/Ofis/Araba Kullanımına Uygun",
+      "satis": "2.499,00 TL",
+      "eski": "4.334,28 TL",
+      "ind": "%42",
+      "img": "https://m.media-amazon.com/images/I/61o0nLMkQBL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B0D8ZVSLTK?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-22 11:56:18",
+      "asin": "B0HJWNL7BP",
+      "title": "Inissia C40 Kırmızı ve Kireç Çözme Kiti",
+      "satis": "6.999,00 TL",
+      "eski": "12.168,00 TL",
+      "ind": "%42",
+      "img": "https://m.media-amazon.com/images/I/61uRnNOwJWL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B0HJWNL7BP?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-22 11:56:18",
+      "asin": "B091HT6N5T",
+      "title": "Kellogg's Granola Çikolata Parçacıklı ve Fındıklı 340 Gr,%44 Yulaf içerir,Lif Kaynağı,%11 Belçika Çikolata Parçaları,Antioksidan içerir,Kahvaltılık Gevrek,Müsli %33 İndirim 60 günün en düşük fiyatı 119,90 TL 119 90TL Önceki: 177,95 TL 177,95 TL",
+      "satis": "119,90 TL",
+      "eski": "177,95 TL",
+      "ind": "%33",
+      "img": "https://m.media-amazon.com/images/I/81BNfa6j8ML._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B091HT6N5T?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-22 11:56:18",
+      "asin": "B0FTT2KDJR",
+      "title": "Fissler Vitaquick Premium Düdüklü Tencere Seti Kırmızı Tava Gümüş 6 Litre",
+      "satis": "17.471,33 TL",
+      "eski": "25.999,00 TL",
+      "ind": "%33",
+      "img": "https://m.media-amazon.com/images/I/515hdisjT5L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0FTT2KDJR?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-22 11:10:54",
       "asin": "B0FKH57YQP",
@@ -197,66 +262,6 @@
       "ind": "%40",
       "img": "https://m.media-amazon.com/images/I/71MqPWD9POL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
       "link": "https://www.amazon.com.tr/dp/B0FH7C9BM9?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 06:21:27",
-      "asin": "B0FN4P1JY9",
-      "title": "CAMPER Pix Berlin AyakkabıKadın",
-      "satis": "6.094,47 TL",
-      "eski": "9.199,20 TL",
-      "ind": "%34",
-      "img": "https://m.media-amazon.com/images/I/71gRSBXz+zL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0FN4P1JY9?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 06:21:27",
-      "asin": "B0HQ75M4HM",
-      "title": "LAVA Efsane Kasım 3'lü Döküm Tencere ve Tava Seti Kırmızı",
-      "satis": "6.550,00 TL",
-      "eski": "11.289,60 TL",
-      "ind": "%42",
-      "img": "https://m.media-amazon.com/images/I/61nmi+l+3mL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0HQ75M4HM?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 06:21:27",
-      "asin": "B0GFGQPWV1",
-      "title": "Camper Kadın Runner K400854-003",
-      "satis": "5.149,50 TL",
-      "eski": "10.299,00 TL",
-      "ind": "%50",
-      "img": "https://m.media-amazon.com/images/I/71jFVFttEIL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0GFGQPWV1?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 06:21:27",
-      "asin": "B08G97DX7M",
-      "title": "Foreo Bear Mini Bölgesel Microcurrent Yüz Sıkılaştırm…",
-      "satis": "7.259,99 TL",
-      "eski": "13.199,00 TL",
-      "ind": "%45",
-      "img": "https://m.media-amazon.com/images/I/61kwJzsny7L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B08G97DX7M?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 05:21:54",
-      "asin": "B07JKHZWGG",
-      "title": "PRIVACY Gold Women Sym Deodorant, 150 Mililitre",
-      "satis": "119,59 TL",
-      "eski": "174,90 TL",
-      "ind": "%32",
-      "img": "https://m.media-amazon.com/images/I/61u19EbOciL._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B07JKHZWGG?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 05:21:54",
-      "asin": "B07KCXFBCF",
-      "title": "Ariel Dağ Esintisi Beyazlar Toz Çamaşır Deterjanı 4.5 Kg 30 Yıkama",
-      "satis": "349,00 TL",
-      "eski": "599,90 TL",
-      "ind": "%42",
-      "img": "https://m.media-amazon.com/images/I/71BfV3S9d+L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B07KCXFBCF?tag=anlikiindirim-21"
     }
   ]
 }
