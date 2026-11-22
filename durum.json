@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-22 22:02:53",
-  "durum": "uyari",
-  "bulunan_link": 0,
-  "paylasilan_adet": 0,
-  "toplam_paylasim": 54,
+  "son_tarama": "2026-11-22 22:48:16",
+  "durum": "ok",
+  "bulunan_link": 25,
+  "paylasilan_adet": 2,
+  "toplam_paylasim": 56,
   "bildirimler": [
+    {
+      "zaman": "2026-11-22 22:48:16",
+      "tip": "bilgi",
+      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (25 aday incelendi)."
+    },
     {
       "zaman": "2026-11-22 22:02:53",
       "tip": "uyari",
@@ -124,25 +129,40 @@
       "zaman": "2026-11-22 01:10:58",
       "tip": "bilgi",
       "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (48 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-22 00:05:09",
-      "tip": "uyari",
-      "mesaj": "Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı."
     }
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-22 20:24:47",
-    "asin": "B0FKH5QJJ9",
-    "title": "Anthony Jackson Ultra Hafif ABS Valiz TRION (Haki, Orta Boy)",
-    "satis": "1.385,00 TL",
-    "eski": "1.899,90 TL",
-    "ind": "%27",
-    "img": "https://m.media-amazon.com/images/I/817oWnXzFFL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-    "link": "https://www.amazon.com.tr/dp/B0FKH5QJJ9?tag=anlikiindirim-21"
+    "zaman": "2026-11-22 22:48:16",
+    "asin": "B00OEFM41K",
+    "title": "DURU Saf&Doğal Lavanta Sabun, 150 Gramx4",
+    "satis": "99,50 TL",
+    "eski": "159,20 TL",
+    "ind": "%37",
+    "img": "https://m.media-amazon.com/images/I/51CQ5mncSiL._AC_SR480,440_.jpg",
+    "link": "https://www.amazon.com.tr/dp/B00OEFM41K?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-22 22:48:16",
+      "asin": "B00OEFM41K",
+      "title": "DURU Saf&Doğal Lavanta Sabun, 150 Gramx4",
+      "satis": "99,50 TL",
+      "eski": "159,20 TL",
+      "ind": "%37",
+      "img": "https://m.media-amazon.com/images/I/51CQ5mncSiL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B00OEFM41K?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-22 22:48:16",
+      "asin": "B0GFGGQ245",
+      "title": "Erkek Bot K300285-047 Camper Peu Pista GM Black",
+      "satis": "8.098,23 TL",
+      "eski": "15.499,00 TL",
+      "ind": "%48",
+      "img": "https://m.media-amazon.com/images/I/7142qUhGQoL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0GFGGQ245?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-22 20:24:47",
       "asin": "B0FKH5QJJ9",
@@ -272,26 +292,6 @@
       "ind": "%31",
       "img": "https://m.media-amazon.com/images/I/61BRN6ykqgL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
       "link": "https://www.amazon.com.tr/dp/B0DMTJ6472?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 12:49:43",
-      "asin": "B09ZTYPVFW",
-      "title": "URBAN Care Style Guide Deniz Tuzu Etkili Doğal Dalga Sağlayan Saç Spreyi 200 ml- Vegan",
-      "satis": "150,00 TL",
-      "eski": "210,00 TL",
-      "ind": "%29",
-      "img": "https://m.media-amazon.com/images/I/41MjAUW7aUL._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B09ZTYPVFW?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 12:49:43",
-      "asin": "B0817ZGPM8",
-      "title": "DURU Fresh Sensations Extra Çiçek Tazeliği, 150 Gramx4",
-      "satis": "99,50 TL",
-      "eski": "159,20 TL",
-      "ind": "%37",
-      "img": "https://m.media-amazon.com/images/I/61oA1W+L9pL._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B0817ZGPM8?tag=anlikiindirim-21"
     }
   ]
 }
