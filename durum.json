@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-22 19:32:02",
+  "son_tarama": "2026-11-22 20:24:47",
   "durum": "ok",
-  "bulunan_link": 21,
+  "bulunan_link": 29,
   "paylasilan_adet": 1,
-  "toplam_paylasim": 53,
+  "toplam_paylasim": 54,
   "bildirimler": [
+    {
+      "zaman": "2026-11-22 20:24:47",
+      "tip": "bilgi",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (29 aday incelendi)."
+    },
     {
       "zaman": "2026-11-22 19:32:02",
       "tip": "bilgi",
@@ -124,25 +129,30 @@
       "zaman": "2026-11-21 22:42:14",
       "tip": "uyari",
       "mesaj": "Taramada %25 ve üzeri uygun ürün bulunamadı."
-    },
-    {
-      "zaman": "2026-11-21 21:59:46",
-      "tip": "bilgi",
-      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (17 aday incelendi)."
     }
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-22 19:32:02",
-    "asin": "B0FKH6SFZ8",
-    "title": "Anthony Jackson Ultra Hafif ABS Valiz TRION (Antrasit, Kabin Boy)",
-    "satis": "1.180,00 TL",
-    "eski": "1.599,90 TL",
-    "ind": "%26",
-    "img": "https://m.media-amazon.com/images/I/81qYHUQhj4L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-    "link": "https://www.amazon.com.tr/dp/B0FKH6SFZ8?tag=anlikiindirim-21"
+    "zaman": "2026-11-22 20:24:47",
+    "asin": "B0FKH5QJJ9",
+    "title": "Anthony Jackson Ultra Hafif ABS Valiz TRION (Haki, Orta Boy)",
+    "satis": "1.385,00 TL",
+    "eski": "1.899,90 TL",
+    "ind": "%27",
+    "img": "https://m.media-amazon.com/images/I/817oWnXzFFL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+    "link": "https://www.amazon.com.tr/dp/B0FKH5QJJ9?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-22 20:24:47",
+      "asin": "B0FKH5QJJ9",
+      "title": "Anthony Jackson Ultra Hafif ABS Valiz TRION (Haki, Orta Boy)",
+      "satis": "1.385,00 TL",
+      "eski": "1.899,90 TL",
+      "ind": "%27",
+      "img": "https://m.media-amazon.com/images/I/817oWnXzFFL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0FKH5QJJ9?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-22 19:32:02",
       "asin": "B0FKH6SFZ8",
@@ -282,16 +292,6 @@
       "ind": "%37",
       "img": "https://m.media-amazon.com/images/I/61oA1W+L9pL._AC_SR480,440_.jpg",
       "link": "https://www.amazon.com.tr/dp/B0817ZGPM8?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 12:49:43",
-      "asin": "B0F5WVJZ82",
-      "title": "Stanley The Aerolight Transit Mug Termos Bardak",
-      "satis": "1.499,00 TL",
-      "eski": "2.089,00 TL",
-      "ind": "%28",
-      "img": "https://m.media-amazon.com/images/I/41qCr+JftbL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0F5WVJZ82?tag=anlikiindirim-21"
     }
   ]
 }
