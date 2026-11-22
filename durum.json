@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-22 00:05:09",
-  "durum": "uyari",
-  "bulunan_link": 31,
-  "paylasilan_adet": 0,
-  "toplam_paylasim": 6,
+  "son_tarama": "2026-11-22 01:10:58",
+  "durum": "ok",
+  "bulunan_link": 48,
+  "paylasilan_adet": 3,
+  "toplam_paylasim": 9,
   "bildirimler": [
+    {
+      "zaman": "2026-11-22 01:10:58",
+      "tip": "bilgi",
+      "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (48 aday incelendi)."
+    },
     {
       "zaman": "2026-11-22 00:05:09",
       "tip": "uyari",
@@ -43,16 +48,46 @@
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-21 23:23:31",
-    "asin": "B0CGX2PK93",
-    "title": "DURU Fresh Sensations Ocean Sabun, 100 Gramx4",
-    "satis": "95,35 TL",
-    "eski": "159,20 TL",
-    "ind": "%40",
-    "img": "https://m.media-amazon.com/images/I/71BS5FKX-nL._AC_SR480,440_.jpg",
-    "link": "https://www.amazon.com.tr/dp/B0CGX2PK93?tag=anlikiindirim-21"
+    "zaman": "2026-11-22 01:10:58",
+    "asin": "B0CXF6MBYG",
+    "title": "Naturagen Vitamin D3 + K2 1000 IU 60 Kapsül | Glutensiz Kolay Yutulabilir Vitamin D3 K2 | 60 Yumuşak Jel Kapsül - 2 Aylık",
+    "satis": "336,90 TL",
+    "eski": "494,95 TL",
+    "ind": "%32",
+    "img": "https://m.media-amazon.com/images/I/61+7PA6w1-L._AC_SR480,440_.jpg",
+    "link": "https://www.amazon.com.tr/dp/B0CXF6MBYG?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-22 01:10:58",
+      "asin": "B0CXF6MBYG",
+      "title": "Naturagen Vitamin D3 + K2 1000 IU 60 Kapsül | Glutensiz Kolay Yutulabilir Vitamin D3 K2 | 60 Yumuşak Jel Kapsül - 2 Aylık",
+      "satis": "336,90 TL",
+      "eski": "494,95 TL",
+      "ind": "%32",
+      "img": "https://m.media-amazon.com/images/I/61+7PA6w1-L._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B0CXF6MBYG?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-22 01:10:58",
+      "asin": "B0GTC6SHQ3",
+      "title": "Rampage MC-8663B Typhoon Oyuncu Koltuğu Gri Mavi, Terletmez Kumaş, Yatabilen Sırt, Yükseklik Ayarlı Kol Desteği, Ergonomik Gaming Chair, 120-139 kg Taşıma Kapasitesi, 2 Yıl Garanti Dayanıklı",
+      "satis": "7.299,00 TL",
+      "eski": "9.949,00 TL",
+      "ind": "%27",
+      "img": "https://m.media-amazon.com/images/I/71LMkovR+wL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0GTC6SHQ3?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-22 01:10:58",
+      "asin": "B0DY7FVSHS",
+      "title": "Machenike PC/Switch/iOS/Android-Hall E…",
+      "satis": "2.699,00 TL",
+      "eski": "4.499,00 TL",
+      "ind": "%40",
+      "img": "https://m.media-amazon.com/images/I/61xZmItqyjL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0DY7FVSHS?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-21 23:23:31",
       "asin": "B0CGX2PK93",
