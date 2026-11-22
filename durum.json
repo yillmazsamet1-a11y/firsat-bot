@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-22 11:56:18",
+  "son_tarama": "2026-11-22 12:49:43",
   "durum": "ok",
   "bulunan_link": 28,
-  "paylasilan_adet": 6,
-  "toplam_paylasim": 38,
+  "paylasilan_adet": 3,
+  "toplam_paylasim": 41,
   "bildirimler": [
+    {
+      "zaman": "2026-11-22 12:49:43",
+      "tip": "bilgi",
+      "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (28 aday incelendi)."
+    },
     {
       "zaman": "2026-11-22 11:56:18",
       "tip": "bilgi",
@@ -103,16 +108,46 @@
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-22 11:56:18",
-    "asin": "B0GFG8TLB5",
-    "title": "Erkek Bot K300285-047 Camper Peu Pista GM Black",
-    "satis": "8.524,45 TL",
-    "eski": "15.499,00 TL",
-    "ind": "%45",
-    "img": "https://m.media-amazon.com/images/I/7142qUhGQoL._AC_SR480,440_.jpg",
-    "link": "https://www.amazon.com.tr/dp/B0GFG8TLB5?tag=anlikiindirim-21"
+    "zaman": "2026-11-22 12:49:43",
+    "asin": "B09ZTYPVFW",
+    "title": "URBAN Care Style Guide Deniz Tuzu Etkili Doğal Dalga Sağlayan Saç Spreyi 200 ml- Vegan",
+    "satis": "150,00 TL",
+    "eski": "210,00 TL",
+    "ind": "%29",
+    "img": "https://m.media-amazon.com/images/I/41MjAUW7aUL._AC_SR480,440_.jpg",
+    "link": "https://www.amazon.com.tr/dp/B09ZTYPVFW?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-22 12:49:43",
+      "asin": "B09ZTYPVFW",
+      "title": "URBAN Care Style Guide Deniz Tuzu Etkili Doğal Dalga Sağlayan Saç Spreyi 200 ml- Vegan",
+      "satis": "150,00 TL",
+      "eski": "210,00 TL",
+      "ind": "%29",
+      "img": "https://m.media-amazon.com/images/I/41MjAUW7aUL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B09ZTYPVFW?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-22 12:49:43",
+      "asin": "B0817ZGPM8",
+      "title": "DURU Fresh Sensations Extra Çiçek Tazeliği, 150 Gramx4",
+      "satis": "99,50 TL",
+      "eski": "159,20 TL",
+      "ind": "%37",
+      "img": "https://m.media-amazon.com/images/I/61oA1W+L9pL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B0817ZGPM8?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-22 12:49:43",
+      "asin": "B0F5WVJZ82",
+      "title": "Stanley The Aerolight Transit Mug Termos Bardak",
+      "satis": "1.499,00 TL",
+      "eski": "2.089,00 TL",
+      "ind": "%28",
+      "img": "https://m.media-amazon.com/images/I/41qCr+JftbL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0F5WVJZ82?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-22 11:56:18",
       "asin": "B0GFG8TLB5",
@@ -232,36 +267,6 @@
       "ind": "%39",
       "img": "https://m.media-amazon.com/images/I/51bBAtrmc7L._AC_SR480,440_.jpg",
       "link": "https://www.amazon.com.tr/dp/B00OEFS5JA?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 07:41:28",
-      "asin": "B0BD688JMX",
-      "title": "Dardanel Zeytinyağlı Ton Balığı 2x140 gr",
-      "satis": "279,00 TL",
-      "eski": "410,00 TL",
-      "ind": "%32",
-      "img": "https://m.media-amazon.com/images/I/61ho-vOwoUL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0BD688JMX?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 07:41:28",
-      "asin": "B085PQKQGQ",
-      "title": "Air Wick Deco Sphere Greyfurt & Portakal Çiçeği İkili Paket Oda Kokusu 30 Gün Etkili",
-      "satis": "374,96 TL",
-      "eski": "529,95 TL",
-      "ind": "%29",
-      "img": "https://m.media-amazon.com/images/I/71end6IHpKL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B085PQKQGQ?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 07:41:28",
-      "asin": "B0FH7C9BM9",
-      "title": "CAMPER Drift Trail AyakkabıErkek",
-      "satis": "7.499,40 TL",
-      "eski": "12.499,00 TL",
-      "ind": "%40",
-      "img": "https://m.media-amazon.com/images/I/71MqPWD9POL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0FH7C9BM9?tag=anlikiindirim-21"
     }
   ]
 }
