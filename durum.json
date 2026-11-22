@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-22 02:21:01",
-  "durum": "ok",
-  "bulunan_link": 45,
-  "paylasilan_adet": 5,
+  "son_tarama": "2026-11-22 03:14:47",
+  "durum": "uyari",
+  "bulunan_link": 0,
+  "paylasilan_adet": 0,
   "toplam_paylasim": 14,
   "bildirimler": [
+    {
+      "zaman": "2026-11-22 03:14:47",
+      "tip": "uyari",
+      "mesaj": "Taramada %25 ve üzeri uygun ürün bulunamadı."
+    },
     {
       "zaman": "2026-11-22 02:21:01",
       "tip": "bilgi",
