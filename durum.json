@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-22 06:21:27",
+  "son_tarama": "2026-11-22 07:41:28",
   "durum": "ok",
-  "bulunan_link": 25,
-  "paylasilan_adet": 4,
-  "toplam_paylasim": 23,
+  "bulunan_link": 32,
+  "paylasilan_adet": 3,
+  "toplam_paylasim": 26,
   "bildirimler": [
+    {
+      "zaman": "2026-11-22 07:41:28",
+      "tip": "bilgi",
+      "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (32 aday incelendi)."
+    },
     {
       "zaman": "2026-11-22 06:21:27",
       "tip": "bilgi",
@@ -73,16 +78,46 @@
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-22 06:21:27",
-    "asin": "B0FN4P1JY9",
-    "title": "CAMPER Pix Berlin AyakkabıKadın",
-    "satis": "6.094,47 TL",
-    "eski": "9.199,20 TL",
-    "ind": "%34",
-    "img": "https://m.media-amazon.com/images/I/71gRSBXz+zL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-    "link": "https://www.amazon.com.tr/dp/B0FN4P1JY9?tag=anlikiindirim-21"
+    "zaman": "2026-11-22 07:41:28",
+    "asin": "B0BD688JMX",
+    "title": "Dardanel Zeytinyağlı Ton Balığı 2x140 gr",
+    "satis": "279,00 TL",
+    "eski": "410,00 TL",
+    "ind": "%32",
+    "img": "https://m.media-amazon.com/images/I/61ho-vOwoUL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+    "link": "https://www.amazon.com.tr/dp/B0BD688JMX?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-22 07:41:28",
+      "asin": "B0BD688JMX",
+      "title": "Dardanel Zeytinyağlı Ton Balığı 2x140 gr",
+      "satis": "279,00 TL",
+      "eski": "410,00 TL",
+      "ind": "%32",
+      "img": "https://m.media-amazon.com/images/I/61ho-vOwoUL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0BD688JMX?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-22 07:41:28",
+      "asin": "B085PQKQGQ",
+      "title": "Air Wick Deco Sphere Greyfurt & Portakal Çiçeği İkili Paket Oda Kokusu 30 Gün Etkili",
+      "satis": "374,96 TL",
+      "eski": "529,95 TL",
+      "ind": "%29",
+      "img": "https://m.media-amazon.com/images/I/71end6IHpKL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B085PQKQGQ?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-22 07:41:28",
+      "asin": "B0FH7C9BM9",
+      "title": "CAMPER Drift Trail AyakkabıErkek",
+      "satis": "7.499,40 TL",
+      "eski": "12.499,00 TL",
+      "ind": "%40",
+      "img": "https://m.media-amazon.com/images/I/71MqPWD9POL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0FH7C9BM9?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-22 06:21:27",
       "asin": "B0FN4P1JY9",
@@ -202,36 +237,6 @@
       "ind": "%40",
       "img": "https://m.media-amazon.com/images/I/61CnM2WdMSL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
       "link": "https://www.amazon.com.tr/dp/B0F8HD7MJF?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 02:21:01",
-      "asin": "B0FSSJZ7TQ",
-      "title": "365 günün en düşük fiyatı",
-      "satis": "1.646,50 TL",
-      "eski": "2.196,00 TL",
-      "ind": "%25",
-      "img": "https://m.media-amazon.com/images/I/71-wz0d0pCL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0FSSJZ7TQ?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 02:21:01",
-      "asin": "B0DW96BZTC",
-      "title": "Old Spice Bearglove Erkek Duş Jeli ve Şampuan 1000 Ml XL Büyük Boy",
-      "satis": "279,00 TL",
-      "eski": "449,90 TL",
-      "ind": "%38",
-      "img": "https://m.media-amazon.com/images/I/71-crmfez2L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0DW96BZTC?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 01:10:58",
-      "asin": "B0CXF6MBYG",
-      "title": "Naturagen Vitamin D3 + K2 1000 IU 60 Kapsül | Glutensiz Kolay Yutulabilir Vitamin D3 K2 | 60 Yumuşak Jel Kapsül - 2 Aylık",
-      "satis": "336,90 TL",
-      "eski": "494,95 TL",
-      "ind": "%32",
-      "img": "https://m.media-amazon.com/images/I/61+7PA6w1-L._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B0CXF6MBYG?tag=anlikiindirim-21"
     }
   ]
 }
