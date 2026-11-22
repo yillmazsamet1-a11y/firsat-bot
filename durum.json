@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-22 16:19:06",
+  "son_tarama": "2026-11-22 17:08:56",
   "durum": "ok",
-  "bulunan_link": 34,
+  "bulunan_link": 29,
   "paylasilan_adet": 2,
-  "toplam_paylasim": 46,
+  "toplam_paylasim": 48,
   "bildirimler": [
+    {
+      "zaman": "2026-11-22 17:08:56",
+      "tip": "bilgi",
+      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (29 aday incelendi)."
+    },
     {
       "zaman": "2026-11-22 16:19:06",
       "tip": "bilgi",
@@ -128,16 +133,36 @@
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-22 16:19:06",
-    "asin": "B003OAPQCA",
-    "title": "TePe Select Diş Fırçası, Orta Boy, 1 Adet | Konik Fırça Başı ile Etkili Plak Temizliği, Yetişkinler İçin Orta Sertlikte ve Nazik Temizlik %40 İndirim 90 günün en düşük fiyatı 227,99 TL 227 99TL Önceki: 379,99 TL 379,99 TL",
-    "satis": "227,99 TL",
-    "eski": "379,99 TL",
-    "ind": "%40",
-    "img": "https://m.media-amazon.com/images/I/61lvBvytO9L._AC_SR480,440_.jpg",
-    "link": "https://www.amazon.com.tr/dp/B003OAPQCA?tag=anlikiindirim-21"
+    "zaman": "2026-11-22 17:08:56",
+    "asin": "B0HP6N7QYK",
+    "title": "Robeve Auhma Güçlü Vakumlu Oto Süpürgesi Elektrik Süpürgesi Şarjlı El Süpürgesi Çok Fonksiyonlu 3 Kademeli 20000PA Güçlü Oto Süpürge Araç Süpürge Araç Süpürgesi Dijital Göstergeli (Mor-Gri)",
+    "satis": "1.099,90 TL",
+    "eski": "1.499,90 TL",
+    "ind": "%27",
+    "img": "https://m.media-amazon.com/images/I/611pfNOwqyL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+    "link": "https://www.amazon.com.tr/dp/B0HP6N7QYK?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-22 17:08:56",
+      "asin": "B0HP6N7QYK",
+      "title": "Robeve Auhma Güçlü Vakumlu Oto Süpürgesi Elektrik Süpürgesi Şarjlı El Süpürgesi Çok Fonksiyonlu 3 Kademeli 20000PA Güçlü Oto Süpürge Araç Süpürge Araç Süpürgesi Dijital Göstergeli (Mor-Gri)",
+      "satis": "1.099,90 TL",
+      "eski": "1.499,90 TL",
+      "ind": "%27",
+      "img": "https://m.media-amazon.com/images/I/611pfNOwqyL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0HP6N7QYK?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-22 17:08:56",
+      "asin": "B0H4ZR84MD",
+      "title": "Dyson Airwrap i.d.™ saç şekillendirme ve kurutma seti (Ceramic Apricot)",
+      "satis": "24.999,00 TL",
+      "eski": "34.999,00 TL",
+      "ind": "%29",
+      "img": "https://m.media-amazon.com/images/I/61d5vxLCPrL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0H4ZR84MD?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-22 16:19:06",
       "asin": "B003OAPQCA",
@@ -267,26 +292,6 @@
       "ind": "%33",
       "img": "https://m.media-amazon.com/images/I/81BNfa6j8ML._AC_SR480,440_.jpg",
       "link": "https://www.amazon.com.tr/dp/B091HT6N5T?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 11:56:18",
-      "asin": "B0FTT2KDJR",
-      "title": "Fissler Vitaquick Premium Düdüklü Tencere Seti Kırmızı Tava Gümüş 6 Litre",
-      "satis": "17.471,33 TL",
-      "eski": "25.999,00 TL",
-      "ind": "%33",
-      "img": "https://m.media-amazon.com/images/I/515hdisjT5L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0FTT2KDJR?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 11:10:54",
-      "asin": "B0FKH57YQP",
-      "title": "Lian Li PC için 8,8 inç Evrensel Ekran - Herhangi Bir Bilgisayar Kurulumu için Ayarlanabilir Montaj - Özelleştirilebilir ARGB Çerçevesi - PC Sıcaklık Ekran Paneli - LCD Ekran Disply - Mini Monitör",
-      "satis": "4.394,00 TL",
-      "eski": "5.990,00 TL",
-      "ind": "%27",
-      "img": "https://m.media-amazon.com/images/I/71Yi1eGT8NL._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B0FKH57YQP?tag=anlikiindirim-21"
     }
   ]
 }
