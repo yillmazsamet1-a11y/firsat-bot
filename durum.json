@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-22 07:41:28",
+  "son_tarama": "2026-11-22 08:34:56",
   "durum": "ok",
-  "bulunan_link": 32,
-  "paylasilan_adet": 3,
-  "toplam_paylasim": 26,
+  "bulunan_link": 11,
+  "paylasilan_adet": 2,
+  "toplam_paylasim": 28,
   "bildirimler": [
+    {
+      "zaman": "2026-11-22 08:34:56",
+      "tip": "bilgi",
+      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (11 aday incelendi)."
+    },
     {
       "zaman": "2026-11-22 07:41:28",
       "tip": "bilgi",
@@ -78,16 +83,36 @@
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-22 07:41:28",
-    "asin": "B0BD688JMX",
-    "title": "Dardanel Zeytinyağlı Ton Balığı 2x140 gr",
-    "satis": "279,00 TL",
-    "eski": "410,00 TL",
-    "ind": "%32",
-    "img": "https://m.media-amazon.com/images/I/61ho-vOwoUL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-    "link": "https://www.amazon.com.tr/dp/B0BD688JMX?tag=anlikiindirim-21"
+    "zaman": "2026-11-22 08:34:56",
+    "asin": "B09FGWZDMD",
+    "title": "ARKO MEN Black Tıraş Köpüğü, 200 Mililitre",
+    "satis": "108,26 TL",
+    "eski": "163,18 TL",
+    "ind": "%34",
+    "img": "https://m.media-amazon.com/images/I/41PpsfiR1NL._AC_SR480,440_.jpg",
+    "link": "https://www.amazon.com.tr/dp/B09FGWZDMD?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-22 08:34:56",
+      "asin": "B09FGWZDMD",
+      "title": "ARKO MEN Black Tıraş Köpüğü, 200 Mililitre",
+      "satis": "108,26 TL",
+      "eski": "163,18 TL",
+      "ind": "%34",
+      "img": "https://m.media-amazon.com/images/I/41PpsfiR1NL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B09FGWZDMD?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-22 08:34:56",
+      "asin": "B00OEFS5JA",
+      "title": "DURU Saf&Doğal Klasik Sabun, 150 Gramx4",
+      "satis": "99,50 TL",
+      "eski": "164,43 TL",
+      "ind": "%39",
+      "img": "https://m.media-amazon.com/images/I/51bBAtrmc7L._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B00OEFS5JA?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-22 07:41:28",
       "asin": "B0BD688JMX",
@@ -217,26 +242,6 @@
       "ind": "%49",
       "img": "https://m.media-amazon.com/images/I/41JgCn7KCmL._AC_SR480,440_.jpg",
       "link": "https://www.amazon.com.tr/dp/B0GPQKKV5Y?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 02:21:01",
-      "asin": "B0FZVLXF3M",
-      "title": "365 günün en düşük fiyatı",
-      "satis": "1.981,75 TL",
-      "eski": "2.999,00 TL",
-      "ind": "%34",
-      "img": "https://m.media-amazon.com/images/I/61+q7e+TfiL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0FZVLXF3M?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 02:21:01",
-      "asin": "B0F8HD7MJF",
-      "title": "Machenike G3V2 Bluetooth Controller for Pc/Switch/Ios/Android, Hall Effect Joysticks, RGB Lighting Gaming Controller,2 Programmable Buttons,1000mah Battery With Charging Station, Pink",
-      "satis": "2.699,00 TL",
-      "eski": "4.499,00 TL",
-      "ind": "%40",
-      "img": "https://m.media-amazon.com/images/I/61CnM2WdMSL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0F8HD7MJF?tag=anlikiindirim-21"
     }
   ]
 }
