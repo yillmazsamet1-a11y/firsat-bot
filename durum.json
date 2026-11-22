@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-22 08:34:56",
+  "son_tarama": "2026-11-22 09:27:58",
   "durum": "ok",
-  "bulunan_link": 11,
+  "bulunan_link": 28,
   "paylasilan_adet": 2,
-  "toplam_paylasim": 28,
+  "toplam_paylasim": 30,
   "bildirimler": [
+    {
+      "zaman": "2026-11-22 09:27:58",
+      "tip": "bilgi",
+      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (28 aday incelendi)."
+    },
     {
       "zaman": "2026-11-22 08:34:56",
       "tip": "bilgi",
@@ -83,16 +88,36 @@
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-22 08:34:56",
-    "asin": "B09FGWZDMD",
-    "title": "ARKO MEN Black Tıraş Köpüğü, 200 Mililitre",
-    "satis": "108,26 TL",
-    "eski": "163,18 TL",
-    "ind": "%34",
-    "img": "https://m.media-amazon.com/images/I/41PpsfiR1NL._AC_SR480,440_.jpg",
-    "link": "https://www.amazon.com.tr/dp/B09FGWZDMD?tag=anlikiindirim-21"
+    "zaman": "2026-11-22 09:27:58",
+    "asin": "B0G5NM89KZ",
+    "title": "Duru Yoğun Onarım ve Nemlendirici Saç Maskesi, 200 Ml",
+    "satis": "116,20 TL",
+    "eski": "229,95 TL",
+    "ind": "%49",
+    "img": "https://m.media-amazon.com/images/I/61Hw6y2xWwL._AC_SR480,440_.jpg",
+    "link": "https://www.amazon.com.tr/dp/B0G5NM89KZ?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-22 09:27:58",
+      "asin": "B0G5NM89KZ",
+      "title": "Duru Yoğun Onarım ve Nemlendirici Saç Maskesi, 200 Ml",
+      "satis": "116,20 TL",
+      "eski": "229,95 TL",
+      "ind": "%49",
+      "img": "https://m.media-amazon.com/images/I/61Hw6y2xWwL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B0G5NM89KZ?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-22 09:27:58",
+      "asin": "B0CPMWCDTF",
+      "title": "Casio DW-H5600 Kol Saati",
+      "satis": "24.999,00 TL",
+      "eski": "40.669,00 TL",
+      "ind": "%39",
+      "img": "https://m.media-amazon.com/images/I/81pnciw6UKL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0CPMWCDTF?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-22 08:34:56",
       "asin": "B09FGWZDMD",
@@ -222,26 +247,6 @@
       "ind": "%36",
       "img": "https://m.media-amazon.com/images/I/61Oc5pWatuL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
       "link": "https://www.amazon.com.tr/dp/B0HJD53NJS?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 04:18:17",
-      "asin": "B0HHDWB1JY",
-      "title": "Fashcolle Dynamic Black Masajlı Oyuncu Koltuğu",
-      "satis": "3.599,00 TL",
-      "eski": "5.299,10 TL",
-      "ind": "%32",
-      "img": "https://m.media-amazon.com/images/I/71CNvM0zR3L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0HHDWB1JY?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 02:21:01",
-      "asin": "B0GPQKKV5Y",
-      "title": "MATSU Pillow Saç ve Vücut Misti Beyaz Misk & Soft Çiçeksi Notalar Dingin ve Saf Konfor 50 ml",
-      "satis": "381,00 TL",
-      "eski": "741,91 TL",
-      "ind": "%49",
-      "img": "https://m.media-amazon.com/images/I/41JgCn7KCmL._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B0GPQKKV5Y?tag=anlikiindirim-21"
     }
   ]
 }
