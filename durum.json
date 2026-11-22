@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-22 17:52:03",
+  "son_tarama": "2026-11-22 18:34:31",
   "durum": "ok",
-  "bulunan_link": 32,
-  "paylasilan_adet": 3,
-  "toplam_paylasim": 51,
+  "bulunan_link": 17,
+  "paylasilan_adet": 1,
+  "toplam_paylasim": 52,
   "bildirimler": [
+    {
+      "zaman": "2026-11-22 18:34:31",
+      "tip": "bilgi",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (17 aday incelendi)."
+    },
     {
       "zaman": "2026-11-22 17:52:03",
       "tip": "bilgi",
@@ -124,25 +129,30 @@
       "zaman": "2026-11-21 21:15:12",
       "tip": "bilgi",
       "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (25 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-21 20:31:09",
-      "tip": "bilgi",
-      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (13 aday incelendi)."
     }
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-22 17:52:03",
-    "asin": "B07YPZLF4Z",
-    "title": "Winix Zero Pro Hava Temizleme Cihazı",
-    "satis": "17.945,00 TL",
-    "eski": "25.999,98 TL",
-    "ind": "%31",
-    "img": "https://m.media-amazon.com/images/I/71MywNn2yLS._AC_SR480,440_.jpg",
-    "link": "https://www.amazon.com.tr/dp/B07YPZLF4Z?tag=anlikiindirim-21"
+    "zaman": "2026-11-22 18:34:31",
+    "asin": "B0DXPHR4PQ",
+    "title": "Oral-B iO Radiant White Beyaz Diş Fırçası Yedek Başlığı 4 Adet",
+    "satis": "849,15 TL",
+    "eski": "1.139,00 TL",
+    "ind": "%25",
+    "img": "https://m.media-amazon.com/images/I/61nC0BtzbfL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+    "link": "https://www.amazon.com.tr/dp/B0DXPHR4PQ?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-22 18:34:31",
+      "asin": "B0DXPHR4PQ",
+      "title": "Oral-B iO Radiant White Beyaz Diş Fırçası Yedek Başlığı 4 Adet",
+      "satis": "849,15 TL",
+      "eski": "1.139,00 TL",
+      "ind": "%25",
+      "img": "https://m.media-amazon.com/images/I/61nC0BtzbfL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0DXPHR4PQ?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-22 17:52:03",
       "asin": "B07YPZLF4Z",
@@ -282,16 +292,6 @@
       "ind": "%45",
       "img": "https://m.media-amazon.com/images/I/7142qUhGQoL._AC_SR480,440_.jpg",
       "link": "https://www.amazon.com.tr/dp/B0GFG8TLB5?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 11:56:18",
-      "asin": "B0G93P3CQR",
-      "title": "Sony PlayStation Kılıflı Pulse Elite Headset Kulaklık (Resmi Distribütör Bilkom Garantili)",
-      "satis": "7.299,00 TL",
-      "eski": "10.056,36 TL",
-      "ind": "%27",
-      "img": "https://m.media-amazon.com/images/I/619NnSrYabL._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B0G93P3CQR?tag=anlikiindirim-21"
     }
   ]
 }
