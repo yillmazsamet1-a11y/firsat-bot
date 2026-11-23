@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-23 17:51:37",
-  "durum": "uyari",
-  "bulunan_link": 10,
-  "paylasilan_adet": 0,
-  "toplam_paylasim": 78,
+  "son_tarama": "2026-11-23 17:58:43",
+  "durum": "ok",
+  "bulunan_link": 18,
+  "paylasilan_adet": 1,
+  "toplam_paylasim": 79,
   "bildirimler": [
+    {
+      "zaman": "2026-11-23 17:58:43",
+      "tip": "bilgi",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (18 aday incelendi)."
+    },
     {
       "zaman": "2026-11-23 17:51:37",
       "tip": "uyari",
@@ -124,25 +129,30 @@
       "zaman": "2026-11-22 17:08:56",
       "tip": "bilgi",
       "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (29 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-22 16:19:06",
-      "tip": "bilgi",
-      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (34 aday incelendi)."
     }
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-23 16:09:54",
-    "asin": "B09ZTYPVFW",
-    "title": "URBAN Care Style Guide Deniz Tuzu Etkili Doğal Dalga Sağlayan Saç Spreyi 200 ml- Vegan",
-    "satis": "150,00 TL",
-    "eski": "210,00 TL",
-    "ind": "%29",
-    "img": "https://m.media-amazon.com/images/I/41MjAUW7aUL._AC_SR480,440_.jpg",
-    "link": "https://www.amazon.com.tr/dp/B09ZTYPVFW?tag=anlikiindirim-21"
+    "zaman": "2026-11-23 17:58:43",
+    "asin": "B07NH1PYXZ",
+    "title": "Gillette Fusion Proglide Yedek Erkek Tıraş Bıçağı 8'li",
+    "satis": "1.292,17 TL",
+    "eski": "2.949,23 TL",
+    "ind": "%56",
+    "img": "https://m.media-amazon.com/images/I/71R7laqKqmL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+    "link": "https://www.amazon.com.tr/dp/B07NH1PYXZ?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-23 17:58:43",
+      "asin": "B07NH1PYXZ",
+      "title": "Gillette Fusion Proglide Yedek Erkek Tıraş Bıçağı 8'li",
+      "satis": "1.292,17 TL",
+      "eski": "2.949,23 TL",
+      "ind": "%56",
+      "img": "https://m.media-amazon.com/images/I/71R7laqKqmL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B07NH1PYXZ?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-23 16:09:54",
       "asin": "B09ZTYPVFW",
@@ -282,16 +292,6 @@
       "ind": "%30",
       "img": "https://m.media-amazon.com/images/I/51USjfKOXzL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
       "link": "https://www.amazon.com.tr/dp/B0H9LJVD68?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-23 03:44:43",
-      "asin": "B0FL9YD94B",
-      "title": "CAMPER Peu Serra AyakkabıErkek",
-      "satis": "6.839,43 TL",
-      "eski": "9.599,20 TL",
-      "ind": "%29",
-      "img": "https://m.media-amazon.com/images/I/81kd6uXEZSL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0FL9YD94B?tag=anlikiindirim-21"
     }
   ]
 }
