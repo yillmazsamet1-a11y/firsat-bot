@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-23 02:44:35",
+  "son_tarama": "2026-11-23 03:44:43",
   "durum": "ok",
-  "bulunan_link": 19,
-  "paylasilan_adet": 1,
-  "toplam_paylasim": 62,
+  "bulunan_link": 24,
+  "paylasilan_adet": 2,
+  "toplam_paylasim": 64,
   "bildirimler": [
+    {
+      "zaman": "2026-11-23 03:44:43",
+      "tip": "bilgi",
+      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (24 aday incelendi)."
+    },
     {
       "zaman": "2026-11-23 02:44:35",
       "tip": "bilgi",
@@ -124,25 +129,40 @@
       "zaman": "2026-11-22 06:21:27",
       "tip": "bilgi",
       "mesaj": "4 yeni fırsat @anlikiindirim kanalına paylaşıldı (25 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-22 05:21:54",
-      "tip": "bilgi",
-      "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (22 aday incelendi)."
     }
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-23 02:44:35",
-    "asin": "B0FBMKYYTJ",
-    "title": "GIGABYTE ANAKART AMD AM5 ATX B850 A STEALTH ICE",
-    "satis": "16.700,53 TL",
-    "eski": "28.981,26 TL",
-    "ind": "%42",
-    "img": "https://m.media-amazon.com/images/I/71p-1OQgpTL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-    "link": "https://www.amazon.com.tr/dp/B0FBMKYYTJ?tag=anlikiindirim-21"
+    "zaman": "2026-11-23 03:44:43",
+    "asin": "B0FL9YD94B",
+    "title": "CAMPER Peu Serra AyakkabıErkek",
+    "satis": "6.839,43 TL",
+    "eski": "9.599,20 TL",
+    "ind": "%29",
+    "img": "https://m.media-amazon.com/images/I/81kd6uXEZSL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+    "link": "https://www.amazon.com.tr/dp/B0FL9YD94B?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-23 03:44:43",
+      "asin": "B0FL9YD94B",
+      "title": "CAMPER Peu Serra AyakkabıErkek",
+      "satis": "6.839,43 TL",
+      "eski": "9.599,20 TL",
+      "ind": "%29",
+      "img": "https://m.media-amazon.com/images/I/81kd6uXEZSL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0FL9YD94B?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-23 03:44:43",
+      "asin": "B0GVSJ1VH1",
+      "title": "Camper Erkek Ada K101084-004",
+      "satis": "5.746,98 TL",
+      "eski": "7.699,30 TL",
+      "ind": "%25",
+      "img": "https://m.media-amazon.com/images/I/81Rbe6STZML._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0GVSJ1VH1?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-23 02:44:35",
       "asin": "B0FBMKYYTJ",
@@ -272,26 +292,6 @@
       "ind": "%33",
       "img": "https://m.media-amazon.com/images/I/61IdzuuCquL._AC_SR480,440_.jpg",
       "link": "https://www.amazon.com.tr/dp/B0HGZJQ8J3?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 17:52:03",
-      "asin": "B0CV171GSB",
-      "title": "VARTA Power on Demand Power Bank 10.000 mAh",
-      "satis": "799,00 TL",
-      "eski": "1.139,00 TL",
-      "ind": "%30",
-      "img": "https://m.media-amazon.com/images/I/61cPMTsqu0L._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B0CV171GSB?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 17:08:56",
-      "asin": "B0HP6N7QYK",
-      "title": "Robeve Auhma Güçlü Vakumlu Oto Süpürgesi Elektrik Süpürgesi Şarjlı El Süpürgesi Çok Fonksiyonlu 3 Kademeli 20000PA Güçlü Oto Süpürge Araç Süpürge Araç Süpürgesi Dijital Göstergeli (Mor-Gri)",
-      "satis": "1.099,90 TL",
-      "eski": "1.499,90 TL",
-      "ind": "%27",
-      "img": "https://m.media-amazon.com/images/I/611pfNOwqyL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0HP6N7QYK?tag=anlikiindirim-21"
     }
   ]
 }
