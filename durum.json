@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-23 22:22:50",
-  "durum": "ok",
-  "bulunan_link": 19,
-  "paylasilan_adet": 4,
+  "son_tarama": "2026-11-23 23:19:51",
+  "durum": "uyari",
+  "bulunan_link": 21,
+  "paylasilan_adet": 0,
   "toplam_paylasim": 91,
   "bildirimler": [
+    {
+      "zaman": "2026-11-23 23:19:51",
+      "tip": "uyari",
+      "mesaj": "Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı."
+    },
     {
       "zaman": "2026-11-23 22:22:50",
       "tip": "bilgi",
@@ -124,11 +129,6 @@
       "zaman": "2026-11-22 22:02:53",
       "tip": "uyari",
       "mesaj": "Taramada %25 ve üzeri uygun ürün bulunamadı."
-    },
-    {
-      "zaman": "2026-11-22 21:16:27",
-      "tip": "uyari",
-      "mesaj": "Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı."
     }
   ],
   "hatalar": [],
