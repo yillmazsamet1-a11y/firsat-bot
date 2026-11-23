@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-23 06:04:57",
+  "son_tarama": "2026-11-23 07:39:54",
   "durum": "ok",
-  "bulunan_link": 20,
+  "bulunan_link": 28,
   "paylasilan_adet": 2,
-  "toplam_paylasim": 66,
+  "toplam_paylasim": 68,
   "bildirimler": [
+    {
+      "zaman": "2026-11-23 07:39:54",
+      "tip": "bilgi",
+      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (28 aday incelendi)."
+    },
     {
       "zaman": "2026-11-23 06:04:57",
       "tip": "bilgi",
@@ -124,25 +129,40 @@
       "zaman": "2026-11-22 09:27:58",
       "tip": "bilgi",
       "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (28 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-22 08:34:56",
-      "tip": "bilgi",
-      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (11 aday incelendi)."
     }
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-23 06:04:57",
-    "asin": "B009PIIMXA",
-    "title": "Julius Meinl President Çekirdek Kahve, Orta Kavrulmuş, Classic Aromalı, 500 g",
-    "satis": "568,00 TL",
-    "eski": "789,00 TL",
-    "ind": "%28",
-    "img": "https://m.media-amazon.com/images/I/815N0liTzqL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-    "link": "https://www.amazon.com.tr/dp/B009PIIMXA?tag=anlikiindirim-21"
+    "zaman": "2026-11-23 07:39:54",
+    "asin": "B0D2XRXNGY",
+    "title": "Anker Soundcore V20i Bluetooth Kulaklık, Açık Kulak Teknolojisi, Ayarlanabilir Kulak Kancaları, Güçlü Bas, IP55 Su Geçirmez, LED gösterge, 36 Saat Çalma Süresi, Çoklu Bağlantı, Siyah - A3876",
+    "satis": "1.699,00 TL",
+    "eski": "2.399,00 TL",
+    "ind": "%29",
+    "img": "https://m.media-amazon.com/images/I/51VPII-ih7L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+    "link": "https://www.amazon.com.tr/dp/B0D2XRXNGY?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-23 07:39:54",
+      "asin": "B0D2XRXNGY",
+      "title": "Anker Soundcore V20i Bluetooth Kulaklık, Açık Kulak Teknolojisi, Ayarlanabilir Kulak Kancaları, Güçlü Bas, IP55 Su Geçirmez, LED gösterge, 36 Saat Çalma Süresi, Çoklu Bağlantı, Siyah - A3876",
+      "satis": "1.699,00 TL",
+      "eski": "2.399,00 TL",
+      "ind": "%29",
+      "img": "https://m.media-amazon.com/images/I/51VPII-ih7L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0D2XRXNGY?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-23 07:39:54",
+      "asin": "B0FM2CKWKM",
+      "title": "Hifiman Edition XV | Kulak Üstü/Over-Ear, Full-Size, Açık Tasarımlı (Open-Back) Planar Manyetik Stüdyo & Hi-Fi Kulaklık",
+      "satis": "32.999,90 TL",
+      "eski": "44.999,90 TL",
+      "ind": "%27",
+      "img": "https://m.media-amazon.com/images/I/71qPbxRXVrL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0FM2CKWKM?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-23 06:04:57",
       "asin": "B009PIIMXA",
@@ -272,26 +292,6 @@
       "ind": "%27",
       "img": "https://m.media-amazon.com/images/I/817oWnXzFFL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
       "link": "https://www.amazon.com.tr/dp/B0FKH5QJJ9?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 19:32:02",
-      "asin": "B0FKH6SFZ8",
-      "title": "Anthony Jackson Ultra Hafif ABS Valiz TRION (Antrasit, Kabin Boy)",
-      "satis": "1.180,00 TL",
-      "eski": "1.599,90 TL",
-      "ind": "%26",
-      "img": "https://m.media-amazon.com/images/I/81qYHUQhj4L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0FKH6SFZ8?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 18:34:31",
-      "asin": "B0DXPHR4PQ",
-      "title": "Oral-B iO Radiant White Beyaz Diş Fırçası Yedek Başlığı 4 Adet",
-      "satis": "849,15 TL",
-      "eski": "1.139,00 TL",
-      "ind": "%25",
-      "img": "https://m.media-amazon.com/images/I/61nC0BtzbfL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0DXPHR4PQ?tag=anlikiindirim-21"
     }
   ]
 }
