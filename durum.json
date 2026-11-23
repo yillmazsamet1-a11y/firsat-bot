@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-23 01:46:26",
+  "son_tarama": "2026-11-23 02:44:35",
   "durum": "ok",
-  "bulunan_link": 25,
-  "paylasilan_adet": 2,
-  "toplam_paylasim": 61,
+  "bulunan_link": 19,
+  "paylasilan_adet": 1,
+  "toplam_paylasim": 62,
   "bildirimler": [
+    {
+      "zaman": "2026-11-23 02:44:35",
+      "tip": "bilgi",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (19 aday incelendi)."
+    },
     {
       "zaman": "2026-11-23 01:46:26",
       "tip": "bilgi",
@@ -124,25 +129,30 @@
       "zaman": "2026-11-22 05:21:54",
       "tip": "bilgi",
       "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (22 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-22 04:18:17",
-      "tip": "bilgi",
-      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (21 aday incelendi)."
     }
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-23 01:46:26",
-    "asin": "B0CXF6MBYG",
-    "title": "Naturagen Vitamin D3 + K2 1000 IU 60 Kapsül | Glutensiz Kolay Yutulabilir Vitamin D3 K2 | 60 Yumuşak Jel Kapsül - 2 Aylık",
-    "satis": "336,90 TL",
-    "eski": "494,95 TL",
-    "ind": "%32",
-    "img": "https://m.media-amazon.com/images/I/61+7PA6w1-L._AC_SR480,440_.jpg",
-    "link": "https://www.amazon.com.tr/dp/B0CXF6MBYG?tag=anlikiindirim-21"
+    "zaman": "2026-11-23 02:44:35",
+    "asin": "B0FBMKYYTJ",
+    "title": "GIGABYTE ANAKART AMD AM5 ATX B850 A STEALTH ICE",
+    "satis": "16.700,53 TL",
+    "eski": "28.981,26 TL",
+    "ind": "%42",
+    "img": "https://m.media-amazon.com/images/I/71p-1OQgpTL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+    "link": "https://www.amazon.com.tr/dp/B0FBMKYYTJ?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-23 02:44:35",
+      "asin": "B0FBMKYYTJ",
+      "title": "GIGABYTE ANAKART AMD AM5 ATX B850 A STEALTH ICE",
+      "satis": "16.700,53 TL",
+      "eski": "28.981,26 TL",
+      "ind": "%42",
+      "img": "https://m.media-amazon.com/images/I/71p-1OQgpTL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0FBMKYYTJ?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-23 01:46:26",
       "asin": "B0CXF6MBYG",
@@ -282,16 +292,6 @@
       "ind": "%27",
       "img": "https://m.media-amazon.com/images/I/611pfNOwqyL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
       "link": "https://www.amazon.com.tr/dp/B0HP6N7QYK?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-22 17:08:56",
-      "asin": "B0H4ZR84MD",
-      "title": "Dyson Airwrap i.d.™ saç şekillendirme ve kurutma seti (Ceramic Apricot)",
-      "satis": "24.999,00 TL",
-      "eski": "34.999,00 TL",
-      "ind": "%29",
-      "img": "https://m.media-amazon.com/images/I/61d5vxLCPrL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0H4ZR84MD?tag=anlikiindirim-21"
     }
   ]
 }
