@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-23 19:05:57",
+  "son_tarama": "2026-11-23 20:11:41",
   "durum": "ok",
-  "bulunan_link": 22,
-  "paylasilan_adet": 3,
-  "toplam_paylasim": 83,
+  "bulunan_link": 32,
+  "paylasilan_adet": 1,
+  "toplam_paylasim": 84,
   "bildirimler": [
+    {
+      "zaman": "2026-11-23 20:11:41",
+      "tip": "bilgi",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (32 aday incelendi)."
+    },
     {
       "zaman": "2026-11-23 19:05:57",
       "tip": "bilgi",
@@ -124,25 +129,30 @@
       "zaman": "2026-11-22 19:32:02",
       "tip": "bilgi",
       "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (21 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-22 18:34:31",
-      "tip": "bilgi",
-      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (17 aday incelendi)."
     }
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-23 19:05:57",
-    "asin": "B07DXF5CDJ",
-    "title": "Scotch 4001 Güçlü Montaj Bandı, 19mmx1, 5m",
-    "satis": "149,95 TL",
-    "eski": "299,90 TL",
-    "ind": "%50",
-    "img": "https://m.media-amazon.com/images/I/81XtsHd9qCL._AC_SR480,440_.jpg",
-    "link": "https://www.amazon.com.tr/dp/B07DXF5CDJ?tag=anlikiindirim-21"
+    "zaman": "2026-11-23 20:11:41",
+    "asin": "B0F5WVJZ82",
+    "title": "Stanley The Aerolight Transit Mug Termos Bardak",
+    "satis": "1.499,00 TL",
+    "eski": "2.089,00 TL",
+    "ind": "%28",
+    "img": "https://m.media-amazon.com/images/I/41qCr+JftbL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+    "link": "https://www.amazon.com.tr/dp/B0F5WVJZ82?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-23 20:11:41",
+      "asin": "B0F5WVJZ82",
+      "title": "Stanley The Aerolight Transit Mug Termos Bardak",
+      "satis": "1.499,00 TL",
+      "eski": "2.089,00 TL",
+      "ind": "%28",
+      "img": "https://m.media-amazon.com/images/I/41qCr+JftbL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0F5WVJZ82?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-23 19:05:57",
       "asin": "B07DXF5CDJ",
@@ -282,16 +292,6 @@
       "ind": "%49",
       "img": "https://m.media-amazon.com/images/I/41JgCn7KCmL._AC_SR480,440_.jpg",
       "link": "https://www.amazon.com.tr/dp/B0GPQKKV5Y?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-23 11:23:18",
-      "asin": "B0F2G4DKF9",
-      "title": "Sony Pulse Elite Midnight Black Wireless Headset (Bilkom Garantili)",
-      "satis": "7.299,00 TL",
-      "eski": "10.497,00 TL",
-      "ind": "%30",
-      "img": "https://m.media-amazon.com/images/I/61zeqMXbQOL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0F2G4DKF9?tag=anlikiindirim-21"
     }
   ]
 }
