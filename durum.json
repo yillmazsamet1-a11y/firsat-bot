@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-23 21:12:45",
+  "son_tarama": "2026-11-23 22:22:50",
   "durum": "ok",
-  "bulunan_link": 35,
-  "paylasilan_adet": 3,
-  "toplam_paylasim": 87,
+  "bulunan_link": 19,
+  "paylasilan_adet": 4,
+  "toplam_paylasim": 91,
   "bildirimler": [
+    {
+      "zaman": "2026-11-23 22:22:50",
+      "tip": "bilgi",
+      "mesaj": "4 yeni fırsat @anlikiindirim kanalına paylaşıldı (19 aday incelendi)."
+    },
     {
       "zaman": "2026-11-23 21:12:45",
       "tip": "bilgi",
@@ -124,25 +129,60 @@
       "zaman": "2026-11-22 21:16:27",
       "tip": "uyari",
       "mesaj": "Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı."
-    },
-    {
-      "zaman": "2026-11-22 20:24:47",
-      "tip": "bilgi",
-      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (29 aday incelendi)."
     }
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-23 21:12:45",
-    "asin": "B0HC3HVSQD",
-    "title": "Maxychef Hamur Yoğurma & Stand Mikser 10 Lt 2000w Siyah",
-    "satis": "8.499,00 TL",
-    "eski": "14.698,95 TL",
-    "ind": "%42",
-    "img": "https://m.media-amazon.com/images/I/7159ixMaFuL._AC_SR480,440_.jpg",
-    "link": "https://www.amazon.com.tr/dp/B0HC3HVSQD?tag=anlikiindirim-21"
+    "zaman": "2026-11-23 22:22:50",
+    "asin": "B0HGZJQ8J3",
+    "title": "FlashFire F127 Monaco Yarış Direksiyonu Seti, P4, P5 ve PC Uyumlu, Hall Sensörlü, 270°/900° Dönüş, 3 Pedal, 6+R Vites, RGB",
+    "satis": "9.999,00 TL",
+    "eski": "14.999,00 TL",
+    "ind": "%33",
+    "img": "https://m.media-amazon.com/images/I/61IdzuuCquL._AC_SR480,440_.jpg",
+    "link": "https://www.amazon.com.tr/dp/B0HGZJQ8J3?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-23 22:22:50",
+      "asin": "B0HGZJQ8J3",
+      "title": "FlashFire F127 Monaco Yarış Direksiyonu Seti, P4, P5 ve PC Uyumlu, Hall Sensörlü, 270°/900° Dönüş, 3 Pedal, 6+R Vites, RGB",
+      "satis": "9.999,00 TL",
+      "eski": "14.999,00 TL",
+      "ind": "%33",
+      "img": "https://m.media-amazon.com/images/I/61IdzuuCquL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B0HGZJQ8J3?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-23 22:22:50",
+      "asin": "B07YPZLF4Z",
+      "title": "Winix Zero Pro Hava Temizleme Cihazı",
+      "satis": "17.945,00 TL",
+      "eski": "25.999,98 TL",
+      "ind": "%31",
+      "img": "https://m.media-amazon.com/images/I/71MywNn2yLS._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B07YPZLF4Z?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-23 22:22:50",
+      "asin": "B00OEFS5JA",
+      "title": "DURU Saf&Doğal Klasik Sabun, 150 Gramx4",
+      "satis": "99,50 TL",
+      "eski": "164,43 TL",
+      "ind": "%39",
+      "img": "https://m.media-amazon.com/images/I/51bBAtrmc7L._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B00OEFS5JA?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-23 22:22:50",
+      "asin": "B0HHDWB1JY",
+      "title": "Fashcolle Dynamic Black Masajlı Oyuncu Koltuğu",
+      "satis": "3.599,00 TL",
+      "eski": "5.299,10 TL",
+      "ind": "%32",
+      "img": "https://m.media-amazon.com/images/I/71CNvM0zR3L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0HHDWB1JY?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-23 21:12:45",
       "asin": "B0HC3HVSQD",
@@ -252,46 +292,6 @@
       "ind": "%37",
       "img": "https://m.media-amazon.com/images/I/61oA1W+L9pL._AC_SR480,440_.jpg",
       "link": "https://www.amazon.com.tr/dp/B0817ZGPM8?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-23 12:27:32",
-      "asin": "B0GFG8TLB5",
-      "title": "Erkek Bot K300285-047 Camper Peu Pista GM Black",
-      "satis": "8.098,23 TL",
-      "eski": "15.499,00 TL",
-      "ind": "%48",
-      "img": "https://m.media-amazon.com/images/I/7142qUhGQoL._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B0GFG8TLB5?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-23 12:27:32",
-      "asin": "B0G93P3CQR",
-      "title": "Sony PlayStation Kılıflı Pulse Elite Headset Kulaklık (Resmi Distribütör Bilkom Garantili)",
-      "satis": "7.299,00 TL",
-      "eski": "10.056,36 TL",
-      "ind": "%27",
-      "img": "https://m.media-amazon.com/images/I/619NnSrYabL._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B0G93P3CQR?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-23 12:27:32",
-      "asin": "B0D8ZVSLTK",
-      "title": "SKG H5 Mini Taşınabilir Omuz ve Boyun Masaj Aleti, Shiatsu Yoğurma Fonksiyonu, Isıtmalı Masaj, Yıkanabilir Kumaş, Kablosuz Tasarım, Type-C Şarjlı, Ev/Ofis/Araba Kullanımına Uygun",
-      "satis": "2.499,00 TL",
-      "eski": "4.334,28 TL",
-      "ind": "%42",
-      "img": "https://m.media-amazon.com/images/I/61o0nLMkQBL._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B0D8ZVSLTK?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-23 12:27:32",
-      "asin": "B0F5WZ76XY",
-      "title": "Oral-B iO Radiant White Beyaz Diş Fırçası Yedek Başlığı 2 Adet",
-      "satis": "659,00 TL",
-      "eski": "1.199,00 TL",
-      "ind": "%45",
-      "img": "https://m.media-amazon.com/images/I/61b2BbS45RL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0F5WZ76XY?tag=anlikiindirim-21"
     }
   ]
 }
