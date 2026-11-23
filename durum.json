@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-24 00:16:22",
-  "durum": "ok",
-  "bulunan_link": 27,
-  "paylasilan_adet": 1,
+  "son_tarama": "2026-11-24 01:14:15",
+  "durum": "uyari",
+  "bulunan_link": 21,
+  "paylasilan_adet": 0,
   "toplam_paylasim": 92,
   "bildirimler": [
+    {
+      "zaman": "2026-11-24 01:14:15",
+      "tip": "uyari",
+      "mesaj": "Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı."
+    },
     {
       "zaman": "2026-11-24 00:16:22",
       "tip": "bilgi",
@@ -124,11 +129,6 @@
       "zaman": "2026-11-23 01:46:26",
       "tip": "bilgi",
       "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (25 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-23 00:20:02",
-      "tip": "bilgi",
-      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (29 aday incelendi)."
     }
   ],
   "hatalar": [],
