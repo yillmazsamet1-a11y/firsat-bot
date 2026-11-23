@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-23 18:27:46",
+  "son_tarama": "2026-11-23 19:05:57",
   "durum": "ok",
-  "bulunan_link": 17,
-  "paylasilan_adet": 1,
-  "toplam_paylasim": 80,
+  "bulunan_link": 22,
+  "paylasilan_adet": 3,
+  "toplam_paylasim": 83,
   "bildirimler": [
+    {
+      "zaman": "2026-11-23 19:05:57",
+      "tip": "bilgi",
+      "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (22 aday incelendi)."
+    },
     {
       "zaman": "2026-11-23 18:27:46",
       "tip": "bilgi",
@@ -124,25 +129,50 @@
       "zaman": "2026-11-22 18:34:31",
       "tip": "bilgi",
       "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (17 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-22 17:52:03",
-      "tip": "bilgi",
-      "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (32 aday incelendi)."
     }
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-23 18:27:46",
-    "asin": "B0DMTJ6472",
-    "title": "Fashcolle Black Star Işıklı - Masaj Özellikli Oyuncu Koltuğu Black",
-    "satis": "3.799,00 TL",
-    "eski": "5.499,00 TL",
-    "ind": "%31",
-    "img": "https://m.media-amazon.com/images/I/61BRN6ykqgL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-    "link": "https://www.amazon.com.tr/dp/B0DMTJ6472?tag=anlikiindirim-21"
+    "zaman": "2026-11-23 19:05:57",
+    "asin": "B07DXF5CDJ",
+    "title": "Scotch 4001 Güçlü Montaj Bandı, 19mmx1, 5m",
+    "satis": "149,95 TL",
+    "eski": "299,90 TL",
+    "ind": "%50",
+    "img": "https://m.media-amazon.com/images/I/81XtsHd9qCL._AC_SR480,440_.jpg",
+    "link": "https://www.amazon.com.tr/dp/B07DXF5CDJ?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-23 19:05:57",
+      "asin": "B07DXF5CDJ",
+      "title": "Scotch 4001 Güçlü Montaj Bandı, 19mmx1, 5m",
+      "satis": "149,95 TL",
+      "eski": "299,90 TL",
+      "ind": "%50",
+      "img": "https://m.media-amazon.com/images/I/81XtsHd9qCL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B07DXF5CDJ?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-23 19:05:57",
+      "asin": "B07JGBFMP8",
+      "title": "Parex Multi Yedek Mop 2'li",
+      "satis": "149,00 TL",
+      "eski": "199,00 TL",
+      "ind": "%25",
+      "img": "https://m.media-amazon.com/images/I/71VXcyp57-L._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B07JGBFMP8?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-23 19:05:57",
+      "asin": "B06X16K1FW",
+      "title": "Nordic Ware Non-Stick Novelty Beehive Cake Pan",
+      "satis": "2.024,55 TL",
+      "eski": "3.149,30 TL",
+      "ind": "%36",
+      "img": "https://m.media-amazon.com/images/I/51Ovj73+jnL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B06X16K1FW?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-23 18:27:46",
       "asin": "B0DMTJ6472",
@@ -262,36 +292,6 @@
       "ind": "%30",
       "img": "https://m.media-amazon.com/images/I/61zeqMXbQOL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
       "link": "https://www.amazon.com.tr/dp/B0F2G4DKF9?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-23 07:39:54",
-      "asin": "B0D2XRXNGY",
-      "title": "Anker Soundcore V20i Bluetooth Kulaklık, Açık Kulak Teknolojisi, Ayarlanabilir Kulak Kancaları, Güçlü Bas, IP55 Su Geçirmez, LED gösterge, 36 Saat Çalma Süresi, Çoklu Bağlantı, Siyah - A3876",
-      "satis": "1.699,00 TL",
-      "eski": "2.399,00 TL",
-      "ind": "%29",
-      "img": "https://m.media-amazon.com/images/I/51VPII-ih7L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0D2XRXNGY?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-23 07:39:54",
-      "asin": "B0FM2CKWKM",
-      "title": "Hifiman Edition XV | Kulak Üstü/Over-Ear, Full-Size, Açık Tasarımlı (Open-Back) Planar Manyetik Stüdyo & Hi-Fi Kulaklık",
-      "satis": "32.999,90 TL",
-      "eski": "44.999,90 TL",
-      "ind": "%27",
-      "img": "https://m.media-amazon.com/images/I/71qPbxRXVrL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0FM2CKWKM?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-23 06:04:57",
-      "asin": "B009PIIMXA",
-      "title": "Julius Meinl President Çekirdek Kahve, Orta Kavrulmuş, Classic Aromalı, 500 g",
-      "satis": "568,00 TL",
-      "eski": "789,00 TL",
-      "ind": "%28",
-      "img": "https://m.media-amazon.com/images/I/815N0liTzqL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B009PIIMXA?tag=anlikiindirim-21"
     }
   ]
 }
