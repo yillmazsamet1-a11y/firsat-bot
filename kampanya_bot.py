@@ -39,8 +39,8 @@ def baslik_temizle(ham_baslik: str) -> str:
         flags=re.IGNORECASE,
     )[0]
     s = re.sub(r"\s*[-–—:,;]+\s*$", "", s).strip()
-    if len(s) > 110:
-        s = s[:107].rsplit(" ", 1)[0].strip()
+    if len(s) > 100:
+        s = s[:97].rsplit(" ", 1)[0].strip()
     return s
 
 
@@ -219,7 +219,7 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
                 "satis": satis,
                 "eski": eski,
                 "ind": ind,
-                "url": link,
+                "link": link,
                 "mesaj": mesaj,
             }
         )
@@ -250,32 +250,6 @@ def telegrama_gonder(foto_url: str, caption: str) -> bool:
     return True
 
 
-def urun_kaydi_yap(title: str, price_str: str, discount_str: str, asin: str, url: str, img: str, zaman: str, old_price_str: str = "") -> dict:
-    clean_t = baslik_temizle(title) or "Ürün"
-    clean_p = price_str if price_str and str(price_str).lower() != "undefined" else "0,00 TL"
-    clean_d = discount_str if discount_str and str(discount_str).lower() != "undefined" else "%0"
-    return {
-        "title": clean_t,
-        "baslik": clean_t,
-        "name": clean_t,
-        "price": clean_p,
-        "fiyat": clean_p,
-        "old_price": old_price_str,
-        "eski_fiyat": old_price_str,
-        "discount": clean_d,
-        "indirim": clean_d,
-        "asin": asin,
-        "url": url,
-        "link": url,
-        "img": img,
-        "image": img,
-        "gorsel": img,
-        "time": zaman,
-        "zaman": zaman,
-        "tarih": zaman,
-    }
-
-
 def mevcut_durumu_oku() -> dict:
     try:
         with open(DURUM_DOSYASI, "r", encoding="utf-8") as f:
@@ -302,7 +276,7 @@ def main() -> None:
         adaylar = firsatlari_cek(TARAMA_URL, limit=20)
     except Exception as exc:
         adaylar = []
-        hatalar.append(f"Tarama hatası: {exc}")
+        hatalar.append({"zaman": zaman, "mesaj": f"Tarama hatası: {exc}"})
 
     for u in adaylar:
         baslik = u["title"]
@@ -319,14 +293,93 @@ def main() -> None:
                 print(f"Paylaşıldı: {baslik} - {fiyat}")
                 time.sleep(1.5)
         except Exception as exc:
-            hatalar.append(f"Gönderim hatası ({u.get('asin')}): {exc}")
+            hatalar.append({"zaman": zaman, "mesaj": f"Gönderim hatası ({u.get('asin')}): {exc}"})
 
-    onceki_liste = durum.get("son_paylasimlar") or durum.get("paylasimlar") or []
+    onceki_liste = durum.get("son_paylasimlar") or []
     temiz_onceki = []
     if isinstance(onceki_liste, list):
         for item in onceki_liste:
             if not isinstance(item, dict):
                 continue
-            raw_t = item.get("title") or item.get("baslik") or item.get("name") or ""
-            raw_p = item.get("price") or item.get("fiyat") or "0,00 TL"
-            raw_d = item.get
+            t = baslik_temizle(str(item.get("title") or ""))
+            if not t:
+                continue
+            s = str(item.get("satis") or item.get("price") or "").strip()
+            if not s or s.lower() == "undefined":
+                continue
+            ind = str(item.get("ind") or item.get("discount") or "%0").strip()
+            if not ind or ind.lower() == "undefined":
+                ind = "%0"
+            temiz_onceki.append(
+                {
+                    "title": t,
+                    "satis": s,
+                    "ind": ind,
+                }
+            )
+
+    eklenen_kayitlar = [
+        {
+            "title": x["title"],
+            "satis": tr_para(x["satis"]),
+            "ind": f"%{x['ind']}" if x.get("ind") else "%0",
+            "eski": tr_para(x["eski"]) if x.get("eski") else "",
+            "asin": x["asin"],
+            "link": x["link"],
+            "img": x["img"],
+            "zaman": zaman,
+        }
+        for x in reversed(yeni_paylasilanlar)
+    ]
+
+    guncel_liste = (eklenen_kayitlar + temiz_onceki)[:30]
+    toplam_yeni = int(durum.get("toplam_paylasim") or 0) + len(yeni_paylasilanlar)
+
+    bildirim_metni = f"{len(yeni_paylasilanlar)} yeni fırsat {KANAL} kanalına paylaşıldı ({len(adaylar)} aday incelendi)."
+    bildirim_tip = "uyari" if len(yeni_paylasilanlar) == 0 else "ok"
+
+    eski_bildirimler = durum.get("bildirimler") or []
+    temiz_bildirimler = []
+    if isinstance(eski_bildirimler, list):
+        for b in eski_bildirimler:
+            if isinstance(b, dict):
+                m = str(b.get("mesaj") or b.get("text") or "").strip()
+                if m and m.lower() != "undefined":
+                    temiz_bildirimler.append(
+                        {
+                            "zaman": str(b.get("zaman") or b.get("time") or zaman),
+                            "mesaj": m,
+                            "tip": str(b.get("tip") or "ok"),
+                        }
+                    )
+
+    temiz_bildirimler.insert(0, {"zaman": zaman, "mesaj": bildirim_metni, "tip": bildirim_tip})
+    bildirimler = temiz_bildirimler[:30]
+
+    son_urun = eklenen_kayitlar[0] if eklenen_kayitlar else durum.get("son_urun")
+    if isinstance(son_urun, dict):
+        son_urun["title"] = baslik_temizle(str(son_urun.get("title") or ""))
+        if not son_urun.get("satis") or str(son_urun.get("satis")).lower() == "undefined":
+            son_urun["satis"] = guncel_liste[0]["satis"] if guncel_liste else "0,00 TL"
+        if not son_urun.get("ind") or str(son_urun.get("ind")).lower() == "undefined":
+            son_urun["ind"] = guncel_liste[0]["ind"] if guncel_liste else "%0"
+        if not son_urun.get("zaman"):
+            son_urun["zaman"] = zaman
+
+    yeni_durum = {
+        "son_tarama": zaman,
+        "toplam_paylasim": toplam_yeni,
+        "paylasilan_adet": len(yeni_paylasilanlar),
+        "bulunan_link": len(adaylar),
+        "durum": "hata" if hatalar else ("uyari" if len(yeni_paylasilanlar) == 0 else "ok"),
+        "hatalar": hatalar,
+        "bildirimler": bildirimler,
+        "son_urun": son_urun,
+        "son_paylasimlar": guncel_liste,
+    }
+    durum_kaydet(yeni_durum)
+    print(f"durum.json güncellendi | Son tarama: {zaman} | Yeni: {len(yeni_paylasilanlar)}")
+
+
+if __name__ == "__main__":
+    main()
