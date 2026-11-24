@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-24 04:19:26",
-  "durum": "uyari",
-  "bulunan_link": 15,
-  "paylasilan_adet": 0,
-  "toplam_paylasim": 97,
+  "son_tarama": "2026-11-24 05:35:19",
+  "durum": "ok",
+  "bulunan_link": 20,
+  "paylasilan_adet": 4,
+  "toplam_paylasim": 101,
   "bildirimler": [
+    {
+      "zaman": "2026-11-24 05:35:19",
+      "tip": "bilgi",
+      "mesaj": "4 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi)."
+    },
     {
       "zaman": "2026-11-24 04:19:26",
       "tip": "uyari",
@@ -124,25 +129,60 @@
       "zaman": "2026-11-23 06:04:57",
       "tip": "bilgi",
       "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-23 04:56:38",
-      "tip": "uyari",
-      "mesaj": "Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı."
     }
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-24 03:06:57",
-    "asin": "B0FKH57YQP",
-    "title": "Lian Li PC için 8,8 inç Evrensel Ekran - Herhangi Bir Bilgisayar Kurulumu için Ayarlanabilir Montaj - Özelleştirilebilir ARGB Çerçevesi - PC Sıcaklık Ekran Paneli - LCD Ekran Disply - Mini Monitör",
-    "satis": "4.394,00 TL",
-    "eski": "5.990,00 TL",
-    "ind": "%27",
-    "img": "https://m.media-amazon.com/images/I/71Yi1eGT8NL._AC_SR480,440_.jpg",
-    "link": "https://www.amazon.com.tr/dp/B0FKH57YQP?tag=anlikiindirim-21"
+    "zaman": "2026-11-24 05:35:19",
+    "asin": "B0CXF6MBYG",
+    "title": "Naturagen Vitamin D3 + K2 1000 IU 60 Kapsül | Glutensiz Kolay Yutulabilir Vitamin D3 K2 | 60 Yumuşak Jel Kapsül - 2 Aylık",
+    "satis": "336,90 TL",
+    "eski": "494,95 TL",
+    "ind": "%32",
+    "img": "https://m.media-amazon.com/images/I/61+7PA6w1-L._AC_SR480,440_.jpg",
+    "link": "https://www.amazon.com.tr/dp/B0CXF6MBYG?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-24 05:35:19",
+      "asin": "B0CXF6MBYG",
+      "title": "Naturagen Vitamin D3 + K2 1000 IU 60 Kapsül | Glutensiz Kolay Yutulabilir Vitamin D3 K2 | 60 Yumuşak Jel Kapsül - 2 Aylık",
+      "satis": "336,90 TL",
+      "eski": "494,95 TL",
+      "ind": "%32",
+      "img": "https://m.media-amazon.com/images/I/61+7PA6w1-L._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B0CXF6MBYG?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-24 05:35:19",
+      "asin": "B00OEFM41K",
+      "title": "DURU Saf&Doğal Lavanta Sabun, 150 Gramx4",
+      "satis": "99,50 TL",
+      "eski": "159,20 TL",
+      "ind": "%37",
+      "img": "https://m.media-amazon.com/images/I/51CQ5mncSiL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B00OEFM41K?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-24 05:35:19",
+      "asin": "B09FGWZDMD",
+      "title": "ARKO MEN Black Tıraş Köpüğü, 200 Mililitre",
+      "satis": "108,26 TL",
+      "eski": "163,18 TL",
+      "ind": "%34",
+      "img": "https://m.media-amazon.com/images/I/41PpsfiR1NL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B09FGWZDMD?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-24 05:35:19",
+      "asin": "B00MMKQOEM",
+      "title": "Rode NT-USB+ Mikrofon",
+      "satis": "11.169,42 TL",
+      "eski": "15.723,41 TL",
+      "ind": "%29",
+      "img": "https://m.media-amazon.com/images/I/51Qshd1JNaL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B00MMKQOEM?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-24 03:06:57",
       "asin": "B0FKH57YQP",
@@ -252,46 +292,6 @@
       "ind": "%42",
       "img": "https://m.media-amazon.com/images/I/7159ixMaFuL._AC_SR480,440_.jpg",
       "link": "https://www.amazon.com.tr/dp/B0HC3HVSQD?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-23 21:12:45",
-      "asin": "B0CV171GSB",
-      "title": "VARTA Power on Demand Power Bank 10.000 mAh",
-      "satis": "799,00 TL",
-      "eski": "1.139,00 TL",
-      "ind": "%30",
-      "img": "https://m.media-amazon.com/images/I/61cPMTsqu0L._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B0CV171GSB?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-23 21:12:45",
-      "asin": "B0CTCJ41VQ",
-      "title": "Kärcher SC 5 Deluxe Signature Line buharlı temizleyici, 4 bar, yakl. 130 m² yüzey performansı, 2250 W ısıtma gücü, 3 dakikada ısıtılır, halı eşdeğeri, beyaz",
-      "satis": "22.999,00 TL",
-      "eski": "30.799,00 TL",
-      "ind": "%25",
-      "img": "https://m.media-amazon.com/images/I/61YW3peceIL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0CTCJ41VQ?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-23 20:11:41",
-      "asin": "B0F5WVJZ82",
-      "title": "Stanley The Aerolight Transit Mug Termos Bardak",
-      "satis": "1.499,00 TL",
-      "eski": "2.089,00 TL",
-      "ind": "%28",
-      "img": "https://m.media-amazon.com/images/I/41qCr+JftbL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0F5WVJZ82?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-23 19:05:57",
-      "asin": "B07DXF5CDJ",
-      "title": "Scotch 4001 Güçlü Montaj Bandı, 19mmx1, 5m",
-      "satis": "149,95 TL",
-      "eski": "299,90 TL",
-      "ind": "%50",
-      "img": "https://m.media-amazon.com/images/I/81XtsHd9qCL._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B07DXF5CDJ?tag=anlikiindirim-21"
     }
   ]
 }
