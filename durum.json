@@ -1,138 +1,19 @@
 {
-  "son_tarama": "2026-11-24 15:06:50",
+  "son_tarama": "2026-11-24 15:15:01",
   "durum": "ok",
   "bulunan_link": 20,
   "paylasilan_adet": 1,
   "toplam_paylasim": 134,
   "bildirimler": [
     {
+      "time": "2026-11-24 15:15:01",
+      "text": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
+      "message": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi)."
+    },
+    {
       "time": "2026-11-24 15:06:50",
-      "text": "20 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-24 12:01:16",
-      "tip": "bilgi",
-      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-24 11:12:00",
-      "tip": "bilgi",
-      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (14 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-24 09:43:33",
-      "tip": "bilgi",
-      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (38 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-24 08:42:16",
-      "tip": "bilgi",
-      "mesaj": "6 yeni fırsat @anlikiindirim kanalına paylaşıldı (64 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-24 07:40:39",
-      "tip": "bilgi",
-      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (31 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-24 06:31:12",
-      "tip": "bilgi",
-      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (17 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-24 05:35:19",
-      "tip": "bilgi",
-      "mesaj": "4 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-24 04:19:26",
-      "tip": "uyari",
-      "mesaj": "Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı."
-    },
-    {
-      "zaman": "2026-11-24 03:06:57",
-      "tip": "bilgi",
-      "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (12 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-24 02:13:44",
-      "tip": "bilgi",
-      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (39 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-24 01:14:15",
-      "tip": "uyari",
-      "mesaj": "Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı."
-    },
-    {
-      "zaman": "2026-11-24 00:16:22",
-      "tip": "bilgi",
-      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (27 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-23 23:41:54",
-      "tip": "uyari",
-      "mesaj": "Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı."
-    },
-    {
-      "zaman": "2026-11-23 23:40:46",
-      "tip": "uyari",
-      "mesaj": "Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı."
-    },
-    {
-      "zaman": "2026-11-23 23:19:51",
-      "tip": "uyari",
-      "mesaj": "Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı."
-    },
-    {
-      "zaman": "2026-11-23 22:22:50",
-      "tip": "bilgi",
-      "mesaj": "4 yeni fırsat @anlikiindirim kanalına paylaşıldı (19 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-23 21:12:45",
-      "tip": "bilgi",
-      "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (35 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-23 20:11:41",
-      "tip": "bilgi",
-      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (32 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-23 19:05:57",
-      "tip": "bilgi",
-      "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (22 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-23 18:27:46",
-      "tip": "bilgi",
-      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (17 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-23 17:58:43",
-      "tip": "bilgi",
-      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (18 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-23 17:51:37",
-      "tip": "uyari",
-      "mesaj": "Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı."
-    },
-    {
-      "zaman": "2026-11-23 16:56:02",
-      "tip": "uyari",
-      "mesaj": "Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı."
-    },
-    {
-      "zaman": "2026-11-23 16:54:34",
-      "tip": "uyari",
-      "mesaj": "Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı."
-    },
-    {
-      "zaman": "2026-11-23 16:09:54",
-      "tip": "bilgi",
-      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (24 aday incelendi)."
+      "text": "20 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
+      "message": "20 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi)."
     }
   ],
   "hatalar": [],
@@ -147,7 +28,7 @@
   },
   "son_paylasimlar": [
     {
-      "title": "Philips Hue HDMI Sync Box 8K, 4 HDMI Bağlantısı, Akıllı Aydınlatma, Gen2 | 10 Hue lambasını senkronize eder, oyunlar/filmler/müzikler, Dolby Vision HDR10+ destekler, Hue Bridge gereklidir %10 İndirim 60 günün en düşük fiyatı 17.991,00 TL 17.991 00TL Önceki: 19.990,00 TL 19.990,00 TL",
+      "title": "Philips Hue HDMI Sync Box 8K, 4 HDMI Bağlantısı, Akıllı Aydınlatma, Gen2 | 10 Hue lambasını senkronize eder,",
       "price": "17.991,00 TL",
       "discount": "%10",
       "asin": "B0DGQSY3ZT",
@@ -156,7 +37,7 @@
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "Hawk Gaming Chair Fab E1 Siyah Kumaş Oyuncu Koltuğu %6 İndirim 60 günün en düşük fiyatı 7.999,00 TL 7.999 00TL Önceki: 8.499,00 TL 8.499,00 TL",
+      "title": "Hawk Gaming Chair Fab E1 Siyah Kumaş Oyuncu Koltuğu",
       "price": "7.999,00 TL",
       "discount": "%6",
       "asin": "B0GPQKFJNT",
@@ -165,34 +46,34 @@
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "Tapo TP-Link C211 2K 3MP Yatay ve Dikey Ev Güvenliği Wi-Fi Kamerası 365 günün en düşük fiyatı Kalan süre: 999,00 TL 999 00TL",
+      "title": "Tapo TP-Link C211 2K 3MP Yatay ve Dikey Ev Güvenliği Wi-Fi Kamerası",
       "price": "999,00 TL",
-      "discount": "",
+      "discount": "%0",
       "asin": "B0CHFG8XBZ",
       "url": "https://www.amazon.com.tr/dp/B0CHFG8XBZ?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/715bn0KtBNL._AC_SR480,440_.jpg",
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "Nekteck Premium Kablosuz Boyun & Omuz & Sırt Masaj Aleti, 16 Başlıklı Derin Shiatsu Yoğurma Masajı, 45°C Isıtmalı, 3 Yoğunluk Seviyesi, Çift Yönlü Masaj Gülümseten Kasım fırsatı 5.499,00 TL 5.499 00TL",
+      "title": "Nekteck Premium Kablosuz Boyun & Omuz & Sırt Masaj Aleti, 16 Başlıklı Derin Shiatsu Yoğurma Masajı, 45°C Isıtmalı, 3",
       "price": "5.499,00 TL",
-      "discount": "",
+      "discount": "%0",
       "asin": "B0FLCN49MR",
       "url": "https://www.amazon.com.tr/dp/B0FLCN49MR?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/71PjpzyF70L._AC_SR480,440_.jpg",
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "H2ofloss Şarjlı Kablosuz Ağız Duşu, Hızlı ve Etkili Diş Arası Temizliği – 300 ml Su Hazneli, 5 Modlu, 6 Başlıklı, IPX7 Su Geçirmez, Diş Taşı Temizliği (Beyaz) Gülümseten Kasım fırsatı 1.999,00 TL 1.999 00TL",
+      "title": "H2ofloss Şarjlı Kablosuz Ağız Duşu, Hızlı ve Etkili Diş Arası Temizliği – 300 ml Su Hazneli, 5 Modlu, 6 Başlıklı,",
       "price": "1.999,00 TL",
-      "discount": "",
+      "discount": "%0",
       "asin": "B07T7M2VT2",
       "url": "https://www.amazon.com.tr/dp/B07T7M2VT2?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/71PbpzQMMtL._AC_SR480,440_.jpg",
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "Stanley Quencher Pipetli Termos Bardak, 1.18 L %41 İndirim 365 günün en düşük fiyatı 1.694,96 TL 1.694 96TL Önceki: 2.849,05 TL 2.849,05 TL",
+      "title": "Stanley Quencher Pipetli Termos Bardak, 1.18 L",
       "price": "1.694,96 TL",
       "discount": "%41",
       "asin": "B0GBX4JQRJ",
@@ -201,7 +82,7 @@
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "Anthony Jackson Ultra Hafif ABS Valiz TRION (Antrasit, 3'lü Set) %20 İndirim 30 günün en düşük fiyatı 3.550,00 TL 3.550 00TL Önceki: 4.449,90 TL 4.449,90 TL",
+      "title": "Anthony Jackson Ultra Hafif ABS Valiz TRION (Antrasit, 3'lü Set)",
       "price": "3.550,00 TL",
       "discount": "%20",
       "asin": "B0FKH5MWN3",
@@ -210,16 +91,16 @@
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "MOVA V50 Ultra Complete Robot Süpürge, 24.000 Pa Emiş Gücü, Versalift Sensör, Sıcak Su ile Mop Temizleme, Sıcak Hava ile Kurutma, 6 cm'ye Kadar Engel Aşma, 3 Yıl Garanti 365 günün en düşük fiyatı 39.899,00 TL 39.899 00TL",
+      "title": "MOVA V50 Ultra Complete Robot Süpürge, 24.000 Pa Emiş Gücü, Versalift Sensör, Sıcak Su ile Mop Temizleme, Sıcak Hava",
       "price": "39.899,00 TL",
-      "discount": "",
+      "discount": "%0",
       "asin": "B0DZ2YC2VG",
       "url": "https://www.amazon.com.tr/dp/B0DZ2YC2VG?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/61Pkyw7Sz1L._AC_SR480,440_.jpg",
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "Lenovo IdeaPad Slim 3 Intel Core 5 320 16GB 512GB SSD 15.3\" WUXGA FreeDOS 83RR00HUTR %3 İndirim 365 günün en düşük fiyatı 38.999,00 TL 38.999 00TL Önceki: 39.999,00 TL 39.999,00 TL",
+      "title": "Lenovo IdeaPad Slim 3 Intel Core 5 320 16GB 512GB SSD 15.3\" WUXGA FreeDOS 83RR00HUTR",
       "price": "38.999,00 TL",
       "discount": "%3",
       "asin": "B0HCYVGLS3",
@@ -228,16 +109,16 @@
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "Samsung Galaxy A18 LTE, Siyah, 128 GB Depolama, 4 GB RAM, 50 MP Kamera, 5000 mAh Batarya, 6,7 inç Super AMOLED Ekran, 6 Nesil İşletim Sistemi Yükseltmesi (Samsung Türkiye Versiyonu) 365 günün en düşük fiyatı 14.999,00 TL 14.999 00TL",
+      "title": "Samsung Galaxy A18 LTE, Siyah, 128 GB Depolama, 4 GB RAM, 50 MP Kamera, 5000 mAh Batarya, 6,7 inç Super AMOLED",
       "price": "14.999,00 TL",
-      "discount": "",
+      "discount": "%0",
       "asin": "B0HKT4F35W",
       "url": "https://www.amazon.com.tr/dp/B0HKT4F35W?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/6145LXnMcPL._AC_SR480,440_.jpg",
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "Emsan Közde Türk Kahve Makinesi Shiny Black %14 İndirim 90 günün en düşük fiyatı 1.115,00 TL 1.115 00TL Önceki: 1.299,00 TL 1.299,00 TL",
+      "title": "Emsan Közde Türk Kahve Makinesi Shiny Black",
       "price": "1.115,00 TL",
       "discount": "%14",
       "asin": "B0GNN6JYSC",
@@ -246,7 +127,7 @@
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "Delonghi Magnifica Evo Otomatik Kahve Makinesi, MyLatte, ECAM292.81.B | LatteCrema Hot Teknolojisi, MyLatte Fonksiyonu, 13 Öğütme Ayarı, Renkli İkonlu Panel %8 İndirim 365 günün en düşük fiyatı 23.999,00 TL 23.999 00TL Önceki: 25.999,00 TL 25.999,00 TL",
+      "title": "Delonghi Magnifica Evo Otomatik Kahve Makinesi, MyLatte, ECAM292.81.B | LatteCrema Hot Teknolojisi, MyLatte",
       "price": "23.999,00 TL",
       "discount": "%8",
       "asin": "B09CGRQ965",
@@ -255,7 +136,7 @@
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "HUAWEI MatePad Air 12\"PaperMatte Tablet, 12+256GB,Bulut Mavisi + Klavye | 10100mAh, WiFi 7, 1200 nit, 2.8K Çözünürlük, 509 g, 66 W SuperCharge, 6 Hoparlörlü Ses Sistemi, 50 MP Arka Kamera %13 İndirim 365 günün en düşük fiyatı 47.999,00 TL 47.999 00TL Önceki: 54.999,00 TL 54.999,00 TL",
+      "title": "HUAWEI MatePad Air 12\"PaperMatte Tablet, 12+256GB,Bulut Mavisi + Klavye | 10100mAh, WiFi 7, 1200 nit, 2.8K",
       "price": "47.999,00 TL",
       "discount": "%13",
       "asin": "B0HJV5HVKL",
@@ -264,7 +145,7 @@
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "LEGO Icons Yüzüklerin Efendisi: Minas Tirith 11377 | Yetişkinler için Ak Gandalf İçeren Koleksiyonluk Dekoratif Model Yapım Seti, Hediye Fikri (8278 Parça) %21 İndirim 365 günün en düşük fiyatı 38.699,90 TL 38.699 90TL Önceki: 49.239,50 TL 49.239,50 TL",
+      "title": "LEGO Icons Yüzüklerin Efendisi: Minas Tirith 11377 | Yetişkinler için Ak Gandalf İçeren Koleksiyonluk Dekoratif",
       "price": "38.699,90 TL",
       "discount": "%21",
       "asin": "B07BT89GTP",
@@ -273,7 +154,7 @@
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "MSI CYBORG 15 B13WFKG-494XTR Dizüstü Bilgisayar, GeForce RTX5060 GDDR7 8GB, Intel Core I7-13620H, 15.6 FHD 144Hz, 16GB RAM DDR5, 1TB SSD, DOS %4 İndirim Gülümseten Kasım fırsatı 76.599,00 TL 76.599 00TL Önceki: 79.849,00 TL 79.849,00 TL",
+      "title": "MSI CYBORG 15 B13WFKG-494XTR Dizüstü Bilgisayar, GeForce RTX5060 GDDR7 8GB, Intel Core I7-13620H, 15.6 FHD 144Hz,",
       "price": "76.599,00 TL",
       "discount": "%4",
       "asin": "B0FW4QYZS6",
@@ -282,16 +163,16 @@
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "Karcher KST 2 + cloth set 3.2 Bar Buharlı Temizlik Makinesi Gülümseten Kasım fırsatı 5.000,00 TL 5.000 00TL",
+      "title": "Karcher KST 2 + cloth set 3.2 Bar Buharlı Temizlik Makinesi Gülümseten Kasım fırsatı",
       "price": "5.000,00 TL",
-      "discount": "",
+      "discount": "%0",
       "asin": "B0FQ642SG9",
       "url": "https://www.amazon.com.tr/dp/B0FQ642SG9?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/613+yk3nTVL._AC_SR480,440_.jpg",
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "LEGO Star Wars Ölüm Yıldızı 75419 | Yetişkinler için İmparator Palpatine'in Taht Odası Dahil Orijinal Detaylar İçeren Model Yapım Seti, Hediye Fikri (9023 Parça) %7 İndirim 365 günün en düşük fiyatı 41.704,05 TL 41.704 05TL Önceki: 44.999,00 TL 44.999,00 TL",
+      "title": "LEGO Star Wars Ölüm Yıldızı 75419 | Yetişkinler için İmparator Palpatine'in Taht Odası Dahil Orijinal Detaylar",
       "price": "41.704,05 TL",
       "discount": "%7",
       "asin": "B0FPXFMGVT",
@@ -300,7 +181,7 @@
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "Fakir Drywind Nem Alma Cihazı %8 İndirim 90 günün en düşük fiyatı 24.333,47 TL 24.333 47TL Önceki: 26.325,00 TL 26.325,00 TL",
+      "title": "Fakir Drywind Nem Alma Cihazı",
       "price": "24.333,47 TL",
       "discount": "%8",
       "asin": "B09QL8BJC8",
@@ -309,18 +190,18 @@
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "MSI CYBORG A15 C1WE-057XTR Dizüstü Bilgisayar, RYZEN 7 170, 15.6 FHD 144HZ, 16GB RAM DDR5, RTX5050 GDDR7 8GB, 1TB SSD, DOS 365 günün en düşük fiyatı 59.999,00 TL 59.999 00TL",
+      "title": "MSI CYBORG A15 C1WE-057XTR Dizüstü Bilgisayar, RYZEN 7 170, 15.6 FHD 144HZ, 16GB RAM DDR5, RTX5050 GDDR7 8GB, 1TB",
       "price": "59.999,00 TL",
-      "discount": "",
+      "discount": "%0",
       "asin": "B0HPF9G6D4",
       "url": "https://www.amazon.com.tr/dp/B0HPF9G6D4?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/716GFOfvEHL._AC_SR480,440_.jpg",
       "time": "2026-11-24 15:06:50"
     },
     {
-      "title": "Philips 5500 Serisi LatteGo Tam Otomatik Espresso Makinesi (EP5547/90) Ve Espresso Makinesi Kahve Yağı Çözücü Tablet (CA6704/10) Gülümseten Kasım fırsatı 22.948,00 TL 22.948 00TL",
+      "title": "Philips 5500 Serisi LatteGo Tam Otomatik Espresso Makinesi (EP5547/90) Ve Espresso Makinesi Kahve Yağı Çözücü Tablet",
       "price": "22.948,00 TL",
-      "discount": "",
+      "discount": "%0",
       "asin": "B0GCZGMSDT",
       "url": "https://www.amazon.com.tr/dp/B0GCZGMSDT?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/51wb2FzLg5L._AC_SR480,440_.jpg",
@@ -334,7 +215,10 @@
       "eski": "15.499,00 TL",
       "ind": "%48",
       "img": "https://m.media-amazon.com/images/I/7142qUhGQoL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0GFGDNZYF?tag=anlikiindirim-21"
+      "link": "https://www.amazon.com.tr/dp/B0GFGDNZYF?tag=anlikiindirim-21",
+      "price": "0,00 TL",
+      "discount": "%0",
+      "time": "2026-11-24 15:15:01"
     },
     {
       "zaman": "2026-11-24 11:12:00",
@@ -344,7 +228,10 @@
       "eski": "375,00 TL",
       "ind": "%57",
       "img": "https://m.media-amazon.com/images/I/51HVt5JeRBL._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B0HDZZZFX8?tag=anlikiindirim-21"
+      "link": "https://www.amazon.com.tr/dp/B0HDZZZFX8?tag=anlikiindirim-21",
+      "price": "0,00 TL",
+      "discount": "%0",
+      "time": "2026-11-24 15:15:01"
     },
     {
       "zaman": "2026-11-24 11:12:00",
@@ -354,7 +241,10 @@
       "eski": "789,00 TL",
       "ind": "%28",
       "img": "https://m.media-amazon.com/images/I/815N0liTzqL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B009PIIMXA?tag=anlikiindirim-21"
+      "link": "https://www.amazon.com.tr/dp/B009PIIMXA?tag=anlikiindirim-21",
+      "price": "0,00 TL",
+      "discount": "%0",
+      "time": "2026-11-24 15:15:01"
     },
     {
       "zaman": "2026-11-24 09:43:33",
@@ -364,17 +254,23 @@
       "eski": "1.499,99 TL",
       "ind": "%30",
       "img": "https://m.media-amazon.com/images/I/61D4fpU6hHL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0DJCJVWXK?tag=anlikiindirim-21"
+      "link": "https://www.amazon.com.tr/dp/B0DJCJVWXK?tag=anlikiindirim-21",
+      "price": "0,00 TL",
+      "discount": "%0",
+      "time": "2026-11-24 15:15:01"
     },
     {
       "zaman": "2026-11-24 08:42:16",
       "asin": "B0FHQRPNJZ",
-      "title": "Belkin USB-C Duvar Şarj Cihazı, 65W, Hızlı Şarj Bloku, Tip C Telefon Şarj Cihazı, Apple iPhone 16/15/14/13, Galaxy S25, Google Pixel 9, MacBook, iPad, AirPods, Chromebook ve Daha Fazlası - Beyaz",
+      "title": "Belkin USB-C Duvar Şarj Cihazı, 65W, Hızlı Şarj Bloku, Tip C Telefon Şarj Cihazı, Apple iPhone 16/15/14/13, Galaxy",
       "satis": "599,00 TL",
       "eski": "899,00 TL",
       "ind": "%33",
       "img": "https://m.media-amazon.com/images/I/41cBV74aK8L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0FHQRPNJZ?tag=anlikiindirim-21"
+      "link": "https://www.amazon.com.tr/dp/B0FHQRPNJZ?tag=anlikiindirim-21",
+      "price": "0,00 TL",
+      "discount": "%0",
+      "time": "2026-11-24 15:15:01"
     },
     {
       "zaman": "2026-11-24 08:42:16",
@@ -384,7 +280,10 @@
       "eski": "8.315,21 TL",
       "ind": "%34",
       "img": "https://m.media-amazon.com/images/I/715JE2pAN6L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0CFDW1NF9?tag=anlikiindirim-21"
+      "link": "https://www.amazon.com.tr/dp/B0CFDW1NF9?tag=anlikiindirim-21",
+      "price": "0,00 TL",
+      "discount": "%0",
+      "time": "2026-11-24 15:15:01"
     },
     {
       "zaman": "2026-11-24 08:42:16",
@@ -394,7 +293,10 @@
       "eski": "2.999,99 TL",
       "ind": "%30",
       "img": "https://m.media-amazon.com/images/I/610JD4rNy1L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0HN548TJW?tag=anlikiindirim-21"
+      "link": "https://www.amazon.com.tr/dp/B0HN548TJW?tag=anlikiindirim-21",
+      "price": "0,00 TL",
+      "discount": "%0",
+      "time": "2026-11-24 15:15:01"
     },
     {
       "zaman": "2026-11-24 08:42:16",
@@ -404,7 +306,10 @@
       "eski": "9.599,20 TL",
       "ind": "%29",
       "img": "https://m.media-amazon.com/images/I/81kd6uXEZSL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0FL9Q9HQ9?tag=anlikiindirim-21"
+      "link": "https://www.amazon.com.tr/dp/B0FL9Q9HQ9?tag=anlikiindirim-21",
+      "price": "0,00 TL",
+      "discount": "%0",
+      "time": "2026-11-24 15:15:01"
     },
     {
       "zaman": "2026-11-24 08:42:16",
@@ -414,7 +319,10 @@
       "eski": "15.999,00 TL",
       "ind": "%28",
       "img": "https://m.media-amazon.com/images/I/61qX8J1Ub8L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0FHXMJKQ7?tag=anlikiindirim-21"
+      "link": "https://www.amazon.com.tr/dp/B0FHXMJKQ7?tag=anlikiindirim-21",
+      "price": "0,00 TL",
+      "discount": "%0",
+      "time": "2026-11-24 15:15:01"
     },
     {
       "zaman": "2026-11-24 08:42:16",
@@ -424,10 +332,13 @@
       "eski": "2.410,38 TL",
       "ind": "%30",
       "img": "https://m.media-amazon.com/images/I/51YxLtxdvPL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0BPHC6JV4?tag=anlikiindirim-21"
+      "link": "https://www.amazon.com.tr/dp/B0BPHC6JV4?tag=anlikiindirim-21",
+      "price": "0,00 TL",
+      "discount": "%0",
+      "time": "2026-11-24 15:15:01"
     }
   ],
-  "son_tur_paylasim": 20,
-  "son_tur_aday": 20,
-  "ort_indirim": "%13"
+  "son_tur_paylasim": 0,
+  "son_tur_aday": 0,
+  "ort_indirim": "%5"
 }
