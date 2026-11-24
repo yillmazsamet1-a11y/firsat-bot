@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-24 02:13:44",
+  "son_tarama": "2026-11-24 03:06:57",
   "durum": "ok",
-  "bulunan_link": 39,
-  "paylasilan_adet": 2,
-  "toplam_paylasim": 94,
+  "bulunan_link": 12,
+  "paylasilan_adet": 3,
+  "toplam_paylasim": 97,
   "bildirimler": [
+    {
+      "zaman": "2026-11-24 03:06:57",
+      "tip": "bilgi",
+      "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (12 aday incelendi)."
+    },
     {
       "zaman": "2026-11-24 02:13:44",
       "tip": "bilgi",
@@ -124,25 +129,50 @@
       "zaman": "2026-11-23 03:44:43",
       "tip": "bilgi",
       "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (24 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-23 02:44:35",
-      "tip": "bilgi",
-      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (19 aday incelendi)."
     }
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-24 02:13:44",
-    "asin": "B0GPQ5H2LM",
-    "title": "JBL Go5, Bluetooth Hoparlör, IP68, Mavi | Güçlü JBL Pro Ses, AirTouch Pairing, Auracast, Ambient Edge aydınlatma, Bluetooth 6.0 ve 10 saate kadar çalma",
-    "satis": "1.775,55 TL",
-    "eski": "2.564,15 TL",
-    "ind": "%31",
-    "img": "https://m.media-amazon.com/images/I/716VC4UUy0L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-    "link": "https://www.amazon.com.tr/dp/B0GPQ5H2LM?tag=anlikiindirim-21"
+    "zaman": "2026-11-24 03:06:57",
+    "asin": "B0FKH57YQP",
+    "title": "Lian Li PC için 8,8 inç Evrensel Ekran - Herhangi Bir Bilgisayar Kurulumu için Ayarlanabilir Montaj - Özelleştirilebilir ARGB Çerçevesi - PC Sıcaklık Ekran Paneli - LCD Ekran Disply - Mini Monitör",
+    "satis": "4.394,00 TL",
+    "eski": "5.990,00 TL",
+    "ind": "%27",
+    "img": "https://m.media-amazon.com/images/I/71Yi1eGT8NL._AC_SR480,440_.jpg",
+    "link": "https://www.amazon.com.tr/dp/B0FKH57YQP?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-24 03:06:57",
+      "asin": "B0FKH57YQP",
+      "title": "Lian Li PC için 8,8 inç Evrensel Ekran - Herhangi Bir Bilgisayar Kurulumu için Ayarlanabilir Montaj - Özelleştirilebilir ARGB Çerçevesi - PC Sıcaklık Ekran Paneli - LCD Ekran Disply - Mini Monitör",
+      "satis": "4.394,00 TL",
+      "eski": "5.990,00 TL",
+      "ind": "%27",
+      "img": "https://m.media-amazon.com/images/I/71Yi1eGT8NL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B0FKH57YQP?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-24 03:06:57",
+      "asin": "B07YCRDLQZ",
+      "title": "Finish Bulaşık Makinesi Parlatıcı & Kurutucu Limonlu (1 x 800 ml)",
+      "satis": "159,90 TL",
+      "eski": "222,35 TL",
+      "ind": "%28",
+      "img": "https://m.media-amazon.com/images/I/51SVGXpifUL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B07YCRDLQZ?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-24 03:06:57",
+      "asin": "B0CGX2PK93",
+      "title": "DURU Fresh Sensations Ocean Sabun, 100 Gramx4",
+      "satis": "95,35 TL",
+      "eski": "159,20 TL",
+      "ind": "%40",
+      "img": "https://m.media-amazon.com/images/I/71BS5FKX-nL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B0CGX2PK93?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-24 02:13:44",
       "asin": "B0GPQ5H2LM",
@@ -262,36 +292,6 @@
       "ind": "%50",
       "img": "https://m.media-amazon.com/images/I/81XtsHd9qCL._AC_SR480,440_.jpg",
       "link": "https://www.amazon.com.tr/dp/B07DXF5CDJ?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-23 19:05:57",
-      "asin": "B07JGBFMP8",
-      "title": "Parex Multi Yedek Mop 2'li",
-      "satis": "149,00 TL",
-      "eski": "199,00 TL",
-      "ind": "%25",
-      "img": "https://m.media-amazon.com/images/I/71VXcyp57-L._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B07JGBFMP8?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-23 19:05:57",
-      "asin": "B06X16K1FW",
-      "title": "Nordic Ware Non-Stick Novelty Beehive Cake Pan",
-      "satis": "2.024,55 TL",
-      "eski": "3.149,30 TL",
-      "ind": "%36",
-      "img": "https://m.media-amazon.com/images/I/51Ovj73+jnL._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B06X16K1FW?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-23 18:27:46",
-      "asin": "B0DMTJ6472",
-      "title": "Fashcolle Black Star Işıklı - Masaj Özellikli Oyuncu Koltuğu Black",
-      "satis": "3.799,00 TL",
-      "eski": "5.499,00 TL",
-      "ind": "%31",
-      "img": "https://m.media-amazon.com/images/I/61BRN6ykqgL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B0DMTJ6472?tag=anlikiindirim-21"
     }
   ]
 }
