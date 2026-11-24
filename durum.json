@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-24 08:42:16",
+  "son_tarama": "2026-11-24 09:43:33",
   "durum": "ok",
-  "bulunan_link": 64,
-  "paylasilan_adet": 6,
-  "toplam_paylasim": 110,
+  "bulunan_link": 38,
+  "paylasilan_adet": 1,
+  "toplam_paylasim": 111,
   "bildirimler": [
+    {
+      "zaman": "2026-11-24 09:43:33",
+      "tip": "bilgi",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (38 aday incelendi)."
+    },
     {
       "zaman": "2026-11-24 08:42:16",
       "tip": "bilgi",
@@ -124,25 +129,30 @@
       "zaman": "2026-11-23 11:23:18",
       "tip": "bilgi",
       "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (27 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-23 10:17:30",
-      "tip": "uyari",
-      "mesaj": "Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı."
     }
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-24 08:42:16",
-    "asin": "B0FHQRPNJZ",
-    "title": "Belkin USB-C Duvar Şarj Cihazı, 65W, Hızlı Şarj Bloku, Tip C Telefon Şarj Cihazı, Apple iPhone 16/15/14/13, Galaxy S25, Google Pixel 9, MacBook, iPad, AirPods, Chromebook ve Daha Fazlası - Beyaz",
-    "satis": "599,00 TL",
-    "eski": "899,00 TL",
-    "ind": "%33",
-    "img": "https://m.media-amazon.com/images/I/41cBV74aK8L._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-    "link": "https://www.amazon.com.tr/dp/B0FHQRPNJZ?tag=anlikiindirim-21"
+    "zaman": "2026-11-24 09:43:33",
+    "asin": "B0DJCJVWXK",
+    "title": "Victoria Koyu Mavi Premium Blue Jean Pantolon 101072-A3035",
+    "satis": "1.049,99 TL",
+    "eski": "1.499,99 TL",
+    "ind": "%30",
+    "img": "https://m.media-amazon.com/images/I/61D4fpU6hHL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+    "link": "https://www.amazon.com.tr/dp/B0DJCJVWXK?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-24 09:43:33",
+      "asin": "B0DJCJVWXK",
+      "title": "Victoria Koyu Mavi Premium Blue Jean Pantolon 101072-A3035",
+      "satis": "1.049,99 TL",
+      "eski": "1.499,99 TL",
+      "ind": "%30",
+      "img": "https://m.media-amazon.com/images/I/61D4fpU6hHL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0DJCJVWXK?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-24 08:42:16",
       "asin": "B0FHQRPNJZ",
@@ -282,16 +292,6 @@
       "ind": "%27",
       "img": "https://m.media-amazon.com/images/I/71Yi1eGT8NL._AC_SR480,440_.jpg",
       "link": "https://www.amazon.com.tr/dp/B0FKH57YQP?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-24 03:06:57",
-      "asin": "B07YCRDLQZ",
-      "title": "Finish Bulaşık Makinesi Parlatıcı & Kurutucu Limonlu (1 x 800 ml)",
-      "satis": "159,90 TL",
-      "eski": "222,35 TL",
-      "ind": "%28",
-      "img": "https://m.media-amazon.com/images/I/51SVGXpifUL._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B07YCRDLQZ?tag=anlikiindirim-21"
     }
   ]
 }
