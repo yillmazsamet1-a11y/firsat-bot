@@ -1,4 +1,4 @@
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timedelta, timezone
 import json
 import os
 import re
@@ -16,7 +16,6 @@ DURUM_DOSYASI = os.path.join(BASE_DIR, "durum.json")
 TEKRAR_SURESI_SN = 24 * 3600
 
 TR_TZ = timezone(timedelta(hours=3))
-
 TARAMA_URL = os.environ.get(
     "AMAZON_DEAL_URL",
     "https://www.amazon.com.tr/deals",
@@ -146,8 +145,7 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
                             title: title.replace(/\s+/g, ' ').trim(),
                             img,
                             prices: priceMatches.slice(0, 4),
-                            discount: discMatch ? parseInt(discMatch[1], 10) : null,
-                            url: `https://www.amazon.com.tr/dp/${asin}?tag=TAG_PLACEHOLDER`
+                            discount: discMatch ? parseInt(discMatch[1], 10) : null
                         });
                     }
                     if (out.length >= maxItems) break;
@@ -314,7 +312,11 @@ def main() -> None:
         for x in guncel_liste
         if re.sub(r"\D", "", str(x.get("discount") or ""))
     ]
-    ort_ind = f"%{round(sum(indirim_listesi) / len(indirim_listesi))}" if indirim_listesi else (durum.get("ort_indirim") or "%0")
+    ort_ind = (
+        f"%{round(sum(indirim_listesi) / len(indirim_listesi))}"
+        if indirim_listesi
+        else (durum.get("ort_indirim") or "%0")
+    )
 
     bildirimler = durum.get("bildirimler")
     if not isinstance(bildirimler, list):
