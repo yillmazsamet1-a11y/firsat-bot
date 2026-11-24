@@ -1,3 +1,4 @@
+from datetime import datetime, timezone, timedelta
 import json
 import os
 import re
@@ -11,7 +12,23 @@ TAG = os.environ.get("AMAZON_ASSOCIATE_TAG", "anlikiindirim-21").strip()
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 GECMIS_DOSYASI = os.path.join(BASE_DIR, "paylasilan_gecmisi.json")
+DURUM_DOSYASI = os.path.join(BASE_DIR, "durum.json")
 TEKRAR_SURESI_SN = 24 * 3600
+
+TR_TZ = timezone(timedelta(hours=3))
+
+TARAMA_URL = os.environ.get(
+    "AMAZON_DEAL_URL",
+    "https://www.amazon.com.tr/deals",
+).strip()
+
+
+def simdi_tr_str() -> str:
+    return datetime.now(TR_TZ).strftime("%Y-%m-%d %H:%M:%S")
+
+
+def tr_para(tutar: float) -> str:
+    return f"{tutar:,.2f} TL".replace(",", "X").replace(".", ",").replace("X", ".")
 
 
 def baslik_normalize(baslik: str) -> str:
@@ -29,10 +46,7 @@ def anahtar_uret(baslik: str, fiyat) -> str | None:
     return f"{baslik_normalize(baslik)}|{fiyat_norm}"
 
 
-def daha_once_paylasildi_mi(baslik: str, fiyat) -> bool:
-    anahtar = anahtar_uret(baslik, fiyat)
-    if not anahtar:
-        return False
+def gecmis_yukle() -> dict:
     simdi = time.time()
     try:
         with open(GECMIS_DOSYASI, "r", encoding="utf-8") as f:
@@ -41,33 +55,164 @@ def daha_once_paylasildi_mi(baslik: str, fiyat) -> bool:
             kayitlar = {}
     except Exception:
         kayitlar = {}
+    return {
+        k: v
+        for k, v in kayitlar.items()
+        if isinstance(v, (int, float)) and (simdi - v) < TEKRAR_SURESI_SN
+    }
 
-    temiz = {k: v for k, v in kayitlar.items() if isinstance(v, (int, float)) and (simdi - v) < TEKRAR_SURESI_SN}
-    return anahtar in temiz
+
+def daha_once_paylasildi_mi(baslik: str, fiyat) -> bool:
+    anahtar = anahtar_uret(baslik, fiyat)
+    if not anahtar:
+        return False
+    return anahtar in gecmis_yukle()
 
 
 def paylasim_kaydet(baslik: str, fiyat) -> None:
     anahtar = anahtar_uret(baslik, fiyat)
     if not anahtar:
         return
-    simdi = time.time()
-    try:
-        with open(GECMIS_DOSYASI, "r", encoding="utf-8") as f:
-            kayitlar = json.load(f)
-        if not isinstance(kayitlar, dict):
-            kayitlar = {}
-    except Exception:
-        kayitlar = {}
-
-    kayitlar = {k: v for k, v in kayitlar.items() if isinstance(v, (int, float)) and (simdi - v) < TEKRAR_SURESI_SN}
-    kayitlar[anahtar] = simdi
+    kayitlar = gecmis_yukle()
+    kayitlar[anahtar] = time.time()
     with open(GECMIS_DOSYASI, "w", encoding="utf-8") as f:
         json.dump(kayitlar, f, ensure_ascii=False, indent=2)
 
 
+def fiyat_sayiya_cevir(metin: str) -> float | None:
+    if not metin:
+        return None
+    temiz = re.sub(r"[^\d,\.]", "", metin).strip()
+    if not temiz:
+        return None
+    if "," in temiz:
+        temiz = temiz.replace(".", "").replace(",", ".")
+    elif temiz.count(".") > 1:
+        temiz = temiz.replace(".", "")
+    try:
+        val = float(temiz)
+        return val if val > 0 else None
+    except ValueError:
+        return None
+
+
+def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
+    with sync_playwright() as p:
+        b = p.chromium.launch(headless=True)
+        ctx = b.new_context(
+            locale="tr-TR",
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/131.0.0.0 Safari/537.36"
+            ),
+        )
+        pg = ctx.new_page()
+        pg.goto(url, wait_until="domcontentloaded", timeout=45000)
+        pg.wait_for_timeout(3500)
+
+        ham_liste = pg.evaluate(
+            r"""(maxItems) => {
+                const links = Array.from(document.querySelectorAll('a[href*="/dp/"]'));
+                const seenAsin = new Set();
+                const out = [];
+
+                for (const a of links) {
+                    const href = a.getAttribute('href') || '';
+                    const m = href.match(/\/dp\/([A-Z0-9]{10})/);
+                    if (!m) continue;
+                    const asin = m[1];
+                    if (seenAsin.has(asin)) continue;
+
+                    const card = a.closest('[data-testid*="deal"], [data-testid*="card"], .a-section, .s-result-item, li, div') || a.parentElement;
+                    const text = card ? (card.innerText || '') : (a.innerText || '');
+                    const lines = text.split('\n').map(x => x.trim()).filter(Boolean);
+
+                    let title = (a.getAttribute('aria-label') || a.innerText || '').trim();
+                    if (title.length < 8) {
+                        title = lines.find(l => l.length >= 12 && !/TL|₺|%/.test(l)) || '';
+                    }
+
+                    const imgEl = card ? card.querySelector('img') : null;
+                    const img = imgEl ? (imgEl.getAttribute('src') || imgEl.getAttribute('data-src') || '') : '';
+
+                    const priceMatches = text.match(/(\d{1,3}(?:\.\d{3})*(?:,\d{2})?|\d+(?:,\d{2})?)\s*(?:TL|₺)/g) || [];
+                    const discMatch = text.match(/%\s*(\d{1,2})/);
+
+                    if (title && priceMatches.length > 0) {
+                        seenAsin.add(asin);
+                        out.push({
+                            asin,
+                            title: title.replace(/\s+/g, ' ').trim(),
+                            img,
+                            prices: priceMatches.slice(0, 4),
+                            discount: discMatch ? parseInt(discMatch[1], 10) : null,
+                            url: `https://www.amazon.com.tr/dp/${asin}?tag=TAG_PLACEHOLDER`
+                        });
+                    }
+                    if (out.length >= maxItems) break;
+                }
+                return out;
+            }""",
+            limit,
+        )
+        b.close()
+
+    sonuc = []
+    for item in ham_liste or []:
+        fiyat_sayilari = []
+        for pm in item.get("prices") or []:
+            v = fiyat_sayiya_cevir(pm)
+            if v is not None and v not in fiyat_sayilari:
+                fiyat_sayilari.append(v)
+        if not fiyat_sayilari:
+            continue
+
+        satis = fiyat_sayilari[0]
+        buyukler = [x for x in fiyat_sayilari[1:] if x > satis]
+        eski = min(buyukler) if buyukler else None
+        ind = item.get("discount")
+        if ind is None and eski and eski > satis:
+            ind = round(((eski - satis) / eski) * 100)
+
+        link = f"https://www.amazon.com.tr/dp/{item['asin']}?tag={TAG}"
+        fiyat_satiri = tr_para(satis)
+        ek = []
+        if ind:
+            ek.append(f"%{ind} indirim")
+        if eski:
+            ek.append(f"(Eski: {tr_para(eski)})")
+        if ek:
+            fiyat_satiri = f"{fiyat_satiri} — {' '.join(ek)}"
+
+        mesaj = "\n\n".join(
+            [
+                item["title"],
+                fiyat_satiri,
+                link,
+                "#tanitim #reklam #işbirliği",
+            ]
+        )
+
+        sonuc.append(
+            {
+                "asin": item["asin"],
+                "title": item["title"],
+                "img": item.get("img") or "",
+                "satis": satis,
+                "eski": eski,
+                "ind": ind,
+                "url": link,
+                "mesaj": mesaj,
+            }
+        )
+    return sonuc
+
+
 def telegrama_gonder(foto_url: str, caption: str) -> bool:
     if not TOKEN:
-        raise RuntimeError("TELEGRAM_BOT_TOKEN ortam değişkeni tanımlı değil.")
+        print("Uyarı: TELEGRAM_BOT_TOKEN tanımlı değil, Telegram gönderimi atlandı.")
+        return False
     if foto_url:
         try:
             r = requests.post(
@@ -88,28 +233,114 @@ def telegrama_gonder(foto_url: str, caption: str) -> bool:
     return True
 
 
-def urun_listesini_paylas(urunler: list[dict]) -> None:
-    # Her ürün sözlüğünde 'title', 'satis', 'img', 'mesaj' alanları beklenir
-    for u in urunler:
-        baslik = u.get("title")
-        fiyat = u.get("satis")
-        mesaj = u.get("mesaj", "")
-        img = u.get("img", "")
+def mevcut_durumu_oku() -> dict:
+    try:
+        with open(DURUM_DOSYASI, "r", encoding="utf-8") as f:
+            d = json.load(f)
+        if isinstance(d, dict):
+            return d
+    except Exception:
+        pass
+    return {
+        "son_tarama": "",
+        "toplam_paylasim": 0,
+        "son_tur_paylasim": 0,
+        "son_tur_aday": 0,
+        "ort_indirim": "",
+        "hatalar": [],
+        "bildirimler": [],
+        "son_urun": None,
+        "son_paylasimlar": [],
+    }
 
-        if daha_once_paylasildi_mi(baslik, fiyat):
-            print(f"Atlandı (aynı başlık ve fiyat 24 saat içinde paylaşıldı): {baslik} - {fiyat}")
-            continue
 
-        if telegrama_gonder(img, mesaj):
-            paylasim_kaydet(baslik, fiyat)
-            print(f"Paylaşıldı ve kaydedildi: {baslik} - {fiyat}")
+def durum_kaydet(durum: dict) -> None:
+    with open(DURUM_DOSYASI, "w", encoding="utf-8") as f:
+        json.dump(durum, f, ensure_ascii=False, indent=2)
 
 
 def main() -> None:
-    # --- KENDİ ÜRÜN ÇEKME VE PAYLAŞIM KODUN ---
-    # Bulduğun ürünleri [{'title': ..., 'satis': ..., 'img': ..., 'mesaj': ...}] listesi olarak
-    # urun_listesini_paylas(bulunan_urunler) fonksiyonuna aktarabilirsin.
-    pass
+    durum = mevcut_durumu_oku()
+    zaman = simdi_tr_str()
+    hatalar = []
+    yeni_paylasilanlar = []
+
+    try:
+        adaylar = firsatlari_cek(TARAMA_URL, limit=20)
+    except Exception as exc:
+        adaylar = []
+        hatalar.append(f"Tarama hatası: {exc}")
+
+    for u in adaylar:
+        baslik = u["title"]
+        fiyat = u["satis"]
+
+        if daha_once_paylasildi_mi(baslik, fiyat):
+            print(f"Atlandı (zaten paylaşıldı): {baslik} - {fiyat}")
+            continue
+
+        try:
+            if telegrama_gonder(u["img"], u["mesaj"]):
+                paylasim_kaydet(baslik, fiyat)
+                yeni_paylasilanlar.append(u)
+                print(f"Paylaşıldı: {baslik} - {fiyat}")
+                time.sleep(1.5)
+        except Exception as exc:
+            hatalar.append(f"Gönderim hatası ({u.get('asin')}): {exc}")
+
+    toplam_onceki = int(durum.get("toplam_paylasim") or 0)
+    toplam_yeni = toplam_onceki + len(yeni_paylasilanlar)
+
+    onceki_liste = durum.get("son_paylasimlar")
+    if not isinstance(onceki_liste, list):
+        onceki_liste = []
+
+    eklenen_kayitlar = [
+        {
+            "title": x["title"],
+            "price": tr_para(x["satis"]),
+            "discount": f"%{x['ind']}" if x.get("ind") else "",
+            "asin": x["asin"],
+            "url": x["url"],
+            "img": x["img"],
+            "time": zaman,
+        }
+        for x in reversed(yeni_paylasilanlar)
+    ]
+    guncel_liste = (eklenen_kayitlar + onceki_liste)[:30]
+
+    indirim_listesi = [
+        int(re.sub(r"\D", "", str(x.get("discount") or "")))
+        for x in guncel_liste
+        if re.sub(r"\D", "", str(x.get("discount") or ""))
+    ]
+    ort_ind = f"%{round(sum(indirim_listesi) / len(indirim_listesi))}" if indirim_listesi else (durum.get("ort_indirim") or "%0")
+
+    bildirimler = durum.get("bildirimler")
+    if not isinstance(bildirimler, list):
+        bildirimler = []
+    bildirimler.insert(
+        0,
+        {
+            "time": zaman,
+            "text": f"{len(yeni_paylasilanlar)} yeni fırsat {KANAL} kanalına paylaşıldı ({len(adaylar)} aday incelendi).",
+        },
+    )
+    bildirimler = bildirimler[:30]
+
+    durum["son_tarama"] = zaman
+    durum["toplam_paylasim"] = toplam_yeni
+    durum["son_tur_paylasim"] = len(yeni_paylasilanlar)
+    durum["son_tur_aday"] = len(adaylar)
+    durum["ort_indirim"] = ort_ind
+    durum["hatalar"] = hatalar
+    durum["bildirimler"] = bildirimler
+    if eklenen_kayitlar:
+        durum["son_urun"] = eklenen_kayitlar[0]
+    durum["son_paylasimlar"] = guncel_liste
+
+    durum_kaydet(durum)
+    print(f"durum.json güncellendi | Son tarama: {zaman} | Yeni: {len(yeni_paylasilanlar)}")
 
 
 if __name__ == "__main__":
