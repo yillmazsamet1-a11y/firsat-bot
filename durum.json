@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-24 15:21:29",
+  "son_tarama": "2026-11-24 15:33:21",
   "toplam_paylasim": 134,
   "paylasilan_adet": 0,
   "bulunan_link": 0,
   "durum": "uyari",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-24 15:33:21",
+      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
+      "tip": "uyari"
+    },
     {
       "zaman": "2026-11-24 15:21:29",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
@@ -32,158 +37,309 @@
     "time": "2026-11-24 15:06:50",
     "satis": "17.991,00 TL",
     "ind": "%10",
-    "zaman": "2026-11-24 15:21:29"
+    "zaman": "2026-11-24 15:21:29",
+    "link": "https://www.amazon.com.tr/dp/B0DGQSY3ZT?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
     {
       "title": "Philips Hue HDMI Sync Box 8K, 4 HDMI Bağlantısı, Akıllı Aydınlatma, Gen2 | 10 Hue lambasını",
       "satis": "17.991,00 TL",
-      "ind": "%10"
+      "ind": "%10",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Hawk Gaming Chair Fab E1 Siyah Kumaş Oyuncu Koltuğu",
       "satis": "7.999,00 TL",
-      "ind": "%6"
+      "ind": "%6",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Tapo TP-Link C211 2K 3MP Yatay ve Dikey Ev Güvenliği Wi-Fi Kamerası",
       "satis": "999,00 TL",
-      "ind": "%0"
+      "ind": "%0",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Nekteck Premium Kablosuz Boyun & Omuz & Sırt Masaj Aleti, 16 Başlıklı Derin Shiatsu Yoğurma",
       "satis": "5.499,00 TL",
-      "ind": "%0"
+      "ind": "%0",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "H2ofloss Şarjlı Kablosuz Ağız Duşu, Hızlı ve Etkili Diş Arası Temizliği – 300 ml Su Hazneli, 5",
       "satis": "1.999,00 TL",
-      "ind": "%0"
+      "ind": "%0",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Stanley Quencher Pipetli Termos Bardak, 1.18 L",
       "satis": "1.694,96 TL",
-      "ind": "%41"
+      "ind": "%41",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Anthony Jackson Ultra Hafif ABS Valiz TRION (Antrasit, 3'lü Set)",
       "satis": "3.550,00 TL",
-      "ind": "%20"
+      "ind": "%20",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "MOVA V50 Ultra Complete Robot Süpürge, 24.000 Pa Emiş Gücü, Versalift Sensör, Sıcak Su ile Mop",
       "satis": "39.899,00 TL",
-      "ind": "%0"
+      "ind": "%0",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Lenovo IdeaPad Slim 3 Intel Core 5 320 16GB 512GB SSD 15.3\" WUXGA FreeDOS 83RR00HUTR",
       "satis": "38.999,00 TL",
-      "ind": "%3"
+      "ind": "%3",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Samsung Galaxy A18 LTE, Siyah, 128 GB Depolama, 4 GB RAM, 50 MP Kamera, 5000 mAh Batarya, 6,7",
       "satis": "14.999,00 TL",
-      "ind": "%0"
+      "ind": "%0",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Emsan Közde Türk Kahve Makinesi Shiny Black",
       "satis": "1.115,00 TL",
-      "ind": "%14"
+      "ind": "%14",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Delonghi Magnifica Evo Otomatik Kahve Makinesi, MyLatte, ECAM292.81.B | LatteCrema Hot",
       "satis": "23.999,00 TL",
-      "ind": "%8"
+      "ind": "%8",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "HUAWEI MatePad Air 12\"PaperMatte Tablet, 12+256GB,Bulut Mavisi + Klavye | 10100mAh, WiFi 7, 1200",
       "satis": "47.999,00 TL",
-      "ind": "%13"
+      "ind": "%13",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "LEGO Icons Yüzüklerin Efendisi: Minas Tirith 11377 | Yetişkinler için Ak Gandalf İçeren",
       "satis": "38.699,90 TL",
-      "ind": "%21"
+      "ind": "%21",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "MSI CYBORG 15 B13WFKG-494XTR Dizüstü Bilgisayar, GeForce RTX5060 GDDR7 8GB, Intel Core",
       "satis": "76.599,00 TL",
-      "ind": "%4"
+      "ind": "%4",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Karcher KST 2 + cloth set 3.2 Bar Buharlı Temizlik Makinesi Gülümseten Kasım fırsatı",
       "satis": "5.000,00 TL",
-      "ind": "%0"
+      "ind": "%0",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "LEGO Star Wars Ölüm Yıldızı 75419 | Yetişkinler için İmparator Palpatine'in Taht Odası Dahil",
       "satis": "41.704,05 TL",
-      "ind": "%7"
+      "ind": "%7",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Fakir Drywind Nem Alma Cihazı",
       "satis": "24.333,47 TL",
-      "ind": "%8"
+      "ind": "%8",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
-      "title": "MSI CYBORG A15 C1WE-057XTR Dizüstü Bilgisayar, RYZEN 7 170, 15.6 FHD 144HZ, 16GB RAM DDR5,",
+      "title": "MSI CYBORG A15 C1WE-057XTR Dizüstü Bilgisayar, RYZEN 7 170, 15.6 FHD 144HZ, 16GB RAM DDR5",
       "satis": "59.999,00 TL",
-      "ind": "%0"
+      "ind": "%0",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Philips 5500 Serisi LatteGo Tam Otomatik Espresso Makinesi (EP5547/90) Ve Espresso Makinesi",
       "satis": "22.948,00 TL",
-      "ind": "%0"
+      "ind": "%0",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Erkek Bot K300285-047 Camper Peu Pista GM Black",
       "satis": "8.098,23 TL",
-      "ind": "%48"
+      "ind": "%48",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "M-Pets Trusty Extra Chicken Düğümlü Kemik 75Gr/15,3Cm",
       "satis": "162,40 TL",
-      "ind": "%57"
+      "ind": "%57",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Julius Meinl President Çekirdek Kahve, Orta Kavrulmuş, Classic Aromalı, 500 g",
       "satis": "568,00 TL",
-      "ind": "%28"
+      "ind": "%28",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Victoria Koyu Mavi Premium Blue Jean Pantolon 101072-A3035",
       "satis": "1.049,99 TL",
-      "ind": "%30"
+      "ind": "%30",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Belkin USB-C Duvar Şarj Cihazı, 65W, Hızlı Şarj Bloku, Tip C Telefon Şarj Cihazı, Apple iPhone",
       "satis": "599,00 TL",
-      "ind": "%33"
+      "ind": "%33",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Camper Kadın Mw adana K201462-015",
       "satis": "5.485,73 TL",
-      "ind": "%34"
+      "ind": "%34",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Mavi Jeans Kapüşonlu Yeşil Mont Loose Fit/Bol Rahat Kesim 0110832-85485",
       "satis": "2.099,99 TL",
-      "ind": "%30"
+      "ind": "%30",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "CAMPER Peu Serra AyakkabıErkek",
       "satis": "6.839,43 TL",
-      "ind": "%29"
+      "ind": "%29",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "Sage the Distribution Duo™ Kahve Dağıtıcı 58 mm",
       "satis": "11.499,00 TL",
-      "ind": "%28"
+      "ind": "%28",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     },
     {
       "title": "SONOFF TX Ultimate Akıllı Dokunmatik Duvar Anahtarları | T5-1C-86",
       "satis": "1.687,27 TL",
-      "ind": "%30"
+      "ind": "%30",
+      "eski": "",
+      "asin": "",
+      "link": "",
+      "img": "",
+      "zaman": "2026-11-24 15:33:21"
     }
   ]
 }
