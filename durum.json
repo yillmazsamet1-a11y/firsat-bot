@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-24 19:09:53",
+  "son_tarama": "2026-11-24 20:13:35",
   "toplam_paylasim": 154,
-  "paylasilan_adet": 20,
-  "bulunan_link": 20,
-  "durum": "ok",
+  "paylasilan_adet": 0,
+  "bulunan_link": 0,
+  "durum": "uyari",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-24 20:13:35",
+      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
+      "tip": "uyari"
+    },
     {
       "zaman": "2026-11-24 19:09:53",
       "mesaj": "20 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
@@ -79,7 +84,7 @@
       "zaman": "2026-11-24 19:09:53"
     },
     {
-      "title": "MSI CYBORG A15 C1WE-057XTR Dizüstü Bilgisayar, RYZEN 7 170, 15.6 FHD 144HZ, 16GB RAM DDR5,",
+      "title": "MSI CYBORG A15 C1WE-057XTR Dizüstü Bilgisayar, RYZEN 7 170, 15.6 FHD 144HZ, 16GB RAM DDR5",
       "satis": "59.999,00 TL",
       "ind": "%0",
       "eski": "",
@@ -149,7 +154,7 @@
       "zaman": "2026-11-24 19:09:53"
     },
     {
-      "title": "SONGMICS Ofis Koltuğu, Döner Sandalye, Yönetici Koltuğu, Başlıklı Ofis Döner Koltuğu,",
+      "title": "SONGMICS Ofis Koltuğu, Döner Sandalye, Yönetici Koltuğu, Başlıklı Ofis Döner Koltuğu",
       "satis": "7.139,00 TL",
       "ind": "%21",
       "eski": "9.069,00 TL",
@@ -219,7 +224,7 @@
       "zaman": "2026-11-24 19:09:53"
     },
     {
-      "title": "Klasse Pro - 10 Farklı Model Dikişli Kenar 90x40 cm Oyuncu Gaming Mouse Pad (White Map Lines,",
+      "title": "Klasse Pro - 10 Farklı Model Dikişli Kenar 90x40 cm Oyuncu Gaming Mouse Pad (White Map Lines",
       "satis": "399,90 TL",
       "ind": "%0",
       "eski": "",
