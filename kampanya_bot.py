@@ -196,4 +196,70 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
         fiyat_satiri = tr_para(satis)
         ek = []
         if ind:
-            ek.append(f"%{ind
+            ek.append(f"%{ind} indirim")
+        if eski:
+            ek.append(f"(Eski: {tr_para(eski)})")
+        if ek:
+            fiyat_satiri = f"{fiyat_satiri} — {' '.join(ek)}"
+
+        mesaj = "\n\n".join(
+            [
+                title,
+                fiyat_satiri,
+                link,
+                "#tanitim #reklam #işbirliği",
+            ]
+        )
+
+        sonuc.append(
+            {
+                "asin": item["asin"],
+                "title": title,
+                "img": item.get("img") or "",
+                "satis": satis,
+                "eski": eski,
+                "ind": ind,
+                "url": link,
+                "mesaj": mesaj,
+            }
+        )
+    return sonuc
+
+
+def telegrama_gonder(foto_url: str, caption: str) -> bool:
+    if not TOKEN:
+        print("Uyarı: TELEGRAM_BOT_TOKEN tanımlı değil, Telegram gönderimi atlandı.")
+        return False
+    if foto_url:
+        try:
+            r = requests.post(
+                f"https://api.telegram.org/bot{TOKEN}/sendPhoto",
+                data={"chat_id": KANAL, "photo": foto_url, "caption": caption[:1024]},
+                timeout=25,
+            )
+            if r.ok:
+                return True
+        except Exception:
+            pass
+    r = requests.post(
+        f"https://api.telegram.org/bot{TOKEN}/sendMessage",
+        data={"chat_id": KANAL, "text": caption, "disable_web_page_preview": False},
+        timeout=20,
+    )
+    r.raise_for_status()
+    return True
+
+
+def mevcut_durumu_oku() -> dict:
+    try:
+        with open(DURUM_DOSYASI, "r", encoding="utf-8") as f:
+            d = json.load(f)
+        if isinstance(d, dict):
+            return d
+    except Exception:
+        pass
+    return {}
+
+
+def durum_kaydet(durum: dict) -> None:
+    with open(DUR
