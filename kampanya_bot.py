@@ -39,8 +39,8 @@ def baslik_temizle(ham_baslik: str) -> str:
         flags=re.IGNORECASE,
     )[0]
     s = re.sub(r"\s*[-–—:,;]+\s*$", "", s).strip()
-    if len(s) > 120:
-        s = s[:117].rsplit(" ", 1)[0].strip()
+    if len(s) > 110:
+        s = s[:107].rsplit(" ", 1)[0].strip()
     return s
 
 
@@ -250,6 +250,32 @@ def telegrama_gonder(foto_url: str, caption: str) -> bool:
     return True
 
 
+def urun_kaydi_yap(title: str, price_str: str, discount_str: str, asin: str, url: str, img: str, zaman: str, old_price_str: str = "") -> dict:
+    clean_t = baslik_temizle(title) or "Ürün"
+    clean_p = price_str if price_str and str(price_str).lower() != "undefined" else "0,00 TL"
+    clean_d = discount_str if discount_str and str(discount_str).lower() != "undefined" else "%0"
+    return {
+        "title": clean_t,
+        "baslik": clean_t,
+        "name": clean_t,
+        "price": clean_p,
+        "fiyat": clean_p,
+        "old_price": old_price_str,
+        "eski_fiyat": old_price_str,
+        "discount": clean_d,
+        "indirim": clean_d,
+        "asin": asin,
+        "url": url,
+        "link": url,
+        "img": img,
+        "image": img,
+        "gorsel": img,
+        "time": zaman,
+        "zaman": zaman,
+        "tarih": zaman,
+    }
+
+
 def mevcut_durumu_oku() -> dict:
     try:
         with open(DURUM_DOSYASI, "r", encoding="utf-8") as f:
@@ -258,17 +284,7 @@ def mevcut_durumu_oku() -> dict:
             return d
     except Exception:
         pass
-    return {
-        "son_tarama": "",
-        "toplam_paylasim": 0,
-        "son_tur_paylasim": 0,
-        "son_tur_aday": 0,
-        "ort_indirim": "%0",
-        "hatalar": [],
-        "bildirimler": [],
-        "son_urun": None,
-        "son_paylasimlar": [],
-    }
+    return {}
 
 
 def durum_kaydet(durum: dict) -> None:
@@ -305,109 +321,12 @@ def main() -> None:
         except Exception as exc:
             hatalar.append(f"Gönderim hatası ({u.get('asin')}): {exc}")
 
-    toplam_onceki = int(durum.get("toplam_paylasim") or 0)
-    toplam_yeni = toplam_onceki + len(yeni_paylasilanlar)
-
-    onceki_liste = durum.get("son_paylasimlar")
-    if not isinstance(onceki_liste, list):
-        onceki_liste = []
-
+    onceki_liste = durum.get("son_paylasimlar") or durum.get("paylasimlar") or []
     temiz_onceki = []
-    for item in onceki_liste:
-        if not isinstance(item, dict):
-            continue
-        temiz_ad = baslik_temizle(str(item.get("title") or ""))
-        if not temiz_ad:
-            continue
-        fiyat_str = str(item.get("price") or "").strip()
-        if not fiyat_str or fiyat_str.lower() == "undefined":
-            fiyat_str = "0,00 TL"
-        ind_str = str(item.get("discount") or "").strip()
-        if not ind_str or ind_str.lower() == "undefined":
-            ind_str = "%0"
-        temiz_onceki.append(
-            {
-                **item,
-                "title": temiz_ad,
-                "price": fiyat_str,
-                "discount": ind_str,
-                "time": item.get("time") or zaman,
-            }
-        )
-
-    eklenen_kayitlar = [
-        {
-            "title": x["title"],
-            "price": tr_para(x["satis"]),
-            "discount": f"%{x['ind']}" if x.get("ind") else "%0",
-            "asin": x["asin"],
-            "url": x["url"],
-            "img": x["img"],
-            "time": zaman,
-        }
-        for x in reversed(yeni_paylasilanlar)
-    ]
-    guncel_liste = (eklenen_kayitlar + temiz_onceki)[:30]
-
-    indirim_listesi = [
-        int(re.sub(r"\D", "", str(x.get("discount") or "")))
-        for x in guncel_liste
-        if re.sub(r"\D", "", str(x.get("discount") or ""))
-    ]
-    ort_ind = (
-        f"%{round(sum(indirim_listesi) / len(indirim_listesi))}"
-        if indirim_listesi
-        else (durum.get("ort_indirim") or "%0")
-    )
-
-    bildirim_metni = f"{len(yeni_paylasilanlar)} yeni fırsat {KANAL} kanalına paylaşıldı ({len(adaylar)} aday incelendi)."
-    eski_bildirimler = durum.get("bildirimler")
-    temiz_bildirimler = []
-    if isinstance(eski_bildirimler, list):
-        for b in eski_bildirimler:
-            if isinstance(b, dict):
-                txt = str(b.get("text") or b.get("message") or "").strip()
-                if txt and txt.lower() != "undefined":
-                    temiz_bildirimler.append(
-                        {
-                            "time": b.get("time") or zaman,
-                            "text": txt,
-                            "message": txt,
-                        }
-                    )
-            elif isinstance(b, str) and b.strip() and b.strip().lower() != "undefined":
-                temiz_bildirimler.append(
-                    {
-                        "time": zaman,
-                        "text": b.strip(),
-                        "message": b.strip(),
-                    }
-                )
-
-    temiz_bildirimler.insert(
-        0,
-        {
-            "time": zaman,
-            "text": bildirim_metni,
-            "message": bildirim_metni,
-        },
-    )
-    bildirimler = temiz_bildirimler[:30]
-
-    durum["son_tarama"] = zaman
-    durum["toplam_paylasim"] = toplam_yeni
-    durum["son_tur_paylasim"] = len(yeni_paylasilanlar)
-    durum["son_tur_aday"] = len(adaylar)
-    durum["ort_indirim"] = ort_ind
-    durum["hatalar"] = hatalar
-    durum["bildirimler"] = bildirimler
-    if eklenen_kayitlar:
-        durum["son_urun"] = eklenen_kayitlar[0]
-    durum["son_paylasimlar"] = guncel_liste
-
-    durum_kaydet(durum)
-    print(f"durum.json güncellendi | Son tarama: {zaman} | Yeni: {len(yeni_paylasilanlar)}")
-
-
-if __name__ == "__main__":
-    main()
+    if isinstance(onceki_liste, list):
+        for item in onceki_liste:
+            if not isinstance(item, dict):
+                continue
+            raw_t = item.get("title") or item.get("baslik") or item.get("name") or ""
+            raw_p = item.get("price") or item.get("fiyat") or "0,00 TL"
+            raw_d = item.get
