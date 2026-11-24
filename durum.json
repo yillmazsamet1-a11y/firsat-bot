@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-24 20:13:35",
-  "toplam_paylasim": 154,
-  "paylasilan_adet": 0,
-  "bulunan_link": 0,
-  "durum": "uyari",
+  "son_tarama": "2026-11-24 21:08:39",
+  "toplam_paylasim": 157,
+  "paylasilan_adet": 3,
+  "bulunan_link": 20,
+  "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-24 21:08:39",
+      "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-24 20:13:35",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
@@ -53,16 +58,46 @@
     }
   ],
   "son_urun": {
-    "title": "MSI CYBORG 15 B13WFKG-494XTR Dizüstü Bilgisayar, GeForce RTX5060 GDDR7 8GB, Intel Core",
-    "satis": "76.599,00 TL",
-    "ind": "%4",
-    "eski": "79.849,00 TL",
-    "asin": "B0FW4QYZS6",
-    "link": "https://www.amazon.com.tr/dp/B0FW4QYZS6?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/71BO6aGgmsL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-24 19:09:53"
+    "title": "Braun IPL Skin i·expert, Evde Tüy Alma, Ücretsiz Uygulama, Çanta, Gillette Venus, 3 Başlık, PL7253",
+    "satis": "21.649,00 TL",
+    "ind": "%12",
+    "eski": "24.499,00 TL",
+    "asin": "B0D1YHBL8P",
+    "link": "https://www.amazon.com.tr/dp/B0D1YHBL8P?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/61q6sjl0kYL._AC_SR480,440_.jpg",
+    "zaman": "2026-11-24 21:08:39"
   },
   "son_paylasimlar": [
+    {
+      "title": "Braun IPL Skin i·expert, Evde Tüy Alma, Ücretsiz Uygulama, Çanta, Gillette Venus, 3 Başlık, PL7253",
+      "satis": "21.649,00 TL",
+      "ind": "%12",
+      "eski": "24.499,00 TL",
+      "asin": "B0D1YHBL8P",
+      "link": "https://www.amazon.com.tr/dp/B0D1YHBL8P?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61q6sjl0kYL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-24 21:08:39"
+    },
+    {
+      "title": "Hasbro Marvel Legends Series Marvel Legends Ms. Marvel Aksiyon Figürü (Totally Awesome Hulk",
+      "satis": "1.584,50 TL",
+      "ind": "%37",
+      "eski": "2.526,50 TL",
+      "asin": "B0B3FZ64T5",
+      "link": "https://www.amazon.com.tr/dp/B0B3FZ64T5?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61tddo4hGWL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-24 21:08:39"
+    },
+    {
+      "title": "MOCHi MOMentum Duo Eller Serbest Göğüs Pompası | Çift Taraflı Sağım",
+      "satis": "3.299,00 TL",
+      "ind": "%13",
+      "eski": "3.788,64 TL",
+      "asin": "B0FMFQZVP5",
+      "link": "https://www.amazon.com.tr/dp/B0FMFQZVP5?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/51AjKrgJCaL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-24 21:08:39"
+    },
     {
       "title": "MSI CYBORG 15 B13WFKG-494XTR Dizüstü Bilgisayar, GeForce RTX5060 GDDR7 8GB, Intel Core",
       "satis": "76.599,00 TL",
@@ -327,36 +362,6 @@
       "title": "Anthony Jackson Ultra Hafif ABS Valiz TRION (Antrasit, 3'lü Set)",
       "satis": "3.550,00 TL",
       "ind": "%20",
-      "eski": "",
-      "asin": "",
-      "link": "",
-      "img": "",
-      "zaman": "2026-11-24 15:33:21"
-    },
-    {
-      "title": "MOVA V50 Ultra Complete Robot Süpürge, 24.000 Pa Emiş Gücü, Versalift Sensör, Sıcak Su ile Mop",
-      "satis": "39.899,00 TL",
-      "ind": "%0",
-      "eski": "",
-      "asin": "",
-      "link": "",
-      "img": "",
-      "zaman": "2026-11-24 15:33:21"
-    },
-    {
-      "title": "Lenovo IdeaPad Slim 3 Intel Core 5 320 16GB 512GB SSD 15.3\" WUXGA FreeDOS 83RR00HUTR",
-      "satis": "38.999,00 TL",
-      "ind": "%3",
-      "eski": "",
-      "asin": "",
-      "link": "",
-      "img": "",
-      "zaman": "2026-11-24 15:33:21"
-    },
-    {
-      "title": "Samsung Galaxy A18 LTE, Siyah, 128 GB Depolama, 4 GB RAM, 50 MP Kamera, 5000 mAh Batarya, 6,7",
-      "satis": "14.999,00 TL",
-      "ind": "%0",
       "eski": "",
       "asin": "",
       "link": "",
