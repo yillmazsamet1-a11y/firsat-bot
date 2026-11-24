@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-24 06:31:12",
+  "son_tarama": "2026-11-24 07:40:39",
   "durum": "ok",
-  "bulunan_link": 17,
-  "paylasilan_adet": 2,
-  "toplam_paylasim": 103,
+  "bulunan_link": 31,
+  "paylasilan_adet": 1,
+  "toplam_paylasim": 104,
   "bildirimler": [
+    {
+      "zaman": "2026-11-24 07:40:39",
+      "tip": "bilgi",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (31 aday incelendi)."
+    },
     {
       "zaman": "2026-11-24 06:31:12",
       "tip": "bilgi",
@@ -124,25 +129,30 @@
       "zaman": "2026-11-23 09:02:46",
       "tip": "uyari",
       "mesaj": "Aday ürünler bulundu ancak tamamı daha önce paylaşılmış veya aynı varyanttı."
-    },
-    {
-      "zaman": "2026-11-23 07:39:54",
-      "tip": "bilgi",
-      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (28 aday incelendi)."
     }
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-24 06:31:12",
-    "asin": "B0FSSJZ7TQ",
-    "title": "Müşteri yorumlarını görün",
-    "satis": "1.646,50 TL",
-    "eski": "2.196,00 TL",
-    "ind": "%25",
-    "img": "https://m.media-amazon.com/images/I/71-wz0d0pCL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-    "link": "https://www.amazon.com.tr/dp/B0FSSJZ7TQ?tag=anlikiindirim-21"
+    "zaman": "2026-11-24 07:40:39",
+    "asin": "B0CD5TQZKB",
+    "title": "Molly Lacivert Jean Pantolon 1013683048",
+    "satis": "1.119,99 TL",
+    "eski": "1.599,99 TL",
+    "ind": "%30",
+    "img": "https://m.media-amazon.com/images/I/51Rag0uS-IL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+    "link": "https://www.amazon.com.tr/dp/B0CD5TQZKB?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-24 07:40:39",
+      "asin": "B0CD5TQZKB",
+      "title": "Molly Lacivert Jean Pantolon 1013683048",
+      "satis": "1.119,99 TL",
+      "eski": "1.599,99 TL",
+      "ind": "%30",
+      "img": "https://m.media-amazon.com/images/I/51Rag0uS-IL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0CD5TQZKB?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-24 06:31:12",
       "asin": "B0FSSJZ7TQ",
@@ -282,16 +292,6 @@
       "ind": "%31",
       "img": "https://m.media-amazon.com/images/I/71MywNn2yLS._AC_SR480,440_.jpg",
       "link": "https://www.amazon.com.tr/dp/B07YPZLF4Z?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-23 22:22:50",
-      "asin": "B00OEFS5JA",
-      "title": "DURU Saf&Doğal Klasik Sabun, 150 Gramx4",
-      "satis": "99,50 TL",
-      "eski": "164,43 TL",
-      "ind": "%39",
-      "img": "https://m.media-amazon.com/images/I/51bBAtrmc7L._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B00OEFS5JA?tag=anlikiindirim-21"
     }
   ]
 }
