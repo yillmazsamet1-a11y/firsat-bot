@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-24 09:43:33",
+  "son_tarama": "2026-11-24 11:12:00",
   "durum": "ok",
-  "bulunan_link": 38,
-  "paylasilan_adet": 1,
-  "toplam_paylasim": 111,
+  "bulunan_link": 14,
+  "paylasilan_adet": 2,
+  "toplam_paylasim": 113,
   "bildirimler": [
+    {
+      "zaman": "2026-11-24 11:12:00",
+      "tip": "bilgi",
+      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (14 aday incelendi)."
+    },
     {
       "zaman": "2026-11-24 09:43:33",
       "tip": "bilgi",
@@ -124,25 +129,40 @@
       "zaman": "2026-11-23 12:27:32",
       "tip": "bilgi",
       "mesaj": "5 yeni fırsat @anlikiindirim kanalına paylaşıldı (35 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-23 11:23:18",
-      "tip": "bilgi",
-      "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (27 aday incelendi)."
     }
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-24 09:43:33",
-    "asin": "B0DJCJVWXK",
-    "title": "Victoria Koyu Mavi Premium Blue Jean Pantolon 101072-A3035",
-    "satis": "1.049,99 TL",
-    "eski": "1.499,99 TL",
-    "ind": "%30",
-    "img": "https://m.media-amazon.com/images/I/61D4fpU6hHL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-    "link": "https://www.amazon.com.tr/dp/B0DJCJVWXK?tag=anlikiindirim-21"
+    "zaman": "2026-11-24 11:12:00",
+    "asin": "B0HDZZZFX8",
+    "title": "M-Pets Trusty Extra Chicken Düğümlü Kemik 75Gr/15,3Cm",
+    "satis": "162,40 TL",
+    "eski": "375,00 TL",
+    "ind": "%57",
+    "img": "https://m.media-amazon.com/images/I/51HVt5JeRBL._AC_SR480,440_.jpg",
+    "link": "https://www.amazon.com.tr/dp/B0HDZZZFX8?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-24 11:12:00",
+      "asin": "B0HDZZZFX8",
+      "title": "M-Pets Trusty Extra Chicken Düğümlü Kemik 75Gr/15,3Cm",
+      "satis": "162,40 TL",
+      "eski": "375,00 TL",
+      "ind": "%57",
+      "img": "https://m.media-amazon.com/images/I/51HVt5JeRBL._AC_SR480,440_.jpg",
+      "link": "https://www.amazon.com.tr/dp/B0HDZZZFX8?tag=anlikiindirim-21"
+    },
+    {
+      "zaman": "2026-11-24 11:12:00",
+      "asin": "B009PIIMXA",
+      "title": "Julius Meinl President Çekirdek Kahve, Orta Kavrulmuş, Classic Aromalı, 500 g",
+      "satis": "568,00 TL",
+      "eski": "789,00 TL",
+      "ind": "%28",
+      "img": "https://m.media-amazon.com/images/I/815N0liTzqL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B009PIIMXA?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-24 09:43:33",
       "asin": "B0DJCJVWXK",
@@ -272,26 +292,6 @@
       "ind": "%34",
       "img": "https://m.media-amazon.com/images/I/41PpsfiR1NL._AC_SR480,440_.jpg",
       "link": "https://www.amazon.com.tr/dp/B09FGWZDMD?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-24 05:35:19",
-      "asin": "B00MMKQOEM",
-      "title": "Rode NT-USB+ Mikrofon",
-      "satis": "11.169,42 TL",
-      "eski": "15.723,41 TL",
-      "ind": "%29",
-      "img": "https://m.media-amazon.com/images/I/51Qshd1JNaL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
-      "link": "https://www.amazon.com.tr/dp/B00MMKQOEM?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-24 03:06:57",
-      "asin": "B0FKH57YQP",
-      "title": "Lian Li PC için 8,8 inç Evrensel Ekran - Herhangi Bir Bilgisayar Kurulumu için Ayarlanabilir Montaj - Özelleştirilebilir ARGB Çerçevesi - PC Sıcaklık Ekran Paneli - LCD Ekran Disply - Mini Monitör",
-      "satis": "4.394,00 TL",
-      "eski": "5.990,00 TL",
-      "ind": "%27",
-      "img": "https://m.media-amazon.com/images/I/71Yi1eGT8NL._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B0FKH57YQP?tag=anlikiindirim-21"
     }
   ]
 }
