@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-25 01:20:52",
+  "son_tarama": "2026-11-25 02:17:19",
   "toplam_paylasim": 172,
-  "paylasilan_adet": 15,
-  "bulunan_link": 20,
-  "durum": "ok",
+  "paylasilan_adet": 0,
+  "bulunan_link": 0,
+  "durum": "uyari",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-25 02:17:19",
+      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
+      "tip": "uyari"
+    },
     {
       "zaman": "2026-11-25 01:20:52",
       "mesaj": "15 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
