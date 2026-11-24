@@ -1,10 +1,15 @@
 {
-  "son_tarama": "2026-11-24 11:12:00",
+  "son_tarama": "2026-11-24 12:01:16",
   "durum": "ok",
-  "bulunan_link": 14,
-  "paylasilan_adet": 2,
-  "toplam_paylasim": 113,
+  "bulunan_link": 20,
+  "paylasilan_adet": 1,
+  "toplam_paylasim": 114,
   "bildirimler": [
+    {
+      "zaman": "2026-11-24 12:01:16",
+      "tip": "bilgi",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi)."
+    },
     {
       "zaman": "2026-11-24 11:12:00",
       "tip": "bilgi",
@@ -124,25 +129,30 @@
       "zaman": "2026-11-23 16:09:54",
       "tip": "bilgi",
       "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (24 aday incelendi)."
-    },
-    {
-      "zaman": "2026-11-23 12:27:32",
-      "tip": "bilgi",
-      "mesaj": "5 yeni fırsat @anlikiindirim kanalına paylaşıldı (35 aday incelendi)."
     }
   ],
   "hatalar": [],
   "son_urun": {
-    "zaman": "2026-11-24 11:12:00",
-    "asin": "B0HDZZZFX8",
-    "title": "M-Pets Trusty Extra Chicken Düğümlü Kemik 75Gr/15,3Cm",
-    "satis": "162,40 TL",
-    "eski": "375,00 TL",
-    "ind": "%57",
-    "img": "https://m.media-amazon.com/images/I/51HVt5JeRBL._AC_SR480,440_.jpg",
-    "link": "https://www.amazon.com.tr/dp/B0HDZZZFX8?tag=anlikiindirim-21"
+    "zaman": "2026-11-24 12:01:16",
+    "asin": "B0GFGDNZYF",
+    "title": "Erkek Bot K300285-047 Camper Peu Pista GM Black",
+    "satis": "8.098,23 TL",
+    "eski": "15.499,00 TL",
+    "ind": "%48",
+    "img": "https://m.media-amazon.com/images/I/7142qUhGQoL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+    "link": "https://www.amazon.com.tr/dp/B0GFGDNZYF?tag=anlikiindirim-21"
   },
   "son_paylasimlar": [
+    {
+      "zaman": "2026-11-24 12:01:16",
+      "asin": "B0GFGDNZYF",
+      "title": "Erkek Bot K300285-047 Camper Peu Pista GM Black",
+      "satis": "8.098,23 TL",
+      "eski": "15.499,00 TL",
+      "ind": "%48",
+      "img": "https://m.media-amazon.com/images/I/7142qUhGQoL._AC_SF226,226_QL85_.jpg?aicid=discounts-widgets-horizonte",
+      "link": "https://www.amazon.com.tr/dp/B0GFGDNZYF?tag=anlikiindirim-21"
+    },
     {
       "zaman": "2026-11-24 11:12:00",
       "asin": "B0HDZZZFX8",
@@ -282,16 +292,6 @@
       "ind": "%37",
       "img": "https://m.media-amazon.com/images/I/51CQ5mncSiL._AC_SR480,440_.jpg",
       "link": "https://www.amazon.com.tr/dp/B00OEFM41K?tag=anlikiindirim-21"
-    },
-    {
-      "zaman": "2026-11-24 05:35:19",
-      "asin": "B09FGWZDMD",
-      "title": "ARKO MEN Black Tıraş Köpüğü, 200 Mililitre",
-      "satis": "108,26 TL",
-      "eski": "163,18 TL",
-      "ind": "%34",
-      "img": "https://m.media-amazon.com/images/I/41PpsfiR1NL._AC_SR480,440_.jpg",
-      "link": "https://www.amazon.com.tr/dp/B09FGWZDMD?tag=anlikiindirim-21"
     }
   ]
 }
