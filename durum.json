@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-25 19:40:26",
+  "son_tarama": "2026-11-25 20:31:29",
   "toplam_paylasim": 202,
-  "paylasilan_adet": 18,
-  "bulunan_link": 20,
-  "durum": "ok",
+  "paylasilan_adet": 0,
+  "bulunan_link": 0,
+  "durum": "uyari",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-25 20:31:29",
+      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
+      "tip": "uyari"
+    },
     {
       "zaman": "2026-11-25 19:40:26",
       "mesaj": "18 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
@@ -150,11 +155,6 @@
       "zaman": "2026-11-24 15:15:01",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "ok"
-    },
-    {
-      "zaman": "2026-11-24 15:06:50",
-      "mesaj": "20 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
-      "tip": "ok"
     }
   ],
   "son_urun": {
@@ -199,7 +199,7 @@
       "zaman": "2026-11-25 19:40:26"
     },
     {
-      "title": "MSI CYBORG A15 C1WE-057XTR Dizüstü Bilgisayar, RYZEN 7 170, 15.6 FHD 144HZ, 16GB RAM DDR5,",
+      "title": "MSI CYBORG A15 C1WE-057XTR Dizüstü Bilgisayar, RYZEN 7 170, 15.6 FHD 144HZ, 16GB RAM DDR5",
       "satis": "59.999,00 TL",
       "ind": "%0",
       "eski": "",
