@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-25 03:07:34",
-  "toplam_paylasim": 172,
-  "paylasilan_adet": 0,
-  "bulunan_link": 0,
-  "durum": "uyari",
+  "son_tarama": "2026-11-25 04:27:14",
+  "toplam_paylasim": 181,
+  "paylasilan_adet": 9,
+  "bulunan_link": 20,
+  "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-25 04:27:14",
+      "mesaj": "9 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-25 03:07:34",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
@@ -88,16 +93,106 @@
     }
   ],
   "son_urun": {
-    "title": "Bissell PowerWash Pet, halı temizleyici, evcil hayvanlarınızdaki kirleri ve alerjenleri giderir",
-    "satis": "16.095,00 TL",
-    "ind": "%38",
-    "eski": "25.999,00 TL",
-    "asin": "B0CVXJ1VHT",
-    "link": "https://www.amazon.com.tr/dp/B0CVXJ1VHT?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/61jpCz6i2EL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-25 01:20:52"
+    "title": "Kelual Squanorm Yağlı Saçlar İçin Arındırıcı Etkili Kepek Şampuanı Refill 400ml",
+    "satis": "545,00 TL",
+    "ind": "%27",
+    "eski": "748,00 TL",
+    "asin": "B0GWN68W68",
+    "link": "https://www.amazon.com.tr/dp/B0GWN68W68?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/61s0dLSZTTL._AC_SR480,440_.jpg",
+    "zaman": "2026-11-25 04:27:14"
   },
   "son_paylasimlar": [
+    {
+      "title": "Kelual Squanorm Yağlı Saçlar İçin Arındırıcı Etkili Kepek Şampuanı Refill 400ml",
+      "satis": "545,00 TL",
+      "ind": "%27",
+      "eski": "748,00 TL",
+      "asin": "B0GWN68W68",
+      "link": "https://www.amazon.com.tr/dp/B0GWN68W68?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61s0dLSZTTL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-25 04:27:14"
+    },
+    {
+      "title": "URBAN Care Style Guide Deniz Tuzu Etkili Doğal Dalga Sağlayan Saç Spreyi 200 ml- Vegan",
+      "satis": "150,00 TL",
+      "ind": "%29",
+      "eski": "210,00 TL",
+      "asin": "B09ZTYPVFW",
+      "link": "https://www.amazon.com.tr/dp/B09ZTYPVFW?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/41MjAUW7aUL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-25 04:27:14"
+    },
+    {
+      "title": "Dyson V7 V8 V10 V11 V15 ile Uyumlu Turbo Zemin Fırça Başlığı",
+      "satis": "3.827,00 TL",
+      "ind": "%5",
+      "eski": "4.029,00 TL",
+      "asin": "B0DRVV2X81",
+      "link": "https://www.amazon.com.tr/dp/B0DRVV2X81?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61iTeiYBl2L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-25 04:27:14"
+    },
+    {
+      "title": "Finish Ultimate Plus Limon 40'lı",
+      "satis": "379,90 TL",
+      "ind": "%15",
+      "eski": "444,90 TL",
+      "asin": "B0D94LCYK3",
+      "link": "https://www.amazon.com.tr/dp/B0D94LCYK3?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/71UjUZwRusL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-25 04:27:14"
+    },
+    {
+      "title": "L'Oréal Professionnel Paris Serie Expert Absolut Repair Yıpranmış Saçlar Için Onarıcı Maske 250ml",
+      "satis": "985,00 TL",
+      "ind": "%10",
+      "eski": "1.099,00 TL",
+      "asin": "B091J4YPSZ",
+      "link": "https://www.amazon.com.tr/dp/B091J4YPSZ?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/51ShvN5mwhL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-25 04:27:14"
+    },
+    {
+      "title": "Turbo Fan, Şarjlı Hava Kompresörü, 3 Güç Modu, 52m/s Güçlü Üfleme, Bilgisayar - Araba - Klavye",
+      "satis": "1.499,00 TL",
+      "ind": "%0",
+      "eski": "",
+      "asin": "B0FND2524R",
+      "link": "https://www.amazon.com.tr/dp/B0FND2524R?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/7100PHKkcYL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-25 04:27:14"
+    },
+    {
+      "title": "Braun Vücut Tıraş Makinesi Series 5, +6 Aksesuar, Su Geçirmez, BG5550",
+      "satis": "2.499,00 TL",
+      "ind": "%0",
+      "eski": "",
+      "asin": "B0FJ8G9KX6",
+      "link": "https://www.amazon.com.tr/dp/B0FJ8G9KX6?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61JrZW-2TtL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-25 04:27:14"
+    },
+    {
+      "title": "Samsung Galaxy A18 LTE, Siyah, 128 GB Depolama, 4 GB RAM, 50 MP Kamera, 5000 mAh Batarya, 6,7",
+      "satis": "14.999,00 TL",
+      "ind": "%0",
+      "eski": "",
+      "asin": "B0HKT4F35W",
+      "link": "https://www.amazon.com.tr/dp/B0HKT4F35W?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/6145LXnMcPL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-25 04:27:14"
+    },
+    {
+      "title": "LEGO Icons Yüzüklerin Efendisi: Minas Tirith 11377 | Yetişkinler için Ak Gandalf İçeren",
+      "satis": "38.699,90 TL",
+      "ind": "%21",
+      "eski": "49.239,50 TL",
+      "asin": "B07BT89GTP",
+      "link": "https://www.amazon.com.tr/dp/B07BT89GTP?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/717OL4MiQtL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-25 04:27:14"
+    },
     {
       "title": "Bissell PowerWash Pet, halı temizleyici, evcil hayvanlarınızdaki kirleri ve alerjenleri giderir",
       "satis": "16.095,00 TL",
@@ -306,96 +401,6 @@
       "asin": "B0HPF9G6D4",
       "link": "https://www.amazon.com.tr/dp/B0HPF9G6D4?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/716GFOfvEHL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-24 19:09:53"
-    },
-    {
-      "title": "Karcher KST 2 + cloth set 3.2 Bar Buharlı Temizlik Makinesi",
-      "satis": "5.000,00 TL",
-      "ind": "%0",
-      "eski": "",
-      "asin": "B0FQ642SG9",
-      "link": "https://www.amazon.com.tr/dp/B0FQ642SG9?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/613+yk3nTVL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-24 19:09:53"
-    },
-    {
-      "title": "Philips 5500 Serisi LatteGo Tam Otomatik Espresso Makinesi (EP5547/90) Ve Espresso Makinesi",
-      "satis": "22.948,00 TL",
-      "ind": "%0",
-      "eski": "",
-      "asin": "B0GCZGMSDT",
-      "link": "https://www.amazon.com.tr/dp/B0GCZGMSDT?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/51wb2FzLg5L._AC_SR480,440_.jpg",
-      "zaman": "2026-11-24 19:09:53"
-    },
-    {
-      "title": "Gülümseten Kasım fırsatı",
-      "satis": "9.999,00 TL",
-      "ind": "%0",
-      "eski": "",
-      "asin": "B017TS96RS",
-      "link": "https://www.amazon.com.tr/dp/B017TS96RS?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/611UiM6fzmL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-24 19:09:53"
-    },
-    {
-      "title": "Desire Deluxe 40 Parça Manyetik Yapı Blok Seti | STEM & Montessori Eğitim Seti | Okul Öncesi ve",
-      "satis": "1.099,00 TL",
-      "ind": "%15",
-      "eski": "1.299,00 TL",
-      "asin": "B07QCPP9ZN",
-      "link": "https://www.amazon.com.tr/dp/B07QCPP9ZN?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/81duDs+P1yL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-24 19:09:53"
-    },
-    {
-      "title": "Caso VacuBoxx Vakumlu Saklama Kabı Seti",
-      "satis": "4.499,00 TL",
-      "ind": "%29",
-      "eski": "6.299,00 TL",
-      "asin": "B08HGQLYKZ",
-      "link": "https://www.amazon.com.tr/dp/B08HGQLYKZ?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/81Ia65yknnL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-24 19:09:53"
-    },
-    {
-      "title": "MITEPROOF Tek Kişilik Nevresim Takımı + Çarşaf + Yastık Alezi (No Mite, Dust, Pollen) Alerjik",
-      "satis": "7.499,00 TL",
-      "ind": "%0",
-      "eski": "",
-      "asin": "B0GYK8J77T",
-      "link": "https://www.amazon.com.tr/dp/B0GYK8J77T?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71XfwSV6WnL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-24 19:09:53"
-    },
-    {
-      "title": "SONGMICS Ofis Koltuğu, Döner Sandalye, Yönetici Koltuğu, Başlıklı Ofis Döner Koltuğu",
-      "satis": "7.139,00 TL",
-      "ind": "%21",
-      "eski": "9.069,00 TL",
-      "asin": "B077MYVDQY",
-      "link": "https://www.amazon.com.tr/dp/B077MYVDQY?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/81S4D9C-GQL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-24 19:09:53"
-    },
-    {
-      "title": "Kadın Charm'lı Teknik Kumaş Shopper Çanta",
-      "satis": "2.249,99 TL",
-      "ind": "%25",
-      "eski": "2.999,99 TL",
-      "asin": "B0HS2Q46C8",
-      "link": "https://www.amazon.com.tr/dp/B0HS2Q46C8?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/51XmWd80uVL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-24 19:09:53"
-    },
-    {
-      "title": "Caso SV 400 Sous Vide Makinesi",
-      "satis": "8.499,00 TL",
-      "ind": "%50",
-      "eski": "16.999,00 TL",
-      "asin": "B0895VGKN3",
-      "link": "https://www.amazon.com.tr/dp/B0895VGKN3?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/41Hl9NXOj4L._AC_SR480,440_.jpg",
       "zaman": "2026-11-24 19:09:53"
     }
   ]
