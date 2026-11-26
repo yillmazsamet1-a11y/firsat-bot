@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-26 21:22:53",
-  "toplam_paylasim": 220,
-  "paylasilan_adet": 0,
-  "bulunan_link": 0,
-  "durum": "uyari",
+  "son_tarama": "2026-11-26 22:32:18",
+  "toplam_paylasim": 240,
+  "paylasilan_adet": 20,
+  "bulunan_link": 20,
+  "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-26 22:32:18",
+      "mesaj": "20 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-26 21:22:53",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
@@ -150,24 +155,219 @@
       "zaman": "2026-11-25 14:48:42",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-25 13:50:16",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
-    "title": "L'Oréal Professionnel Paris Serie Expert Absolut Repair Yıpranmış Saçlar Için Onarıcı Maske 250ml",
-    "satis": "985,00 TL",
-    "ind": "%10",
-    "eski": "1.099,00 TL",
-    "asin": "B091J4YPSZ",
-    "link": "https://www.amazon.com.tr/dp/B091J4YPSZ?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/51ShvN5mwhL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-26 08:59:09"
+    "title": "Mulberry Waflle Desenli Pike, Waflle Battaniyesi,%100 Pamuk, Kalın İplik, Yumuşak, Tek Kişilik",
+    "satis": "699,90 TL",
+    "ind": "%22",
+    "eski": "899,90 TL",
+    "asin": "B0CX8SC761",
+    "link": "https://www.amazon.com.tr/dp/B0CX8SC761?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/61vSGCHxU8L._AC_SR480,440_.jpg",
+    "zaman": "2026-11-26 22:32:18"
   },
   "son_paylasimlar": [
+    {
+      "title": "Mulberry Waflle Desenli Pike, Waflle Battaniyesi,%100 Pamuk, Kalın İplik, Yumuşak, Tek Kişilik",
+      "satis": "699,90 TL",
+      "ind": "%22",
+      "eski": "899,90 TL",
+      "asin": "B0CX8SC761",
+      "link": "https://www.amazon.com.tr/dp/B0CX8SC761?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61vSGCHxU8L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "Parex Multi Yedek Mop 2'li",
+      "satis": "143,00 TL",
+      "ind": "%28",
+      "eski": "199,00 TL",
+      "asin": "B07JGBFMP8",
+      "link": "https://www.amazon.com.tr/dp/B07JGBFMP8?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/71VXcyp57-L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "Melek",
+      "satis": "220,00 TL",
+      "ind": "%10",
+      "eski": "245,00 TL",
+      "asin": "9750767772",
+      "link": "https://www.amazon.com.tr/dp/9750767772?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/710W9teuUDL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "Hot Wheels® Track Creator Çoklu Pist Paketi",
+      "satis": "999,00 TL",
+      "ind": "%27",
+      "eski": "1.359,99 TL",
+      "asin": "B0DL6FYCJ5",
+      "link": "https://www.amazon.com.tr/dp/B0DL6FYCJ5?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61pItPPBbQL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "Baloncuk yapma özelliği ve solüsyonu ile uzun ve renkli meçli sarı saçları olan Barbie Baloncuk",
+      "satis": "729,00 TL",
+      "ind": "%6",
+      "eski": "778,05 TL",
+      "asin": "B0FK1P8K4N",
+      "link": "https://www.amazon.com.tr/dp/B0FK1P8K4N?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/711PaCp1PsL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "Barbie® Dreamtopia Işıltılı Deniz Kızı",
+      "satis": "999,00 TL",
+      "ind": "%0",
+      "eski": "",
+      "asin": "B09BW2RTN8",
+      "link": "https://www.amazon.com.tr/dp/B09BW2RTN8?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/614wgEJkqTL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "Klasse Pro - 10 Farklı Model Dikişli Kenar 90x40 cm Oyuncu Gaming Mouse Pad (Oki Nami Ura, 90x40 cm)",
+      "satis": "399,90 TL",
+      "ind": "%33",
+      "eski": "599,90 TL",
+      "asin": "B09TTZXWFB",
+      "link": "https://www.amazon.com.tr/dp/B09TTZXWFB?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/81Osj2DTbdL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "Bratz Scorchin' Yasmin Moda Bebek Aksesuarları ile",
+      "satis": "999,00 TL",
+      "ind": "%40",
+      "eski": "1.655,37 TL",
+      "asin": "B0DLZHRK5L",
+      "link": "https://www.amazon.com.tr/dp/B0DLZHRK5L?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/81APzBCZTwL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "BRITA Flow 3x MAXTRA PRO Pure Performance Filtreli Su Arıtma Sebili (8,2L)",
+      "satis": "2.498,17 TL",
+      "ind": "%17",
+      "eski": "2.999,00 TL",
+      "asin": "B0D4QX4TSX",
+      "link": "https://www.amazon.com.tr/dp/B0D4QX4TSX?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/71BFHVjpi6L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "Rehome 3 Raflı Metal Ayakkabılık | Siyah | Ayakkabı Rafı | Üç Çekmeceli | Metal Ayakkabı Dolabı",
+      "satis": "2.490,00 TL",
+      "ind": "%38",
+      "eski": "3.990,00 TL",
+      "asin": "B0CS6HKR2Z",
+      "link": "https://www.amazon.com.tr/dp/B0CS6HKR2Z?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/612FEQ4rGFL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "Lenovo N260 Sessiz Kablosuz Mouse, 1200 DPI, 20 Metre Menzil, Otomatik Kapanma ve Uyku Modu,",
+      "satis": "281,50 TL",
+      "ind": "%25",
+      "eski": "375,15 TL",
+      "asin": "B0GZCRFYK9",
+      "link": "https://www.amazon.com.tr/dp/B0GZCRFYK9?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/51Gov3PISuL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "Emsan Yeni Mısra Porselen 30 Parça 6 Kişilik Kahvaltı/Servis Takımı Beyaz",
+      "satis": "1.999,00 TL",
+      "ind": "%29",
+      "eski": "2.808,99 TL",
+      "asin": "B0B6H443LM",
+      "link": "https://www.amazon.com.tr/dp/B0B6H443LM?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/81Zv+akhvNL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "Digithome Bambu Kirli Sepetli 3 Raflı Çok Amaçlı Banyo Düzenleyici Çamaşır Sepeti Organizer DB-0002",
+      "satis": "2.989,00 TL",
+      "ind": "%40",
+      "eski": "4.999,00 TL",
+      "asin": "B0D6RW4V2N",
+      "link": "https://www.amazon.com.tr/dp/B0D6RW4V2N?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61dDi0YtmhL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "SONGMICS Ofis Koltuğu, Döner Sandalye, Yönetici Koltuğu, Başlıklı Ofis Döner Koltuğu,",
+      "satis": "6.599,00 TL",
+      "ind": "%27",
+      "eski": "9.069,00 TL",
+      "asin": "B077MYVDQY",
+      "link": "https://www.amazon.com.tr/dp/B077MYVDQY?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/81S4D9C-GQL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "JBL Tune 720BT Wireless Kulaklık, CT, OE,Beyaz",
+      "satis": "2.127,00 TL",
+      "ind": "%3",
+      "eski": "2.185,40 TL",
+      "asin": "B0BYWL962Q",
+      "link": "https://www.amazon.com.tr/dp/B0BYWL962Q?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/51hHlj4OqZL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "STANLEY Fresh-to-Table Kapaklı Kase 0.47 Litre - Beyaz (Frost) | Paslanmaz Çelik",
+      "satis": "1.790,00 TL",
+      "ind": "%0",
+      "eski": "",
+      "asin": "B0HCCZ46C3",
+      "link": "https://www.amazon.com.tr/dp/B0HCCZ46C3?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/21kRLUmfFHL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "BRITA MAXTRA Pro Kireç Uzmanı Yedek Su Arıtma Filtresi, 6’lı",
+      "satis": "1.212,58 TL",
+      "ind": "%24",
+      "eski": "1.599,00 TL",
+      "asin": "B0CLV7GMXT",
+      "link": "https://www.amazon.com.tr/dp/B0CLV7GMXT?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/51DfyMlpfcL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "Lenovo LOQ Ryzen 7 250 16GB 512GB SSD 15.3\" WUXGA 165Hz RTX 5060 8GB GDDR7 FreeDOS 83TN0095TR",
+      "satis": "76.000,00 TL",
+      "ind": "%10",
+      "eski": "83.999,00 TL",
+      "asin": "B0HCZ4NQ68",
+      "link": "https://www.amazon.com.tr/dp/B0HCZ4NQ68?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/71+BlBqKBLL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "STANLEY IceFlow Flip Straw Tumbler Pipetli Termos Su Şişesi 0.89 Litre - Beyaz (Frost) |",
+      "satis": "1.499,00 TL",
+      "ind": "%6",
+      "eski": "1.602,00 TL",
+      "asin": "B0FB8TK8JK",
+      "link": "https://www.amazon.com.tr/dp/B0FB8TK8JK?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61GOjEiVISL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
+    {
+      "title": "Oral-B iO9 Şarjlı/Elektrikli Diş Fırçası, 2'li Set, Rose Quartz & Siyah, 2 Fırça Başlığı, Hızlı",
+      "satis": "14.997,00 TL",
+      "ind": "%19",
+      "eski": "18.458,90 TL",
+      "asin": "B0GQC1WRNV",
+      "link": "https://www.amazon.com.tr/dp/B0GQC1WRNV?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/71dFQcI9xfL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 22:32:18"
+    },
     {
       "title": "L'Oréal Professionnel Paris Serie Expert Absolut Repair Yıpranmış Saçlar Için Onarıcı Maske 250ml",
       "satis": "985,00 TL",
@@ -267,206 +467,6 @@
       "link": "https://www.amazon.com.tr/dp/B07T7M2VT2?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/71PbpzQMMtL._AC_SR480,440_.jpg",
       "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "SKG F3 Masaj Tabancası Yeşil, 4 Darbe Seviyesi ve 4 Başlık, 12 Saat Pil Ömrü, USB-C Şarjlı",
-      "satis": "4.274,00 TL",
-      "ind": "%13",
-      "eski": "4.905,00 TL",
-      "asin": "B01B4FHGFG",
-      "link": "https://www.amazon.com.tr/dp/B01B4FHGFG?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61OyCfgAiFL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "Emsan Közde Türk Kahve Makinesi Shiny Black",
-      "satis": "1.115,00 TL",
-      "ind": "%14",
-      "eski": "1.299,00 TL",
-      "asin": "B0GNN6JYSC",
-      "link": "https://www.amazon.com.tr/dp/B0GNN6JYSC?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71oqIVEKwxL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "Nekteck Premium Kablosuz Boyun & Omuz & Sırt Masaj Aleti, 16 Başlıklı Derin Shiatsu Yoğurma",
-      "satis": "5.499,00 TL",
-      "ind": "%0",
-      "eski": "",
-      "asin": "B0FLCN49MR",
-      "link": "https://www.amazon.com.tr/dp/B0FLCN49MR?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71PjpzyF70L._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "Inissia C40 Kırmızı ve Kireç Çözme Kiti",
-      "satis": "6.999,00 TL",
-      "ind": "%42",
-      "eski": "12.168,00 TL",
-      "asin": "B0HJWNL7BP",
-      "link": "https://www.amazon.com.tr/dp/B0HJWNL7BP?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61uRnNOwJWL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "Hot Wheels® HW Robotik T-rex Ultimate Garaj™ | Robo T-Rex ile parça seti, yarış, dublör ve 100+",
-      "satis": "6.999,00 TL",
-      "ind": "%11",
-      "eski": "7.887,15 TL",
-      "asin": "B07Y94W69D",
-      "link": "https://www.amazon.com.tr/dp/B07Y94W69D?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/81q94ZM9zjL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "Philips Hue HDMI Sync Box 8K, 4 HDMI Bağlantısı, Akıllı Aydınlatma, Gen2 | 10 Hue lambasını",
-      "satis": "17.991,00 TL",
-      "ind": "%10",
-      "eski": "19.990,00 TL",
-      "asin": "B0DGQSY3ZT",
-      "link": "https://www.amazon.com.tr/dp/B0DGQSY3ZT?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61vWQWKV+VL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "JBL BAR 1300M2, Dolby Atmos 11.1.4 Soundbar,Wrl.Subw. | Çıkarılabilir Hoparlör, 8 inç Subwoofer",
-      "satis": "59.997,00 TL",
-      "ind": "%20",
-      "eski": "74.899,00 TL",
-      "asin": "B0FHJ21Q2H",
-      "link": "https://www.amazon.com.tr/dp/B0FHJ21Q2H?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/513JmoTHb0L._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "Winix Zero Pro Hava Temizleme Cihazı",
-      "satis": "17.945,00 TL",
-      "ind": "%31",
-      "eski": "25.999,98 TL",
-      "asin": "B07YPZLF4Z",
-      "link": "https://www.amazon.com.tr/dp/B07YPZLF4Z?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71MywNn2yLS._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "MSI CYBORG 15 B13WFKG-494XTR Dizüstü Bilgisayar, GeForce RTX5060 GDDR7 8GB, Intel Core",
-      "satis": "76.599,00 TL",
-      "ind": "%4",
-      "eski": "79.849,00 TL",
-      "asin": "B0FW4QYZS6",
-      "link": "https://www.amazon.com.tr/dp/B0FW4QYZS6?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71BO6aGgmsL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-25 19:40:26"
-    },
-    {
-      "title": "Hawk Gaming Chair Future Black Kumaş Oyuncu Koltuğu (Siyah)",
-      "satis": "13.999,00 TL",
-      "ind": "%3",
-      "eski": "14.499,00 TL",
-      "asin": "B09TFF3JQG",
-      "link": "https://www.amazon.com.tr/dp/B09TFF3JQG?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61cV8Ag5GNL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-25 19:40:26"
-    },
-    {
-      "title": "Philips 5500 Serisi LatteGo Tam Otomatik Espresso Makinesi (EP5547/90) Ve Espresso Makinesi",
-      "satis": "22.948,00 TL",
-      "ind": "%0",
-      "eski": "",
-      "asin": "B0GCZGMSDT",
-      "link": "https://www.amazon.com.tr/dp/B0GCZGMSDT?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/51wb2FzLg5L._AC_SR480,440_.jpg",
-      "zaman": "2026-11-25 19:40:26"
-    },
-    {
-      "title": "MSI CYBORG A15 C1WE-057XTR Dizüstü Bilgisayar, RYZEN 7 170, 15.6 FHD 144HZ, 16GB RAM DDR5",
-      "satis": "59.999,00 TL",
-      "ind": "%0",
-      "eski": "",
-      "asin": "B0HPF9G6D4",
-      "link": "https://www.amazon.com.tr/dp/B0HPF9G6D4?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/716GFOfvEHL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-25 19:40:26"
-    },
-    {
-      "title": "Karcher KST 2 + cloth set 3.2 Bar Buharlı Temizlik Makinesi",
-      "satis": "5.000,00 TL",
-      "ind": "%0",
-      "eski": "",
-      "asin": "B0FQ642SG9",
-      "link": "https://www.amazon.com.tr/dp/B0FQ642SG9?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/613+yk3nTVL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-25 19:40:26"
-    },
-    {
-      "title": "Ocean Home Textile 3'lü Gri Balıksırtı Elbise Kılıfı Set",
-      "satis": "632,00 TL",
-      "ind": "%20",
-      "eski": "790,00 TL",
-      "asin": "B0CNY1PZXJ",
-      "link": "https://www.amazon.com.tr/dp/B0CNY1PZXJ?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/910zh4x1voL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-25 19:40:26"
-    },
-    {
-      "title": "Sporsize 2 HP Katlanabilir Yürüyüş ve Koşu Bandı – Sessiz Motor, Uzaktan Kumanda, LED Ekran – Ev",
-      "satis": "4.499,00 TL",
-      "ind": "%12",
-      "eski": "5.099,00 TL",
-      "asin": "B0HDMFMZYN",
-      "link": "https://www.amazon.com.tr/dp/B0HDMFMZYN?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61ECPBYFN-L._AC_SR480,440_.jpg",
-      "zaman": "2026-11-25 19:40:26"
-    },
-    {
-      "title": "Solémiel Bal Özlü Dökülme Karşıtı Şampuan 400 ML - Batana, Castor Yağı, Keratin ve At Kuyruğu",
-      "satis": "643,00 TL",
-      "ind": "%28",
-      "eski": "899,10 TL",
-      "asin": "B0H6MTBNXF",
-      "link": "https://www.amazon.com.tr/dp/B0H6MTBNXF?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61wJ4ugnHhL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-25 19:40:26"
-    },
-    {
-      "title": "Nobel | Tekli Rattan Bahçe Salıncağı | Rehome Balkon Salıncağı Açık Kahve",
-      "satis": "12.490,00 TL",
-      "ind": "%6",
-      "eski": "13.269,00 TL",
-      "asin": "B01N7HQT33",
-      "link": "https://www.amazon.com.tr/dp/B01N7HQT33?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71YMHdWl-IL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-25 19:40:26"
-    },
-    {
-      "title": "Camper Erkek Mil 18552-088",
-      "satis": "4.049,55 TL",
-      "ind": "%55",
-      "eski": "8.999,00 TL",
-      "asin": "B0FJY5GT5L",
-      "link": "https://www.amazon.com.tr/dp/B0FJY5GT5L?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/81rRXkDv-UL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-25 19:40:26"
-    },
-    {
-      "title": "Herevin Sekizli Standlı Baharatlık Seti Krom Kulplu Siyah Kapak – 161280-820",
-      "satis": "849,00 TL",
-      "ind": "%32",
-      "eski": "1.249,00 TL",
-      "asin": "B0C29QK62K",
-      "link": "https://www.amazon.com.tr/dp/B0C29QK62K?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61sODOSViAL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-25 19:40:26"
-    },
-    {
-      "title": "SOLINPATECH Arabalı 80 Parça 7.5cm Büyük Boy Manyetik Blok Seti | Güçlü Mıknatıslı Zeka",
-      "satis": "1.799,00 TL",
-      "ind": "%31",
-      "eski": "2.620,00 TL",
-      "asin": "B0H7JB4NZK",
-      "link": "https://www.amazon.com.tr/dp/B0H7JB4NZK?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71nstSOYWjL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-25 19:40:26"
     }
   ]
 }
