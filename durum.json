@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-26 08:59:09",
+  "son_tarama": "2026-11-26 10:07:31",
   "toplam_paylasim": 220,
-  "paylasilan_adet": 18,
-  "bulunan_link": 20,
-  "durum": "ok",
+  "paylasilan_adet": 0,
+  "bulunan_link": 0,
+  "durum": "uyari",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-26 10:07:31",
+      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
+      "tip": "uyari"
+    },
     {
       "zaman": "2026-11-26 08:59:09",
       "mesaj": "18 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
@@ -150,11 +155,6 @@
       "zaman": "2026-11-25 02:17:19",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-25 01:20:52",
-      "mesaj": "15 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
-      "tip": "ok"
     }
   ],
   "son_urun": {
@@ -219,7 +219,7 @@
       "zaman": "2026-11-26 08:59:09"
     },
     {
-      "title": "SONGMICS Banyo Rafı 5 Katlı Bambu Dik Raf 9 Seviyede Yüksekliği Ayarlanabilir Çok Fonksiyonlu,",
+      "title": "SONGMICS Banyo Rafı 5 Katlı Bambu Dik Raf 9 Seviyede Yüksekliği Ayarlanabilir Çok Fonksiyonlu",
       "satis": "1.779,00 TL",
       "ind": "%46",
       "eski": "3.279,00 TL",
@@ -269,7 +269,7 @@
       "zaman": "2026-11-26 08:59:09"
     },
     {
-      "title": "SKG F3 Masaj Tabancası Yeşil, 4 Darbe Seviyesi ve 4 Başlık, 12 Saat Pil Ömrü, USB-C Şarjlı,",
+      "title": "SKG F3 Masaj Tabancası Yeşil, 4 Darbe Seviyesi ve 4 Başlık, 12 Saat Pil Ömrü, USB-C Şarjlı",
       "satis": "4.274,00 TL",
       "ind": "%13",
       "eski": "4.905,00 TL",
@@ -329,7 +329,7 @@
       "zaman": "2026-11-26 08:59:09"
     },
     {
-      "title": "JBL BAR 1300M2, Dolby Atmos 11.1.4 Soundbar,Wrl.Subw. | Çıkarılabilir Hoparlör, 8 inç Subwoofer,",
+      "title": "JBL BAR 1300M2, Dolby Atmos 11.1.4 Soundbar,Wrl.Subw. | Çıkarılabilir Hoparlör, 8 inç Subwoofer",
       "satis": "59.997,00 TL",
       "ind": "%20",
       "eski": "74.899,00 TL",
