@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-27 00:27:18",
-  "toplam_paylasim": 242,
-  "paylasilan_adet": 0,
-  "bulunan_link": 0,
-  "durum": "uyari",
+  "son_tarama": "2026-11-27 01:29:05",
+  "toplam_paylasim": 256,
+  "paylasilan_adet": 14,
+  "bulunan_link": 20,
+  "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-27 01:29:05",
+      "mesaj": "14 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-27 00:27:18",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
@@ -150,24 +155,159 @@
       "zaman": "2026-11-25 18:29:19",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-25 17:20:46",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
-    "title": "PAPILLOW Luxury Aloe Vera Yastık 50x70 Aloe Veralı Yastık (Standart) dokulu kumaş, yumuşak doku",
-    "satis": "1.832,60 TL",
-    "ind": "%16",
-    "eski": "2.180,00 TL",
-    "asin": "B0CZ9XXWC1",
-    "link": "https://www.amazon.com.tr/dp/B0CZ9XXWC1?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/51SILQsgwnL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-26 23:29:51"
+    "title": "Braun Vücut Tıraş Makinesi Series 5, +6 Aksesuar, Su Geçirmez, BG5550",
+    "satis": "2.499,00 TL",
+    "ind": "%0",
+    "eski": "",
+    "asin": "B0FJ8G9KX6",
+    "link": "https://www.amazon.com.tr/dp/B0FJ8G9KX6?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/61JrZW-2TtL._AC_SR480,440_.jpg",
+    "zaman": "2026-11-27 01:29:05"
   },
   "son_paylasimlar": [
+    {
+      "title": "Braun Vücut Tıraş Makinesi Series 5, +6 Aksesuar, Su Geçirmez, BG5550",
+      "satis": "2.499,00 TL",
+      "ind": "%0",
+      "eski": "",
+      "asin": "B0FJ8G9KX6",
+      "link": "https://www.amazon.com.tr/dp/B0FJ8G9KX6?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61JrZW-2TtL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 01:29:05"
+    },
+    {
+      "title": "Einhell Original 18 V 5,2 Ah PXC-Twinpack 4511526 | 2 adet akü seti | 1260 W | PXC | Li-ion |",
+      "satis": "7.388,49 TL",
+      "ind": "%10",
+      "eski": "8.188,90 TL",
+      "asin": "B08THLH5X7",
+      "link": "https://www.amazon.com.tr/dp/B08THLH5X7?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/71rEh8ezPrL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 01:29:05"
+    },
+    {
+      "title": "Thrustmaster T128 - PS5, PS4 ve PC Uyumlu Force Feedback Yarış Direksiyonu ve Manyetik Pedal Seti",
+      "satis": "10.999,00 TL",
+      "ind": "%22",
+      "eski": "14.083,08 TL",
+      "asin": "B0B3MSFMWN",
+      "link": "https://www.amazon.com.tr/dp/B0B3MSFMWN?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/81qJLljsYyL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 01:29:05"
+    },
+    {
+      "title": "Sony PlayStation Kılıflı Pulse Elite Headset Kulaklık (Resmi Distribütör Bilkom Garantili)",
+      "satis": "7.299,00 TL",
+      "ind": "%27",
+      "eski": "10.056,36 TL",
+      "asin": "B0G93P3CQR",
+      "link": "https://www.amazon.com.tr/dp/B0G93P3CQR?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/619NnSrYabL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 01:29:05"
+    },
+    {
+      "title": "STANLEY Quencher H2.0 FlowState Tumbler 40oz Pipetli Termos Bardak 1.18 Litre - Pistachio |",
+      "satis": "1.694,96 TL",
+      "ind": "%41",
+      "eski": "2.849,05 TL",
+      "asin": "B0GBX4JQRJ",
+      "link": "https://www.amazon.com.tr/dp/B0GBX4JQRJ?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61p2nETGf-L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 01:29:05"
+    },
+    {
+      "title": "MOVA V50 Ultra Complete Robot Süpürge, 24.000 Pa Emiş Gücü, Versalift Sensör, Sıcak Su ile Mop",
+      "satis": "38.899,00 TL",
+      "ind": "%0",
+      "eski": "",
+      "asin": "B0DZ2YC2VG",
+      "link": "https://www.amazon.com.tr/dp/B0DZ2YC2VG?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61Pkyw7Sz1L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 01:29:05"
+    },
+    {
+      "title": "Anthony Jackson Ultra Hafif ABS Valiz TRION (Antrasit, 3'lü Set)",
+      "satis": "3.550,00 TL",
+      "ind": "%20",
+      "eski": "4.449,90 TL",
+      "asin": "B0FKH5MWN3",
+      "link": "https://www.amazon.com.tr/dp/B0FKH5MWN3?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/81EBeBl4m5L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 01:29:05"
+    },
+    {
+      "title": "Karcher KST 2 + cloth set 3.2 Bar Buharlı Temizlik Makinesi",
+      "satis": "5.000,00 TL",
+      "ind": "%0",
+      "eski": "",
+      "asin": "B0FQ642SG9",
+      "link": "https://www.amazon.com.tr/dp/B0FQ642SG9?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/613+yk3nTVL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 01:29:05"
+    },
+    {
+      "title": "Delonghi Magnifica Evo Otomatik Kahve Makinesi, MyLatte, ECAM292.81.B | LatteCrema Hot",
+      "satis": "23.999,00 TL",
+      "ind": "%8",
+      "eski": "25.999,00 TL",
+      "asin": "B09CGRQ965",
+      "link": "https://www.amazon.com.tr/dp/B09CGRQ965?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61N1O88SDRL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 01:29:05"
+    },
+    {
+      "title": "LEGO Icons Yüzüklerin Efendisi: Minas Tirith 11377 | Yetişkinler için Ak Gandalf İçeren",
+      "satis": "38.699,90 TL",
+      "ind": "%21",
+      "eski": "49.239,50 TL",
+      "asin": "B07BT89GTP",
+      "link": "https://www.amazon.com.tr/dp/B07BT89GTP?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/717OL4MiQtL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 01:29:05"
+    },
+    {
+      "title": "MSI CYBORG 15 B13WFKG-494XTR Dizüstü Bilgisayar, GeForce RTX5060 GDDR7 8GB, Intel Core",
+      "satis": "76.599,00 TL",
+      "ind": "%4",
+      "eski": "79.849,00 TL",
+      "asin": "B0FW4QYZS6",
+      "link": "https://www.amazon.com.tr/dp/B0FW4QYZS6?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/71BO6aGgmsL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 01:29:05"
+    },
+    {
+      "title": "Lenovo LOQ Ryzen 7 250 16GB 512GB SSD 15.3\" WUXGA 165Hz RTX 5050 8GB GDDR7 FreeDOS 83TN0097TR",
+      "satis": "65.000,00 TL",
+      "ind": "%7",
+      "eski": "69.999,00 TL",
+      "asin": "B0HCZ6NCYX",
+      "link": "https://www.amazon.com.tr/dp/B0HCZ6NCYX?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/7121xFx5n1L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 01:29:05"
+    },
+    {
+      "title": "Philips 5500 Serisi LatteGo Tam Otomatik Espresso Makinesi (EP5547/90) Ve Espresso Makinesi",
+      "satis": "22.948,00 TL",
+      "ind": "%0",
+      "eski": "",
+      "asin": "B0GCZGMSDT",
+      "link": "https://www.amazon.com.tr/dp/B0GCZGMSDT?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/51wb2FzLg5L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 01:29:05"
+    },
+    {
+      "title": "MSI CYBORG A15 C1WE-057XTR Dizüstü Bilgisayar, RYZEN 7 170, 15.6 FHD 144HZ, 16GB RAM DDR5,",
+      "satis": "59.999,00 TL",
+      "ind": "%0",
+      "eski": "",
+      "asin": "B0HPF9G6D4",
+      "link": "https://www.amazon.com.tr/dp/B0HPF9G6D4?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/716GFOfvEHL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 01:29:05"
+    },
     {
       "title": "PAPILLOW Luxury Aloe Vera Yastık 50x70 Aloe Veralı Yastık (Standart) dokulu kumaş, yumuşak doku",
       "satis": "1.832,60 TL",
@@ -327,146 +467,6 @@
       "link": "https://www.amazon.com.tr/dp/B077MYVDQY?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/81S4D9C-GQL._AC_SR480,440_.jpg",
       "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "JBL Tune 720BT Wireless Kulaklık, CT, OE,Beyaz",
-      "satis": "2.127,00 TL",
-      "ind": "%3",
-      "eski": "2.185,40 TL",
-      "asin": "B0BYWL962Q",
-      "link": "https://www.amazon.com.tr/dp/B0BYWL962Q?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/51hHlj4OqZL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "STANLEY Fresh-to-Table Kapaklı Kase 0.47 Litre - Beyaz (Frost) | Paslanmaz Çelik",
-      "satis": "1.790,00 TL",
-      "ind": "%0",
-      "eski": "",
-      "asin": "B0HCCZ46C3",
-      "link": "https://www.amazon.com.tr/dp/B0HCCZ46C3?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/21kRLUmfFHL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "BRITA MAXTRA Pro Kireç Uzmanı Yedek Su Arıtma Filtresi, 6’lı",
-      "satis": "1.212,58 TL",
-      "ind": "%24",
-      "eski": "1.599,00 TL",
-      "asin": "B0CLV7GMXT",
-      "link": "https://www.amazon.com.tr/dp/B0CLV7GMXT?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/51DfyMlpfcL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "Lenovo LOQ Ryzen 7 250 16GB 512GB SSD 15.3\" WUXGA 165Hz RTX 5060 8GB GDDR7 FreeDOS 83TN0095TR",
-      "satis": "76.000,00 TL",
-      "ind": "%10",
-      "eski": "83.999,00 TL",
-      "asin": "B0HCZ4NQ68",
-      "link": "https://www.amazon.com.tr/dp/B0HCZ4NQ68?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71+BlBqKBLL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "STANLEY IceFlow Flip Straw Tumbler Pipetli Termos Su Şişesi 0.89 Litre - Beyaz (Frost) |",
-      "satis": "1.499,00 TL",
-      "ind": "%6",
-      "eski": "1.602,00 TL",
-      "asin": "B0FB8TK8JK",
-      "link": "https://www.amazon.com.tr/dp/B0FB8TK8JK?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61GOjEiVISL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "Oral-B iO9 Şarjlı/Elektrikli Diş Fırçası, 2'li Set, Rose Quartz & Siyah, 2 Fırça Başlığı, Hızlı",
-      "satis": "14.997,00 TL",
-      "ind": "%19",
-      "eski": "18.458,90 TL",
-      "asin": "B0GQC1WRNV",
-      "link": "https://www.amazon.com.tr/dp/B0GQC1WRNV?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71dFQcI9xfL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "L'Oréal Professionnel Paris Serie Expert Absolut Repair Yıpranmış Saçlar Için Onarıcı Maske 250ml",
-      "satis": "985,00 TL",
-      "ind": "%10",
-      "eski": "1.099,00 TL",
-      "asin": "B091J4YPSZ",
-      "link": "https://www.amazon.com.tr/dp/B091J4YPSZ?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/51ShvN5mwhL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "Kellogg's Granola Çikolata Parçacıklı ve Fındıklı 340 Gr,%44 Yulaf içerir,Lif Kaynağı,%11",
-      "satis": "119,90 TL",
-      "ind": "%44",
-      "eski": "177,95 TL",
-      "asin": "B091HT6N5T",
-      "link": "https://www.amazon.com.tr/dp/B091HT6N5T?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/81BNfa6j8ML._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "URBAN Care Style Guide Deniz Tuzu Etkili Doğal Dalga Sağlayan Saç Spreyi 200 ml- Vegan",
-      "satis": "150,00 TL",
-      "ind": "%29",
-      "eski": "210,00 TL",
-      "asin": "B09ZTYPVFW",
-      "link": "https://www.amazon.com.tr/dp/B09ZTYPVFW?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/41MjAUW7aUL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "DURU Fresh Sensations Extra Yağmur Ormanı Sabun, 150 Gramx4",
-      "satis": "111,00 TL",
-      "ind": "%15",
-      "eski": "129,95 TL",
-      "asin": "B0CM9LGTBY",
-      "link": "https://www.amazon.com.tr/dp/B0CM9LGTBY?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71bGpmE1SwL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "Stanley Quencher Pipetli Termos Bardak, 1.18 L",
-      "satis": "1.694,96 TL",
-      "ind": "%41",
-      "eski": "2.849,05 TL",
-      "asin": "B0GBX4JQRJ",
-      "link": "https://www.amazon.com.tr/dp/B0GBX4JQRJ?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61p2nETGf-L._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "SONGMICS Banyo Rafı 5 Katlı Bambu Dik Raf 9 Seviyede Yüksekliği Ayarlanabilir Çok Fonksiyonlu",
-      "satis": "1.779,00 TL",
-      "ind": "%46",
-      "eski": "3.279,00 TL",
-      "asin": "B010Q46PHG",
-      "link": "https://www.amazon.com.tr/dp/B010Q46PHG?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/719ZV6wt4EL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "Joop! Homme Edt 200 ml Erkek Parfüm",
-      "satis": "1.871,65 TL",
-      "ind": "%0",
-      "eski": "",
-      "asin": "B005MQNX2Y",
-      "link": "https://www.amazon.com.tr/dp/B005MQNX2Y?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61DcNovS1yL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "Nescafe Dolce Gusto Cafe Au Lait 48 Kapsül 160 Gr x 3",
-      "satis": "729,93 TL",
-      "ind": "%20",
-      "eski": "907,99 TL",
-      "asin": "B0BYD7SKDZ",
-      "link": "https://www.amazon.com.tr/dp/B0BYD7SKDZ?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61-8R3od7eL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
     }
   ]
 }
