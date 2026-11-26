@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-27 01:29:05",
-  "toplam_paylasim": 256,
-  "paylasilan_adet": 14,
+  "son_tarama": "2026-11-27 02:30:26",
+  "toplam_paylasim": 257,
+  "paylasilan_adet": 1,
   "bulunan_link": 20,
   "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-27 02:30:26",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-27 01:29:05",
       "mesaj": "14 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
@@ -150,24 +155,29 @@
       "zaman": "2026-11-25 19:40:26",
       "mesaj": "18 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
       "tip": "ok"
-    },
-    {
-      "zaman": "2026-11-25 18:29:19",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
-    "title": "Braun Vücut Tıraş Makinesi Series 5, +6 Aksesuar, Su Geçirmez, BG5550",
-    "satis": "2.499,00 TL",
-    "ind": "%0",
-    "eski": "",
-    "asin": "B0FJ8G9KX6",
-    "link": "https://www.amazon.com.tr/dp/B0FJ8G9KX6?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/61JrZW-2TtL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-27 01:29:05"
+    "title": "Inissia D40 Siyah ve Kireç Çözme Kiti",
+    "satis": "6.999,00 TL",
+    "ind": "%42",
+    "eski": "12.168,00 TL",
+    "asin": "B0HJWZZVDB",
+    "link": "https://www.amazon.com.tr/dp/B0HJWZZVDB?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/61qnxloIg8L._AC_SR480,440_.jpg",
+    "zaman": "2026-11-27 02:30:26"
   },
   "son_paylasimlar": [
+    {
+      "title": "Inissia D40 Siyah ve Kireç Çözme Kiti",
+      "satis": "6.999,00 TL",
+      "ind": "%42",
+      "eski": "12.168,00 TL",
+      "asin": "B0HJWZZVDB",
+      "link": "https://www.amazon.com.tr/dp/B0HJWZZVDB?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61qnxloIg8L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 02:30:26"
+    },
     {
       "title": "Braun Vücut Tıraş Makinesi Series 5, +6 Aksesuar, Su Geçirmez, BG5550",
       "satis": "2.499,00 TL",
@@ -299,7 +309,7 @@
       "zaman": "2026-11-27 01:29:05"
     },
     {
-      "title": "MSI CYBORG A15 C1WE-057XTR Dizüstü Bilgisayar, RYZEN 7 170, 15.6 FHD 144HZ, 16GB RAM DDR5,",
+      "title": "MSI CYBORG A15 C1WE-057XTR Dizüstü Bilgisayar, RYZEN 7 170, 15.6 FHD 144HZ, 16GB RAM DDR5",
       "satis": "59.999,00 TL",
       "ind": "%0",
       "eski": "",
@@ -456,16 +466,6 @@
       "asin": "B0D6RW4V2N",
       "link": "https://www.amazon.com.tr/dp/B0D6RW4V2N?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/61dDi0YtmhL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "SONGMICS Ofis Koltuğu, Döner Sandalye, Yönetici Koltuğu, Başlıklı Ofis Döner Koltuğu",
-      "satis": "6.599,00 TL",
-      "ind": "%27",
-      "eski": "9.069,00 TL",
-      "asin": "B077MYVDQY",
-      "link": "https://www.amazon.com.tr/dp/B077MYVDQY?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/81S4D9C-GQL._AC_SR480,440_.jpg",
       "zaman": "2026-11-26 22:32:18"
     }
   ]
