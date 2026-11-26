@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-26 22:32:18",
-  "toplam_paylasim": 240,
-  "paylasilan_adet": 20,
+  "son_tarama": "2026-11-26 23:29:51",
+  "toplam_paylasim": 242,
+  "paylasilan_adet": 2,
   "bulunan_link": 20,
   "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-26 23:29:51",
+      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-26 22:32:18",
       "mesaj": "20 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
@@ -150,24 +155,39 @@
       "zaman": "2026-11-25 15:54:53",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-25 14:48:42",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
-    "title": "Mulberry Waflle Desenli Pike, Waflle Battaniyesi,%100 Pamuk, Kalın İplik, Yumuşak, Tek Kişilik",
-    "satis": "699,90 TL",
-    "ind": "%22",
-    "eski": "899,90 TL",
-    "asin": "B0CX8SC761",
-    "link": "https://www.amazon.com.tr/dp/B0CX8SC761?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/61vSGCHxU8L._AC_SR480,440_.jpg",
-    "zaman": "2026-11-26 22:32:18"
+    "title": "PAPILLOW Luxury Aloe Vera Yastık 50x70 Aloe Veralı Yastık (Standart) dokulu kumaş, yumuşak doku",
+    "satis": "1.832,60 TL",
+    "ind": "%16",
+    "eski": "2.180,00 TL",
+    "asin": "B0CZ9XXWC1",
+    "link": "https://www.amazon.com.tr/dp/B0CZ9XXWC1?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/51SILQsgwnL._AC_SR480,440_.jpg",
+    "zaman": "2026-11-26 23:29:51"
   },
   "son_paylasimlar": [
+    {
+      "title": "PAPILLOW Luxury Aloe Vera Yastık 50x70 Aloe Veralı Yastık (Standart) dokulu kumaş, yumuşak doku",
+      "satis": "1.832,60 TL",
+      "ind": "%16",
+      "eski": "2.180,00 TL",
+      "asin": "B0CZ9XXWC1",
+      "link": "https://www.amazon.com.tr/dp/B0CZ9XXWC1?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/51SILQsgwnL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 23:29:51"
+    },
+    {
+      "title": "PAPILLOW Medical Oturma Minderi 42 * 40 * 9/2",
+      "satis": "1.581,00 TL",
+      "ind": "%15",
+      "eski": "1.860,00 TL",
+      "asin": "B0CNNJ3R2Q",
+      "link": "https://www.amazon.com.tr/dp/B0CNNJ3R2Q?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/41Eh20npP0L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-26 23:29:51"
+    },
     {
       "title": "Mulberry Waflle Desenli Pike, Waflle Battaniyesi,%100 Pamuk, Kalın İplik, Yumuşak, Tek Kişilik",
       "satis": "699,90 TL",
@@ -269,7 +289,7 @@
       "zaman": "2026-11-26 22:32:18"
     },
     {
-      "title": "Lenovo N260 Sessiz Kablosuz Mouse, 1200 DPI, 20 Metre Menzil, Otomatik Kapanma ve Uyku Modu,",
+      "title": "Lenovo N260 Sessiz Kablosuz Mouse, 1200 DPI, 20 Metre Menzil, Otomatik Kapanma ve Uyku Modu",
       "satis": "281,50 TL",
       "ind": "%25",
       "eski": "375,15 TL",
@@ -299,7 +319,7 @@
       "zaman": "2026-11-26 22:32:18"
     },
     {
-      "title": "SONGMICS Ofis Koltuğu, Döner Sandalye, Yönetici Koltuğu, Başlıklı Ofis Döner Koltuğu,",
+      "title": "SONGMICS Ofis Koltuğu, Döner Sandalye, Yönetici Koltuğu, Başlıklı Ofis Döner Koltuğu",
       "satis": "6.599,00 TL",
       "ind": "%27",
       "eski": "9.069,00 TL",
@@ -446,26 +466,6 @@
       "asin": "B0BYD7SKDZ",
       "link": "https://www.amazon.com.tr/dp/B0BYD7SKDZ?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/61-8R3od7eL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "Turbo Fan, Şarjlı Hava Kompresörü, 3 Güç Modu, 52m/s Güçlü Üfleme, Bilgisayar - Araba - Klavye",
-      "satis": "1.499,00 TL",
-      "ind": "%0",
-      "eski": "",
-      "asin": "B0FND2524R",
-      "link": "https://www.amazon.com.tr/dp/B0FND2524R?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/7100PHKkcYL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 08:59:09"
-    },
-    {
-      "title": "H2ofloss Şarjlı Kablosuz Ağız Duşu, Hızlı ve Etkili Diş Arası Temizliği – 300 ml Su Hazneli, 5",
-      "satis": "1.999,00 TL",
-      "ind": "%0",
-      "eski": "",
-      "asin": "B07T7M2VT2",
-      "link": "https://www.amazon.com.tr/dp/B07T7M2VT2?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71PbpzQMMtL._AC_SR480,440_.jpg",
       "zaman": "2026-11-26 08:59:09"
     }
   ]
