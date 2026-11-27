@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-27 16:29:44",
+  "son_tarama": "2026-11-27 16:41:09",
   "toplam_paylasim": 301,
-  "paylasilan_adet": 10,
-  "bulunan_link": 20,
-  "durum": "ok",
+  "paylasilan_adet": 0,
+  "bulunan_link": 13,
+  "durum": "uyari",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-27 16:41:09",
+      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (13 aday incelendi).",
+      "tip": "uyari"
+    },
     {
       "zaman": "2026-11-27 16:29:44",
       "mesaj": "10 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
@@ -150,11 +155,6 @@
       "zaman": "2026-11-26 13:44:51",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-26 12:48:01",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
@@ -236,16 +236,6 @@
       "asin": "B0G93P3CQR",
       "link": "https://www.amazon.com.tr/dp/B0G93P3CQR?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/619NnSrYabL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 16:29:44"
-    },
-    {
-      "title": "LEGO Icons Yüzüklerin Efendisi: Minas Tirith 11377 | Yetişkinler için Ak Gandalf",
-      "satis": "38.699,90 TL",
-      "ind": "%21",
-      "eski": "49.239,50 TL",
-      "asin": "B07BT89GTP",
-      "link": "https://www.amazon.com.tr/dp/B07BT89GTP?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/717OL4MiQtL._AC_SR480,440_.jpg",
       "zaman": "2026-11-27 16:29:44"
     },
     {
