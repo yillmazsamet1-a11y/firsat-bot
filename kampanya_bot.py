@@ -31,6 +31,25 @@ def tr_para(tutar: float) -> str:
     return f"{tutar:,.2f} TL".replace(",", "X").replace(".", ",").replace("X", ".")
 
 
+def genel_kampanya_basligi_mi(baslik: str) -> bool:
+    t = (baslik or "").strip().lower()
+    if len(t) < 8:
+        return True
+    yasakli = [
+        r"\bfırsatı\b",
+        r"\bfırsatlar\b",
+        r"\bkampanyası\b",
+        r"\bkampanyalar\b",
+        r"\bindirimler\b",
+        r"\bgülümseten kasım\b",
+        r"\bgünün fırsatı\b",
+        r"\bçok satanlar\b",
+        r"\bönceki fiyat\b",
+        r"\bkalan süre\b",
+    ]
+    return any(re.search(pat, t, flags=re.IGNORECASE) for pat in yasakli)
+
+
 def baslik_temizle(ham_baslik: str) -> str:
     s = re.sub(r"\s+", " ", (ham_baslik or "")).strip()
     s = re.split(
@@ -40,10 +59,13 @@ def baslik_temizle(ham_baslik: str) -> str:
         flags=re.IGNORECASE,
     )[0]
     s = re.sub(r"\s*[-–—:,;|]+\s*$", "", s).strip()
-    if len(s) > 75:
-        kisa = s[:75].rsplit(" ", 1)[0].strip()
-        s = kisa if len(kisa) >= 20 else s[:75].strip()
-    return re.sub(r"\s*[-–—:,;|]+\s*$", "", s).strip()
+    if len(s) > 85:
+        kisa = s[:85].rsplit(" ", 1)[0].strip()
+        s = kisa if len(kisa) >= 20 else s[:85].strip()
+    s = re.sub(r"\s*[-–—:,;|]+\s*$", "", s).strip()
+    if genel_kampanya_basligi_mi(s):
+        return ""
+    return s
 
 
 def baslik_normalize(baslik: str) -> str:
@@ -134,6 +156,7 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
         b = p.chromium.launch(headless=True)
         ctx = b.new_context(
             locale="tr-TR",
+            viewport={"width": 1366, "height": 900},
             user_agent=(
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                 "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -142,47 +165,70 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
         )
         pg = ctx.new_page()
         pg.goto(url, wait_until="domcontentloaded", timeout=45000)
-        pg.wait_for_timeout(3500)
+        pg.wait_for_timeout(3000)
+
+        for _ in range(3):
+            pg.mouse.wheel(0, 1200)
+            pg.wait_for_timeout(1200)
 
         ham_liste = pg.evaluate(
             r"""(maxItems) => {
-                const links = Array.from(document.querySelectorAll('a[href*="/dp/"]'));
                 const seenAsin = new Set();
                 const out = [];
 
-                for (const a of links) {
-                    const href = a.getAttribute('href') || '';
-                    const m = href.match(/\/dp\/([A-Z0-9]{10})/);
-                    if (!m) continue;
-                    const asin = m[1];
-                    if (seenAsin.has(asin)) continue;
+                const candidates = Array.from(
+                    document.querySelectorAll('[data-asin], [data-testid*="deal"], .a-carousel-card, a[href*="/dp/"]')
+                );
 
-                    let container = a;
-                    for (let i = 0; i < 4 && container && container.parentElement; i++) {
-                        const parent = container.parentElement;
-                        const dpLinksInParent = Array.from(parent.querySelectorAll('a[href*="/dp/"]')).filter(el => {
-                            const mm = (el.getAttribute('href') || '').match(/\/dp\/([A-Z0-9]{10})/);
-                            return mm && mm[1] !== asin;
-                        });
-                        if (dpLinksInParent.length > 0) break;
-                        container = parent;
+                for (const el of candidates) {
+                    let asin = (el.getAttribute('data-asin') || '').trim();
+                    let linkEl = null;
+
+                    if (!/^[A-Z0-9]{10}$/i.test(asin)) {
+                        linkEl = el.matches('a[href*="/dp/"]') ? el : el.querySelector('a[href*="/dp/"]');
+                        if (!linkEl) continue;
+                        const href = linkEl.getAttribute('href') || '';
+                        const m = href.match(/\/dp\/([A-Z0-9]{10})/i);
+                        if (!m) continue;
+                        asin = m[1].toUpperCase();
+                    } else {
+                        linkEl = el.querySelector('a[href*="/dp/"]') || el;
                     }
 
-                    const text = container ? (container.innerText || '') : (a.innerText || '');
+                    if (!asin || seenAsin.has(asin)) continue;
+
+                    let card = el;
+                    for (let i = 0; i < 4 && card && card.parentElement; i++) {
+                        const parent = card.parentElement;
+                        const otherAsins = new Set();
+                        for (const sub of parent.querySelectorAll('[data-asin], a[href*="/dp/"]')) {
+                            const da = (sub.getAttribute('data-asin') || '').trim().toUpperCase();
+                            if (/^[A-Z0-9]{10}$/.test(da) && da !== asin) otherAsins.add(da);
+                            const sh = sub.getAttribute('href') || '';
+                            const sm = sh.match(/\/dp\/([A-Z0-9]{10})/i);
+                            if (sm && sm[1].toUpperCase() !== asin) otherAsins.add(sm[1].toUpperCase());
+                        }
+                        if (otherAsins.size > 0) break;
+                        card = parent;
+                    }
+
+                    const text = card ? (card.innerText || '') : (el.innerText || '');
                     const lines = text.split('\n').map(x => x.trim()).filter(Boolean);
 
-                    const imgEl = (container && container.querySelector('img')) || a.querySelector('img');
+                    const imgEl = (card && card.querySelector('img')) || el.querySelector('img');
                     const img = imgEl
                         ? (imgEl.getAttribute('src') || imgEl.getAttribute('data-src') || imgEl.getAttribute('data-old-hires') || '')
                         : '';
                     const imgAlt = imgEl ? (imgEl.getAttribute('alt') || '').trim() : '';
 
-                    let rawTitle = (a.getAttribute('aria-label') || '').trim();
+                    let rawTitle = (linkEl && linkEl.getAttribute('aria-label') ? linkEl.getAttribute('aria-label') : '').trim();
                     if (rawTitle.length < 10 && imgAlt.length >= 10) {
                         rawTitle = imgAlt;
                     }
                     if (rawTitle.length < 10) {
-                        rawTitle = lines.find(l => l.length >= 12 && !/TL|₺|%\s*\d|günün en düşük|önceki fiyat|kalan süre|sepete ekle/i.test(l)) || '';
+                        rawTitle = lines.find(
+                            l => l.length >= 12 && !/TL|₺|%\s*\d|günün en düşük|önceki fiyat|kalan süre|sepete ekle|fırsatı\b/i.test(l)
+                        ) || '';
                     }
 
                     const priceMatches = text.match(/(\d{1,3}(?:\.\d{3})*,\d{2}|\d+,\d{2}|\d{1,3}(?:\.\d{3})*)\s*(?:TL|₺)/g) || [];
@@ -209,7 +255,7 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
     sonuc = []
     for item in ham_liste or []:
         title = baslik_temizle(item.get("rawTitle") or "")
-        if len(title) < 5:
+        if len(title) < 8:
             continue
 
         fiyat_sayilari = []
@@ -365,7 +411,9 @@ def durum_guncelle_kayit(
 
     son_urun = yeni_kayitlar[0] if yeni_kayitlar else durum.get("son_urun")
     if isinstance(son_urun, dict):
-        son_urun["title"] = baslik_temizle(str(son_urun.get("title") or ""))
+        temiz_son = baslik_temizle(str(son_urun.get("title") or ""))
+        if temiz_son:
+            son_urun["title"] = temiz_son
         if not son_urun.get("satis") or str(son_urun.get("satis")).lower() == "undefined":
             son_urun["satis"] = guncel_liste[0]["satis"] if guncel_liste else "0,00 TL"
         if not son_urun.get("ind") or str(son_urun.get("ind")).lower() == "undefined":
