@@ -36,8 +36,10 @@ def tr_para(tutar: float) -> str:
 
 
 def istenmeyen_urun_mu(baslik: str) -> bool:
-    t = (baslik or "").strip().lower()
-    if len(t) < 8:
+    t = re.sub(r"\s+", " ", (baslik or "")).strip().lower()
+    if len(t) < 10:
+        return True
+    if re.fullmatch(r"%?\s*\d{1,2}\s*(?:%\s*)?indirim", t, flags=re.IGNORECASE):
         return True
     yasakli = [
         r"\bfırsatı\b",
@@ -88,7 +90,10 @@ def anahtar_uret(baslik: str, fiyat) -> str | None:
         fiyat_norm = round(float(fiyat), 2)
     except (TypeError, ValueError):
         return None
-    return f"{baslik_normalize(baslik)}|{fiyat_norm}"
+    norm_b = baslik_normalize(baslik)
+    if len(norm_b) < 8:
+        return None
+    return f"{norm_b}|{fiyat_norm}"
 
 
 def gecmis_yukle() -> dict:
@@ -110,7 +115,7 @@ def gecmis_yukle() -> dict:
 def daha_once_paylasildi_mi(baslik: str, fiyat) -> bool:
     anahtar = anahtar_uret(baslik, fiyat)
     if not anahtar:
-        return False
+        return True
     return anahtar in gecmis_yukle()
 
 
@@ -266,14 +271,19 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
                             }
                         }
 
+                        const isBadLine = (l) =>
+                            !l ||
+                            l.length < 10 ||
+                            /^%?\s*\d{1,2}\s*(?:%\s*)?indirim$/i.test(l) ||
+                            /TL|₺|%\s*\d|günün en düşük|önceki fiyat|kalan süre|sepete ekle|fırsatı\b/i.test(l);
+
                         let rawTitle = (linkEl && linkEl.getAttribute('aria-label') ? linkEl.getAttribute('aria-label') : '').trim();
-                        if (rawTitle.length < 10 && imgAlt.length >= 10) {
+                        if (isBadLine(rawTitle)) rawTitle = '';
+                        if (!rawTitle && !isBadLine(imgAlt)) {
                             rawTitle = imgAlt;
                         }
-                        if (rawTitle.length < 10) {
-                            rawTitle = lines.find(
-                                l => l.length >= 12 && !/TL|₺|%\s*\d|günün en düşük|önceki fiyat|kalan süre|sepete ekle|fırsatı\b/i.test(l)
-                            ) || '';
+                        if (!rawTitle) {
+                            rawTitle = lines.find(l => !isBadLine(l)) || '';
                         }
 
                         const priceMatches = text.match(/(\d{1,3}(?:\.\d{3})*,\d{2}|\d+,\d{2}|\d{1,3}(?:\.\d{3})*)\s*(?:TL|₺)/g) || [];
@@ -301,9 +311,10 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
         b.close()
 
     sonuc = []
+    gorulen_anahtarlar = set()
     for item in ham_liste or []:
         title = baslik_temizle(item.get("rawTitle") or "")
-        if len(title) < 8:
+        if not title:
             continue
 
         fiyat_sayilari = []
@@ -316,6 +327,10 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
 
         satis = fiyat_sayilari[0]
         if satis < MIN_FIYAT:
+            continue
+
+        anahtar = anahtar_uret(title, satis)
+        if not anahtar or anahtar in gorulen_anahtarlar:
             continue
 
         buyukler = [x for x in fiyat_sayilari[1:] if x > satis]
@@ -331,6 +346,7 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
         if GORSEL_ZORUNLU and not img:
             continue
 
+        gorulen_anahtarlar.add(anahtar)
         link = f"https://www.amazon.com.tr/dp/{item['asin']}?tag={TAG}"
         fiyat_satiri = tr_para(satis)
         ek = [f"%{ind} indirim"]
