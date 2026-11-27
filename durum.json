@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-27 16:11:52",
-  "toplam_paylasim": 291,
-  "paylasilan_adet": 20,
+  "son_tarama": "2026-11-27 16:29:44",
+  "toplam_paylasim": 301,
+  "paylasilan_adet": 10,
   "bulunan_link": 20,
   "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-27 16:29:44",
+      "mesaj": "10 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-27 16:11:52",
       "mesaj": "20 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
@@ -150,24 +155,119 @@
       "zaman": "2026-11-26 12:48:01",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-26 11:36:50",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
-    "title": "Ninja Crispi Pro 5-in-1 Cam Hazneli Pişirme Sistemi - Stone",
-    "satis": "15.999,00 TL",
-    "ind": "%6",
-    "eski": "16.999,00 TL",
-    "asin": "B0GL27XFXV",
-    "link": "https://www.amazon.com.tr/dp/B0GL27XFXV?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/711cQp6lczL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-27 16:11:52"
+    "title": "Kawa D11 2 Kameralı Ön/Arka 4K+1080P Sony STARVIS Sensörlü Yapay Zeka Destekli Wi-Fi",
+    "satis": "7.499,00 TL",
+    "ind": "%11",
+    "eski": "8.414,10 TL",
+    "asin": "B0DS68FFRB",
+    "link": "https://www.amazon.com.tr/dp/B0DS68FFRB?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/61u7hGfeuuL._AC_SR480,440_.jpg",
+    "zaman": "2026-11-27 16:29:44"
   },
   "son_paylasimlar": [
+    {
+      "title": "Kawa D11 2 Kameralı Ön/Arka 4K+1080P Sony STARVIS Sensörlü Yapay Zeka Destekli Wi-Fi",
+      "satis": "7.499,00 TL",
+      "ind": "%11",
+      "eski": "8.414,10 TL",
+      "asin": "B0DS68FFRB",
+      "link": "https://www.amazon.com.tr/dp/B0DS68FFRB?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61u7hGfeuuL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 16:29:44"
+    },
+    {
+      "title": "Delonghi Magnifica Evo Otomatik Kahve Makinesi, MyLatte, ECAM292.81.B | LatteCrema",
+      "satis": "22.999,00 TL",
+      "ind": "%12",
+      "eski": "25.999,00 TL",
+      "asin": "B09CGRQ965",
+      "link": "https://www.amazon.com.tr/dp/B09CGRQ965?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61N1O88SDRL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 16:29:44"
+    },
+    {
+      "title": "Emsan Közde Türk Kahve Makinesi Shiny Black",
+      "satis": "1.115,00 TL",
+      "ind": "%14",
+      "eski": "1.299,00 TL",
+      "asin": "B0GNN6JYSC",
+      "link": "https://www.amazon.com.tr/dp/B0GNN6JYSC?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/71oqIVEKwxL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 16:29:44"
+    },
+    {
+      "title": "SONGMICS Ofis Sandalyesi, 360 Döner Sandalye, Sallanma Fonksiyonlu, Nefes Alabilir",
+      "satis": "4.129,00 TL",
+      "ind": "%19",
+      "eski": "5.074,65 TL",
+      "asin": "B082PWGGMD",
+      "link": "https://www.amazon.com.tr/dp/B082PWGGMD?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/716sVrBRM6L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 16:29:44"
+    },
+    {
+      "title": "Nescafe Dolce Gusto Cafe Au Lait 48 Kapsül 160 Gr x 3",
+      "satis": "729,93 TL",
+      "ind": "%20",
+      "eski": "907,99 TL",
+      "asin": "B0BYD7SKDZ",
+      "link": "https://www.amazon.com.tr/dp/B0BYD7SKDZ?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61-8R3od7eL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 16:29:44"
+    },
+    {
+      "title": "Thrustmaster T128 - PS5, PS4 ve PC Uyumlu Force Feedback Yarış Direksiyonu ve",
+      "satis": "10.999,00 TL",
+      "ind": "%22",
+      "eski": "14.083,08 TL",
+      "asin": "B0B3MSFMWN",
+      "link": "https://www.amazon.com.tr/dp/B0B3MSFMWN?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/81qJLljsYyL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 16:29:44"
+    },
+    {
+      "title": "Sony PlayStation Kılıflı Pulse Elite Headset Kulaklık (Resmi Distribütör Bilkom",
+      "satis": "7.299,00 TL",
+      "ind": "%27",
+      "eski": "10.056,36 TL",
+      "asin": "B0G93P3CQR",
+      "link": "https://www.amazon.com.tr/dp/B0G93P3CQR?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/619NnSrYabL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 16:29:44"
+    },
+    {
+      "title": "LEGO Icons Yüzüklerin Efendisi: Minas Tirith 11377 | Yetişkinler için Ak Gandalf",
+      "satis": "38.699,90 TL",
+      "ind": "%21",
+      "eski": "49.239,50 TL",
+      "asin": "B07BT89GTP",
+      "link": "https://www.amazon.com.tr/dp/B07BT89GTP?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/717OL4MiQtL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 16:29:44"
+    },
+    {
+      "title": "Rox Wood 0069 25 Parça Çantalı Hassas Tornavida",
+      "satis": "200,00 TL",
+      "ind": "%41",
+      "eski": "338,99 TL",
+      "asin": "B08LVRS3H5",
+      "link": "https://www.amazon.com.tr/dp/B08LVRS3H5?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/617nhxBieEL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 16:29:44"
+    },
+    {
+      "title": "Bright Elegance BE-2220 2'li Standlı Pilli LED Işıklı Otomatik Tuz ve Karabiber",
+      "satis": "799,00 TL",
+      "ind": "%24",
+      "eski": "1.048,95 TL",
+      "asin": "B0DT7658WY",
+      "link": "https://www.amazon.com.tr/dp/B0DT7658WY?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/515YjinM8iL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 16:29:44"
+    },
     {
       "title": "Ninja Crispi Pro 5-in-1 Cam Hazneli Pişirme Sistemi - Stone",
       "satis": "15.999,00 TL",
@@ -367,106 +467,6 @@
       "link": "https://www.amazon.com.tr/dp/B0GZZTG9VS?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/519QS9W7HwL._AC_SR480,440_.jpg",
       "zaman": "2026-11-27 16:11:52"
-    },
-    {
-      "title": "Jacobs Origins Brazil & Colombia Filtre Kahve 200 g",
-      "satis": "272,90 TL",
-      "ind": "%24",
-      "eski": "359,00 TL",
-      "asin": "B0FN4J5HT3",
-      "link": "https://www.amazon.com.tr/dp/B0FN4J5HT3?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71DXj8-6IyL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 08:08:43"
-    },
-    {
-      "title": "Naturagen Vitamin D3 + K2 1000 IU 60 Kapsül | Glutensiz Kolay Yutulabilir",
-      "satis": "336,90 TL",
-      "ind": "%32",
-      "eski": "494,95 TL",
-      "asin": "B0CXF6MBYG",
-      "link": "https://www.amazon.com.tr/dp/B0CXF6MBYG?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61+7PA6w1-L._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 08:08:43"
-    },
-    {
-      "title": "LAVA Efsane Kasım 3'lü Döküm Tencere ve Tava Seti Turuncu",
-      "satis": "6.550,00 TL",
-      "ind": "%42",
-      "eski": "11.289,60 TL",
-      "asin": "B0HQ75QSWL",
-      "link": "https://www.amazon.com.tr/dp/B0HQ75QSWL?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61fxfH4QK+L._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 08:08:43"
-    },
-    {
-      "title": "Volume Up Mascara Yoğun Hacim ve Lifting Etkili Kat Kat Uygulanabilir",
-      "satis": "350,00 TL",
-      "ind": "%16",
-      "eski": "418,00 TL",
-      "asin": "B0FQPCDDLT",
-      "link": "https://www.amazon.com.tr/dp/B0FQPCDDLT?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61LrcfM3rFL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 06:58:44"
-    },
-    {
-      "title": "VegGieg CAT8 40Gbps 2000Mhz STP RJ45 Ethernet Kablosu 1.5 Metre",
-      "satis": "189,00 TL",
-      "ind": "%0",
-      "eski": "",
-      "asin": "B0DMT7T9VQ",
-      "link": "https://www.amazon.com.tr/dp/B0DMT7T9VQ?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/41qvmQ4K63L._AC_SR240,220_.jpg",
-      "zaman": "2026-11-27 05:55:58"
-    },
-    {
-      "title": "Cadı - Hizmetçi’nin Yazarından Karanlık Sırlarla Dolu Nefes Kesici Bir",
-      "satis": "242,40 TL",
-      "ind": "%2",
-      "eski": "247,50 TL",
-      "asin": "6258931162",
-      "link": "https://www.amazon.com.tr/dp/6258931162?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/41W6mYKuFFL._AC_SR240,220_.jpg",
-      "zaman": "2026-11-27 05:55:58"
-    },
-    {
-      "title": "Duru Fresh Sensations Okyanus Esintisi Duş Sabunu, 600 gr",
-      "satis": "103,19 TL",
-      "ind": "%21",
-      "eski": "129,95 TL",
-      "asin": "B0817ZX327",
-      "link": "https://www.amazon.com.tr/dp/B0817ZX327?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/51GbuPFbj+L._AC_SR240,220_.jpg",
-      "zaman": "2026-11-27 05:55:58"
-    },
-    {
-      "title": "Barbie Fındıkkıran Balesi Deluxe Clara",
-      "satis": "999,00 TL",
-      "ind": "%17",
-      "eski": "1.199,00 TL",
-      "asin": "B0G441JJWG",
-      "link": "https://www.amazon.com.tr/dp/B0G441JJWG?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/81A3cP3aYFL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 05:55:58"
-    },
-    {
-      "title": "BIC Hybrid 5 Flex Erkek Tıraş Bıçağı 1 Sap ve 2 Yedek Başlık (5 Bıçak), 5",
-      "satis": "167,94 TL",
-      "ind": "%14",
-      "eski": "194,98 TL",
-      "asin": "B08ZJKB1DY",
-      "link": "https://www.amazon.com.tr/dp/B08ZJKB1DY?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71A2JEdcwNL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 05:55:58"
-    },
-    {
-      "title": "Mattel Star Wars Grogu Pelüş YENİ",
-      "satis": "999,00 TL",
-      "ind": "%57",
-      "eski": "2.299,99 TL",
-      "asin": "B0FK1HKMFZ",
-      "link": "https://www.amazon.com.tr/dp/B0FK1HKMFZ?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/81Vez1dTMWL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 05:55:58"
     }
   ]
 }
