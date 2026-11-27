@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-27 22:27:41",
-  "toplam_paylasim": 309,
+  "son_tarama": "2026-11-27 23:27:36",
+  "toplam_paylasim": 310,
   "paylasilan_adet": 1,
-  "bulunan_link": 11,
+  "bulunan_link": 14,
   "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-27 23:27:36",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (14 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-27 22:27:41",
       "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (11 aday incelendi).",
@@ -150,24 +155,29 @@
       "zaman": "2026-11-26 22:32:18",
       "mesaj": "20 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
       "tip": "ok"
-    },
-    {
-      "zaman": "2026-11-26 21:22:53",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
-    "title": "Toppin Audio DX1 II Gaming DAC & Headphone Amplifier | Silver",
-    "satis": "7.399,90 TL",
-    "ind": "%26",
-    "eski": "9.999,90 TL",
-    "asin": "B0HCMNYGMK",
-    "link": "https://www.amazon.com.tr/dp/B0HCMNYGMK?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/51TfiqMeEjL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-27 22:27:41"
+    "title": "JBL BAR 1300M2, Dolby Atmos 11.1.4 Soundbar,Wrl.Subw. | Çıkarılabilir Hoparlör, 8",
+    "satis": "59.949,00 TL",
+    "ind": "%20",
+    "eski": "74.899,00 TL",
+    "asin": "B0FHJ21Q2H",
+    "link": "https://www.amazon.com.tr/dp/B0FHJ21Q2H?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/513JmoTHb0L._AC_SR480,440_.jpg",
+    "zaman": "2026-11-27 23:27:36"
   },
   "son_paylasimlar": [
+    {
+      "title": "JBL BAR 1300M2, Dolby Atmos 11.1.4 Soundbar,Wrl.Subw. | Çıkarılabilir Hoparlör, 8",
+      "satis": "59.949,00 TL",
+      "ind": "%20",
+      "eski": "74.899,00 TL",
+      "asin": "B0FHJ21Q2H",
+      "link": "https://www.amazon.com.tr/dp/B0FHJ21Q2H?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/513JmoTHb0L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 23:27:36"
+    },
     {
       "title": "Toppin Audio DX1 II Gaming DAC & Headphone Amplifier | Silver",
       "satis": "7.399,90 TL",
@@ -456,16 +466,6 @@
       "asin": "B0F8QVXLTL",
       "link": "https://www.amazon.com.tr/dp/B0F8QVXLTL?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/71THZxRMhnL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 16:11:52"
-    },
-    {
-      "title": "Spigen 30W USB-C Ultra Mini Hızlı Şarj Aleti PPS Super Hızlı Şarj GaN Pro Isı",
-      "satis": "359,00 TL",
-      "ind": "%10",
-      "eski": "399,00 TL",
-      "asin": "B0DFX1XG68",
-      "link": "https://www.amazon.com.tr/dp/B0DFX1XG68?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/41lOq3fDvaL._AC_SR480,440_.jpg",
       "zaman": "2026-11-27 16:11:52"
     }
   ]
