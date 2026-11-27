@@ -152,8 +152,16 @@ def asin_ve_link_ayarla(girdi: str) -> tuple[str, str]:
 
 
 def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
+    aday_url_listesi = [url]
+    if "goldbox" not in url:
+        aday_url_listesi.append("https://www.amazon.com.tr/gp/goldbox")
+
+    ham_liste = []
     with sync_playwright() as p:
-        b = p.chromium.launch(headless=True)
+        b = p.chromium.launch(
+            headless=True,
+            args=["--disable-blink-features=AutomationControlled"],
+        )
         ctx = b.new_context(
             locale="tr-TR",
             viewport={"width": 1366, "height": 900},
@@ -163,96 +171,143 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
                 "Chrome/131.0.0.0 Safari/537.36"
             ),
         )
+        ctx.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
         pg = ctx.new_page()
-        pg.goto(url, wait_until="domcontentloaded", timeout=45000)
-        pg.wait_for_timeout(3000)
 
-        for _ in range(3):
-            pg.mouse.wheel(0, 1200)
-            pg.wait_for_timeout(1200)
+        for hedef_url in aday_url_listesi:
+            pg.goto(hedef_url, wait_until="domcontentloaded", timeout=45000)
+            pg.wait_for_timeout(4000)
 
-        ham_liste = pg.evaluate(
-            r"""(maxItems) => {
-                const seenAsin = new Set();
-                const out = [];
+            for _ in range(4):
+                pg.mouse.wheel(0, 1400)
+                pg.wait_for_timeout(1200)
 
-                const candidates = Array.from(
-                    document.querySelectorAll('[data-asin], [data-testid*="deal"], .a-carousel-card, a[href*="/dp/"]')
-                );
+            sayfa_basligi = pg.title()
+            dp_link_sayisi = pg.locator('a[href*="/dp/"]').count()
+            print(f"URL: {hedef_url} | Title: {sayfa_basligi} | /dp/ link: {dp_link_sayisi}")
 
-                for (const el of candidates) {
-                    let asin = (el.getAttribute('data-asin') || '').trim();
-                    let linkEl = null;
+            ham_liste = pg.evaluate(
+                r"""(maxItems) => {
+                    const seenAsin = new Set();
+                    const out = [];
+                    const links = Array.from(document.querySelectorAll('a[href*="/dp/"]'));
 
-                    if (!/^[A-Z0-9]{10}$/i.test(asin)) {
-                        linkEl = el.matches('a[href*="/dp/"]') ? el : el.querySelector('a[href*="/dp/"]');
-                        if (!linkEl) continue;
-                        const href = linkEl.getAttribute('href') || '';
+                    for (const a of links) {
+                        const href = a.getAttribute('href') || '';
                         const m = href.match(/\/dp\/([A-Z0-9]{10})/i);
                         if (!m) continue;
-                        asin = m[1].toUpperCase();
-                    } else {
-                        linkEl = el.querySelector('a[href*="/dp/"]') || el;
-                    }
+                        const asin = m[1].toUpperCase();
+                        if (seenAsin.has(asin)) continue;
 
-                    if (!asin || seenAsin.has(asin)) continue;
-
-                    let card = el;
-                    for (let i = 0; i < 4 && card && card.parentElement; i++) {
-                        const parent = card.parentElement;
-                        const otherAsins = new Set();
-                        for (const sub of parent.querySelectorAll('[data-asin], a[href*="/dp/"]')) {
-                            const da = (sub.getAttribute('data-asin') || '').trim().toUpperCase();
-                            if (/^[A-Z0-9]{10}$/.test(da) && da !== asin) otherAsins.add(da);
-                            const sh = sub.getAttribute('href') || '';
-                            const sm = sh.match(/\/dp\/([A-Z0-9]{10})/i);
-                            if (sm && sm[1].toUpperCase() !== asin) otherAsins.add(sm[1].toUpperCase());
+                        let card = a;
+                        for (let i = 0; i < 5 && card && card.parentElement; i++) {
+                            const parent = card.parentElement;
+                            const otherAsins = new Set();
+                            for (const sub of parent.querySelectorAll('a[href*="/dp/"]')) {
+                                const sh = sub.getAttribute('href') || '';
+                                const sm = sh.match(/\/dp\/([A-Z0-9]{10})/i);
+                                if (sm && sm[1].toUpperCase() !== asin) otherAsins.add(sm[1].toUpperCase());
+                            }
+                            if (otherAsins.size > 0) break;
+                            card = parent;
                         }
-                        if (otherAsins.size > 0) break;
-                        card = parent;
+
+                        const text = card ? (card.innerText || '') : (a.innerText || '');
+                        const lines = text.split('\n').map(x => x.trim()).filter(Boolean);
+
+                        const imgEl = (card && card.querySelector('img')) || a.querySelector('img');
+                        const img = imgEl
+                            ? (imgEl.getAttribute('src') || imgEl.getAttribute('data-src') || imgEl.getAttribute('data-old-hires') || '')
+                            : '';
+                        const imgAlt = imgEl ? (imgEl.getAttribute('alt') || '').trim() : '';
+
+                        let rawTitle = (a.getAttribute('aria-label') || '').trim();
+                        if (rawTitle.length < 10 && imgAlt.length >= 10) {
+                            rawTitle = imgAlt;
+                        }
+                        if (rawTitle.length < 10) {
+                            rawTitle = lines.find(
+                                l => l.length >= 12 && !/TL|₺|%\s*\d|günün en düşük|önceki fiyat|kalan süre|sepete ekle|fırsatı\b/i.test(l)
+                            ) || '';
+                        }
+
+                        const priceMatches = text.match(/(\d{1,3}(?:\.\d{3})*,\d{2}|\d+,\d{2}|\d{1,3}(?:\.\d{3})*)\s*(?:TL|₺)/g) || [];
+                        const discMatch = text.match(/%\s*(\d{1,2})\b/);
+
+                        if (rawTitle && priceMatches.length > 0) {
+                            seenAsin.add(asin);
+                            out.push({
+                                asin,
+                                rawTitle,
+                                img,
+                                prices: priceMatches.slice(0, 4),
+                                discount: discMatch ? parseInt(discMatch[1], 10) : null
+                            });
+                        }
+                        if (out.length >= maxItems) break;
                     }
+                    return out;
+                }""",
+                limit,
+            )
+            if ham_liste:
+                break
 
-                    const text = card ? (card.innerText || '') : (el.innerText || '');
-                    const lines = text.split('\n').map(x => x.trim()).filter(Boolean);
-
-                    const imgEl = (card && card.querySelector('img')) || el.querySelector('img');
-                    const img = imgEl
-                        ? (imgEl.getAttribute('src') || imgEl.getAttribute('data-src') || imgEl.getAttribute('data-old-hires') || '')
-                        : '';
-                    const imgAlt = imgEl ? (imgEl.getAttribute('alt') || '').trim() : '';
-
-                    let rawTitle = (linkEl && linkEl.getAttribute('aria-label') ? linkEl.getAttribute('aria-label') : '').trim();
-                    if (rawTitle.length < 10 && imgAlt.length >= 10) {
-                        rawTitle = imgAlt;
-                    }
-                    if (rawTitle.length < 10) {
-                        rawTitle = lines.find(
-                            l => l.length >= 12 && !/TL|₺|%\s*\d|günün en düşük|önceki fiyat|kalan süre|sepete ekle|fırsatı\b/i.test(l)
-                        ) || '';
-                    }
-
-                    const priceMatches = text.match(/(\d{1,3}(?:\.\d{3})*,\d{2}|\d+,\d{2}|\d{1,3}(?:\.\d{3})*)\s*(?:TL|₺)/g) || [];
-                    const discMatch = text.match(/%\s*(\d{1,2})\b/);
-
-                    if (rawTitle && priceMatches.length > 0) {
-                        seenAsin.add(asin);
-                        out.push({
-                            asin,
-                            rawTitle,
-                            img,
-                            prices: priceMatches.slice(0, 4),
-                            discount: discMatch ? parseInt(discMatch[1], 10) : null
-                        });
-                    }
-                    if (out.length >= maxItems) break;
-                }
-                return out;
-            }""",
-            limit,
-        )
         b.close()
 
     sonuc = []
+    for item in ham_liste or []:
+        title = baslik_temizle(item.get("rawTitle") or "")
+        if len(title) < 8:
+            continue
+
+        fiyat_sayilari = []
+        for pm in item.get("prices") or []:
+            v = fiyat_sayiya_cevir(pm)
+            if v is not None and v not in fiyat_sayilari:
+                fiyat_sayilari.append(v)
+        if not fiyat_sayilari:
+            continue
+
+        satis = fiyat_sayilari[0]
+        buyukler = [x for x in fiyat_sayilari[1:] if x > satis]
+        eski = min(buyukler) if buyukler else None
+        ind = item.get("discount")
+        if ind is None and eski and eski > satis:
+            ind = round(((eski - satis) / eski) * 100)
+
+        link = f"https://www.amazon.com.tr/dp/{item['asin']}?tag={TAG}"
+        fiyat_satiri = tr_para(satis)
+        ek = []
+        if ind:
+            ek.append("%" + str(ind) + " indirim")
+        if eski:
+            ek.append("(Eski: " + tr_para(eski) + ")")
+        if ek:
+            fiyat_satiri = fiyat_satiri + " — " + " ".join(ek)
+
+        mesaj = "\n\n".join(
+            [
+                title,
+                fiyat_satiri,
+                link,
+                "#tanitim #reklam #işbirliği",
+            ]
+        )
+
+        sonuc.append(
+            {
+                "asin": item["asin"],
+                "title": title,
+                "img": item.get("img") or "",
+                "satis": satis,
+                "eski": eski,
+                "ind": ind,
+                "link": link,
+                "mesaj": mesaj,
+            }
+        )
+    return sonuc
     for item in ham_liste or []:
         title = baslik_temizle(item.get("rawTitle") or "")
         if len(title) < 8:
