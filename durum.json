@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-27 23:27:36",
-  "toplam_paylasim": 310,
+  "son_tarama": "2026-11-28 00:28:51",
+  "toplam_paylasim": 311,
   "paylasilan_adet": 1,
-  "bulunan_link": 14,
+  "bulunan_link": 8,
   "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-28 00:28:51",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (8 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-27 23:27:36",
       "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (14 aday incelendi).",
@@ -150,24 +155,29 @@
       "zaman": "2026-11-26 23:29:51",
       "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
       "tip": "ok"
-    },
-    {
-      "zaman": "2026-11-26 22:32:18",
-      "mesaj": "20 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
-      "tip": "ok"
     }
   ],
   "son_urun": {
-    "title": "JBL BAR 1300M2, Dolby Atmos 11.1.4 Soundbar,Wrl.Subw. | Çıkarılabilir Hoparlör, 8",
-    "satis": "59.949,00 TL",
-    "ind": "%20",
-    "eski": "74.899,00 TL",
-    "asin": "B0FHJ21Q2H",
-    "link": "https://www.amazon.com.tr/dp/B0FHJ21Q2H?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/513JmoTHb0L._AC_SR480,440_.jpg",
-    "zaman": "2026-11-27 23:27:36"
+    "title": "URBAN Care Style Guide Deniz Tuzu Etkili Doğal Dalga Sağlayan Saç Spreyi 200 ml",
+    "satis": "150,00 TL",
+    "ind": "%29",
+    "eski": "210,00 TL",
+    "asin": "B09ZTYPVFW",
+    "link": "https://www.amazon.com.tr/dp/B09ZTYPVFW?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/41MjAUW7aUL._AC_SR480,440_.jpg",
+    "zaman": "2026-11-28 00:28:51"
   },
   "son_paylasimlar": [
+    {
+      "title": "URBAN Care Style Guide Deniz Tuzu Etkili Doğal Dalga Sağlayan Saç Spreyi 200 ml",
+      "satis": "150,00 TL",
+      "ind": "%29",
+      "eski": "210,00 TL",
+      "asin": "B09ZTYPVFW",
+      "link": "https://www.amazon.com.tr/dp/B09ZTYPVFW?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/41MjAUW7aUL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-28 00:28:51"
+    },
     {
       "title": "JBL BAR 1300M2, Dolby Atmos 11.1.4 Soundbar,Wrl.Subw. | Çıkarılabilir Hoparlör, 8",
       "satis": "59.949,00 TL",
@@ -456,16 +466,6 @@
       "asin": "B0HL75XX3X",
       "link": "https://www.amazon.com.tr/dp/B0HL75XX3X?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/71ROh09qKQL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 16:11:52"
-    },
-    {
-      "title": "H2ofloss Şarjlı Kablosuz Ağız Duşu, Hızlı ve Etkili Diş Arası Temizliği – 300 ml Su",
-      "satis": "1.799,00 TL",
-      "ind": "%10",
-      "eski": "1.999,00 TL",
-      "asin": "B0F8QVXLTL",
-      "link": "https://www.amazon.com.tr/dp/B0F8QVXLTL?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71THZxRMhnL._AC_SR480,440_.jpg",
       "zaman": "2026-11-27 16:11:52"
     }
   ]
