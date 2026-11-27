@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-27 03:30:36",
-  "toplam_paylasim": 257,
-  "paylasilan_adet": 0,
-  "bulunan_link": 0,
-  "durum": "uyari",
+  "son_tarama": "2026-11-27 04:57:45",
+  "toplam_paylasim": 260,
+  "paylasilan_adet": 3,
+  "bulunan_link": 20,
+  "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-27 04:57:45",
+      "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-27 03:30:36",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
@@ -150,24 +155,49 @@
       "zaman": "2026-11-25 21:22:19",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-25 20:31:29",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
-    "title": "Inissia D40 Siyah ve Kireç Çözme Kiti",
-    "satis": "6.999,00 TL",
-    "ind": "%42",
-    "eski": "12.168,00 TL",
-    "asin": "B0HJWZZVDB",
-    "link": "https://www.amazon.com.tr/dp/B0HJWZZVDB?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/61qnxloIg8L._AC_SR480,440_.jpg",
-    "zaman": "2026-11-27 02:30:26"
+    "title": "Parex Wondero Flat Şeffaf Temiz Su İle Kirli Suyu Ayıran Otomatik Temizlik Seti Mor",
+    "satis": "1.489,00 TL",
+    "ind": "%17",
+    "eski": "1.799,00 TL",
+    "asin": "B0HBWZ28TH",
+    "link": "https://www.amazon.com.tr/dp/B0HBWZ28TH?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/51m+QAPy0sL._AC_SR480,440_.jpg",
+    "zaman": "2026-11-27 04:57:45"
   },
   "son_paylasimlar": [
+    {
+      "title": "Parex Wondero Flat Şeffaf Temiz Su İle Kirli Suyu Ayıran Otomatik Temizlik Seti Mor",
+      "satis": "1.489,00 TL",
+      "ind": "%17",
+      "eski": "1.799,00 TL",
+      "asin": "B0HBWZ28TH",
+      "link": "https://www.amazon.com.tr/dp/B0HBWZ28TH?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/51m+QAPy0sL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 04:57:45"
+    },
+    {
+      "title": "BONTEC 13-32 İnç Gazlı Amortisörlü Tekli Monitör Kolu, 9 kg’a Kadar, Tam Hareketli, VESA",
+      "satis": "899,00 TL",
+      "ind": "%0",
+      "eski": "",
+      "asin": "B0CKPC6YM3",
+      "link": "https://www.amazon.com.tr/dp/B0CKPC6YM3?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61aRgQ3EssL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 04:57:45"
+    },
+    {
+      "title": "Viko Akım ve Çocuk Korumalı Topraklı 6'lı (altılı) Kablolu Grup Priz",
+      "satis": "759,90 TL",
+      "ind": "%0",
+      "eski": "",
+      "asin": "B07B4CLFXF",
+      "link": "https://www.amazon.com.tr/dp/B07B4CLFXF?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61g-z1+h9tL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 04:57:45"
+    },
     {
       "title": "Inissia D40 Siyah ve Kireç Çözme Kiti",
       "satis": "6.999,00 TL",
@@ -436,36 +466,6 @@
       "asin": "B0CS6HKR2Z",
       "link": "https://www.amazon.com.tr/dp/B0CS6HKR2Z?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/612FEQ4rGFL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "Lenovo N260 Sessiz Kablosuz Mouse, 1200 DPI, 20 Metre Menzil, Otomatik Kapanma ve Uyku Modu",
-      "satis": "281,50 TL",
-      "ind": "%25",
-      "eski": "375,15 TL",
-      "asin": "B0GZCRFYK9",
-      "link": "https://www.amazon.com.tr/dp/B0GZCRFYK9?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/51Gov3PISuL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "Emsan Yeni Mısra Porselen 30 Parça 6 Kişilik Kahvaltı/Servis Takımı Beyaz",
-      "satis": "1.999,00 TL",
-      "ind": "%29",
-      "eski": "2.808,99 TL",
-      "asin": "B0B6H443LM",
-      "link": "https://www.amazon.com.tr/dp/B0B6H443LM?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/81Zv+akhvNL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "Digithome Bambu Kirli Sepetli 3 Raflı Çok Amaçlı Banyo Düzenleyici Çamaşır Sepeti Organizer DB-0002",
-      "satis": "2.989,00 TL",
-      "ind": "%40",
-      "eski": "4.999,00 TL",
-      "asin": "B0D6RW4V2N",
-      "link": "https://www.amazon.com.tr/dp/B0D6RW4V2N?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61dDi0YtmhL._AC_SR480,440_.jpg",
       "zaman": "2026-11-26 22:32:18"
     }
   ]
