@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-27 19:20:10",
-  "toplam_paylasim": 303,
-  "paylasilan_adet": 1,
+  "son_tarama": "2026-11-27 20:27:43",
+  "toplam_paylasim": 306,
+  "paylasilan_adet": 3,
   "bulunan_link": 12,
   "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-27 20:27:43",
+      "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (12 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-27 19:20:10",
       "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (12 aday incelendi).",
@@ -150,24 +155,49 @@
       "zaman": "2026-11-26 19:30:19",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-26 18:20:33",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
-    "title": "Ravla Naturel Sızma Zeytinyağı - Sofralık 5L",
-    "satis": "2.300,00 TL",
-    "ind": "%41",
-    "eski": "3.900,00 TL",
-    "asin": "B0FZBHW15X",
-    "link": "https://www.amazon.com.tr/dp/B0FZBHW15X?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/51rIkYzyyXL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-27 19:20:10"
+    "title": "Einhell Akülü Ağaç Kesme ve Dal Kesme Seti ASET26-018 | FORTEXXA 18/30 + GE-GS",
+    "satis": "9.999,00 TL",
+    "ind": "%33",
+    "eski": "14.942,40 TL",
+    "asin": "B0GYQ3RJJR",
+    "link": "https://www.amazon.com.tr/dp/B0GYQ3RJJR?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/711HCC6WVsL._AC_SR480,440_.jpg",
+    "zaman": "2026-11-27 20:27:43"
   },
   "son_paylasimlar": [
+    {
+      "title": "Einhell Akülü Ağaç Kesme ve Dal Kesme Seti ASET26-018 | FORTEXXA 18/30 + GE-GS",
+      "satis": "9.999,00 TL",
+      "ind": "%33",
+      "eski": "14.942,40 TL",
+      "asin": "B0GYQ3RJJR",
+      "link": "https://www.amazon.com.tr/dp/B0GYQ3RJJR?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/711HCC6WVsL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 20:27:43"
+    },
+    {
+      "title": "Thrustmaster T128 Yarış Direksiyonu – Hibrit Force Feedback Teknolojisi – Manyetik",
+      "satis": "9.999,00 TL",
+      "ind": "%33",
+      "eski": "14.999,00 TL",
+      "asin": "B0B3RJNZXG",
+      "link": "https://www.amazon.com.tr/dp/B0B3RJNZXG?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/81US+8C0u8L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 20:27:43"
+    },
+    {
+      "title": "L'OR Advent Takvimi 2026 Nespresso Uyumlu Alüminyum Kapsül Kahve 24 Adet",
+      "satis": "589,90 TL",
+      "ind": "%35",
+      "eski": "908,28 TL",
+      "asin": "B0DFHKSLLP",
+      "link": "https://www.amazon.com.tr/dp/B0DFHKSLLP?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/71K+YpFkvpL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 20:27:43"
+    },
     {
       "title": "Ravla Naturel Sızma Zeytinyağı - Sofralık 5L",
       "satis": "2.300,00 TL",
@@ -436,36 +466,6 @@
       "asin": "B0HHXTZW4F",
       "link": "https://www.amazon.com.tr/dp/B0HHXTZW4F?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/61opqvjhRbL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 16:11:52"
-    },
-    {
-      "title": "Molfix Kanal Teknolojisi Dev Avantaj Paketi 5 Beden Junior 80 Adet",
-      "satis": "450,29 TL",
-      "ind": "%32",
-      "eski": "658,99 TL",
-      "asin": "B0H74ZDR87",
-      "link": "https://www.amazon.com.tr/dp/B0H74ZDR87?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/814lyhG4TxL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 16:11:52"
-    },
-    {
-      "title": "UBPet UCAT C31 Açık Tasarımlı Akıllı Otomatik Kedi Tuvaleti | Mobil Uygulama",
-      "satis": "9.799,00 TL",
-      "ind": "%2",
-      "eski": "9.999,00 TL",
-      "asin": "B0GKHN2RW8",
-      "link": "https://www.amazon.com.tr/dp/B0GKHN2RW8?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/617KCCFEc0L._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 16:11:52"
-    },
-    {
-      "title": "Apple iPhone 18 Pro, 256 GB, A20 Pro Çip | ProMotion teknolojisine sahip 6.3 inç",
-      "satis": "126.299,00 TL",
-      "ind": "%3",
-      "eski": "129.949,00 TL",
-      "asin": "B0HJBCXM7M",
-      "link": "https://www.amazon.com.tr/dp/B0HJBCXM7M?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71WbAwLW7OL._AC_SR480,440_.jpg",
       "zaman": "2026-11-27 16:11:52"
     }
   ]
