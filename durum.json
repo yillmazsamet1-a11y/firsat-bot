@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-27 06:58:44",
-  "toplam_paylasim": 268,
-  "paylasilan_adet": 2,
+  "son_tarama": "2026-11-27 08:08:43",
+  "toplam_paylasim": 271,
+  "paylasilan_adet": 3,
   "bulunan_link": 20,
   "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-27 08:08:43",
+      "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-27 06:58:44",
       "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
@@ -150,24 +155,49 @@
       "zaman": "2026-11-26 00:29:16",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-25 23:25:49",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
-    "title": "Gülümseten Kasım fırsatı",
-    "satis": "150,95 TL",
-    "ind": "%10",
-    "eski": "167,72 TL",
-    "asin": "6057728459",
-    "link": "https://www.amazon.com.tr/dp/6057728459?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/91jGg42qbVL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-27 06:58:44"
+    "title": "Jacobs Origins Brazil & Colombia Filtre Kahve 200 g",
+    "satis": "272,90 TL",
+    "ind": "%24",
+    "eski": "359,00 TL",
+    "asin": "B0FN4J5HT3",
+    "link": "https://www.amazon.com.tr/dp/B0FN4J5HT3?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/71DXj8-6IyL._AC_SR480,440_.jpg",
+    "zaman": "2026-11-27 08:08:43"
   },
   "son_paylasimlar": [
+    {
+      "title": "Jacobs Origins Brazil & Colombia Filtre Kahve 200 g",
+      "satis": "272,90 TL",
+      "ind": "%24",
+      "eski": "359,00 TL",
+      "asin": "B0FN4J5HT3",
+      "link": "https://www.amazon.com.tr/dp/B0FN4J5HT3?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/71DXj8-6IyL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 08:08:43"
+    },
+    {
+      "title": "Naturagen Vitamin D3 + K2 1000 IU 60 Kapsül | Glutensiz Kolay Yutulabilir Vitamin D3 K2 | 60",
+      "satis": "336,90 TL",
+      "ind": "%32",
+      "eski": "494,95 TL",
+      "asin": "B0CXF6MBYG",
+      "link": "https://www.amazon.com.tr/dp/B0CXF6MBYG?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61+7PA6w1-L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 08:08:43"
+    },
+    {
+      "title": "LAVA Efsane Kasım 3'lü Döküm Tencere ve Tava Seti Turuncu",
+      "satis": "6.550,00 TL",
+      "ind": "%42",
+      "eski": "11.289,60 TL",
+      "asin": "B0HQ75QSWL",
+      "link": "https://www.amazon.com.tr/dp/B0HQ75QSWL?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61fxfH4QK+L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 08:08:43"
+    },
     {
       "title": "Gülümseten Kasım fırsatı",
       "satis": "150,95 TL",
@@ -437,36 +467,6 @@
       "link": "https://www.amazon.com.tr/dp/B0CZ9XXWC1?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/51SILQsgwnL._AC_SR480,440_.jpg",
       "zaman": "2026-11-26 23:29:51"
-    },
-    {
-      "title": "PAPILLOW Medical Oturma Minderi 42 * 40 * 9/2",
-      "satis": "1.581,00 TL",
-      "ind": "%15",
-      "eski": "1.860,00 TL",
-      "asin": "B0CNNJ3R2Q",
-      "link": "https://www.amazon.com.tr/dp/B0CNNJ3R2Q?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/41Eh20npP0L._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 23:29:51"
-    },
-    {
-      "title": "Mulberry Waflle Desenli Pike, Waflle Battaniyesi,%100 Pamuk, Kalın İplik, Yumuşak, Tek Kişilik",
-      "satis": "699,90 TL",
-      "ind": "%22",
-      "eski": "899,90 TL",
-      "asin": "B0CX8SC761",
-      "link": "https://www.amazon.com.tr/dp/B0CX8SC761?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61vSGCHxU8L._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "Parex Multi Yedek Mop 2'li",
-      "satis": "143,00 TL",
-      "ind": "%28",
-      "eski": "199,00 TL",
-      "asin": "B07JGBFMP8",
-      "link": "https://www.amazon.com.tr/dp/B07JGBFMP8?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71VXcyp57-L._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
     }
   ]
 }
