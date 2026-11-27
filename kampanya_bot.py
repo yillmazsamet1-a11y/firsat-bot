@@ -10,6 +10,8 @@ from playwright.sync_api import sync_playwright
 TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "9203702774:AAHRD7T3aprg_yOozgQv1I_wBCb7yehq4Ck").strip()
 KANAL = os.environ.get("TELEGRAM_CHANNEL_ID", "@anlikiindirim").strip()
 TAG = os.environ.get("AMAZON_ASSOCIATE_TAG", "anlikiindirim-21").strip()
+MIN_INDIRIM = int(os.environ.get("MIN_INDIRIM", "20"))
+GORSEL_ZORUNLU = os.environ.get("GORSEL_ZORUNLU", "1").strip() != "0"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 GECMIS_DOSYASI = os.path.join(BASE_DIR, "paylasilan_gecmisi.json")
@@ -19,7 +21,7 @@ TEKRAR_SURESI_SN = 24 * 3600
 TR_TZ = timezone(timedelta(hours=3))
 TARAMA_URL = os.environ.get(
     "AMAZON_DEAL_URL",
-    "https://www.amazon.com.tr/deals",
+    "https://www.amazon.com.tr/gp/goldbox",
 ).strip()
 
 
@@ -151,6 +153,19 @@ def asin_ve_link_ayarla(girdi: str) -> tuple[str, str]:
     return "", link
 
 
+def gorsel_url_temizle(raw_img: str) -> str:
+    s = (raw_img or "").strip()
+    if not s or s.startswith("data:image"):
+        return ""
+    if " " in s and ("http" in s or "m.media-amazon.com" in s):
+        parcalar = [p.strip().split(" ")[0] for p in s.split(",") if p.strip()]
+        if parcalar:
+            s = parcalar[-1]
+    if s.startswith("//"):
+        s = "https:" + s
+    return s if s.startswith("http") else ""
+
+
 def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
     aday_url_listesi = [url]
     if "goldbox" not in url:
@@ -176,10 +191,10 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
 
         for hedef_url in aday_url_listesi:
             pg.goto(hedef_url, wait_until="domcontentloaded", timeout=45000)
-            pg.wait_for_timeout(4000)
+            pg.wait_for_timeout(3500)
 
-            for _ in range(4):
-                pg.mouse.wheel(0, 1400)
+            for _ in range(5):
+                pg.mouse.wheel(0, 1500)
                 pg.wait_for_timeout(1200)
 
             sayfa_basligi = pg.title()
@@ -190,20 +205,34 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
                 r"""(maxItems) => {
                     const seenAsin = new Set();
                     const out = [];
-                    const links = Array.from(document.querySelectorAll('a[href*="/dp/"]'));
+                    const candidates = Array.from(
+                        document.querySelectorAll('[data-asin], [data-testid*="deal"], .a-carousel-card, a[href*="/dp/"]')
+                    );
 
-                    for (const a of links) {
-                        const href = a.getAttribute('href') || '';
-                        const m = href.match(/\/dp\/([A-Z0-9]{10})/i);
-                        if (!m) continue;
-                        const asin = m[1].toUpperCase();
-                        if (seenAsin.has(asin)) continue;
+                    for (const el of candidates) {
+                        let asin = (el.getAttribute('data-asin') || '').trim();
+                        let linkEl = null;
 
-                        let card = a;
+                        if (!/^[A-Z0-9]{10}$/i.test(asin)) {
+                            linkEl = el.matches('a[href*="/dp/"]') ? el : el.querySelector('a[href*="/dp/"]');
+                            if (!linkEl) continue;
+                            const href = linkEl.getAttribute('href') || '';
+                            const m = href.match(/\/dp\/([A-Z0-9]{10})/i);
+                            if (!m) continue;
+                            asin = m[1].toUpperCase();
+                        } else {
+                            linkEl = el.querySelector('a[href*="/dp/"]') || el;
+                        }
+
+                        if (!asin || seenAsin.has(asin)) continue;
+
+                        let card = el;
                         for (let i = 0; i < 5 && card && card.parentElement; i++) {
                             const parent = card.parentElement;
                             const otherAsins = new Set();
-                            for (const sub of parent.querySelectorAll('a[href*="/dp/"]')) {
+                            for (const sub of parent.querySelectorAll('[data-asin], a[href*="/dp/"]')) {
+                                const da = (sub.getAttribute('data-asin') || '').trim().toUpperCase();
+                                if (/^[A-Z0-9]{10}$/.test(da) && da !== asin) otherAsins.add(da);
                                 const sh = sub.getAttribute('href') || '';
                                 const sm = sh.match(/\/dp\/([A-Z0-9]{10})/i);
                                 if (sm && sm[1].toUpperCase() !== asin) otherAsins.add(sm[1].toUpperCase());
@@ -212,16 +241,26 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
                             card = parent;
                         }
 
-                        const text = card ? (card.innerText || '') : (a.innerText || '');
+                        const text = card ? (card.innerText || '') : (el.innerText || '');
                         const lines = text.split('\n').map(x => x.trim()).filter(Boolean);
 
-                        const imgEl = (card && card.querySelector('img')) || a.querySelector('img');
-                        const img = imgEl
-                            ? (imgEl.getAttribute('src') || imgEl.getAttribute('data-src') || imgEl.getAttribute('data-old-hires') || '')
-                            : '';
-                        const imgAlt = imgEl ? (imgEl.getAttribute('alt') || '').trim() : '';
+                        const imgs = card ? Array.from(card.querySelectorAll('img')) : Array.from(el.querySelectorAll('img'));
+                        let img = '';
+                        let imgAlt = '';
+                        for (const im of imgs) {
+                            const cand = im.getAttribute('data-old-hires')
+                                || im.getAttribute('data-src')
+                                || im.getAttribute('srcset')
+                                || im.getAttribute('src')
+                                || '';
+                            if (cand && !cand.startsWith('data:image')) {
+                                img = cand;
+                                imgAlt = (im.getAttribute('alt') || '').trim();
+                                break;
+                            }
+                        }
 
-                        let rawTitle = (a.getAttribute('aria-label') || '').trim();
+                        let rawTitle = (linkEl && linkEl.getAttribute('aria-label') ? linkEl.getAttribute('aria-label') : '').trim();
                         if (rawTitle.length < 10 && imgAlt.length >= 10) {
                             rawTitle = imgAlt;
                         }
@@ -248,7 +287,7 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
                     }
                     return out;
                 }""",
-                limit,
+                max(limit * 3, 50),
             )
             if ham_liste:
                 break
@@ -276,57 +315,9 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
         if ind is None and eski and eski > satis:
             ind = round(((eski - satis) / eski) * 100)
 
-        link = f"https://www.amazon.com.tr/dp/{item['asin']}?tag={TAG}"
-        fiyat_satiri = tr_para(satis)
-        ek = []
-        if ind:
-            ek.append("%" + str(ind) + " indirim")
-        if eski:
-            ek.append("(Eski: " + tr_para(eski) + ")")
-        if ek:
-            fiyat_satiri = fiyat_satiri + " — " + " ".join(ek)
-
-        mesaj = "\n\n".join(
-            [
-                title,
-                fiyat_satiri,
-                link,
-                "#tanitim #reklam #işbirliği",
-            ]
-        )
-
-        sonuc.append(
-            {
-                "asin": item["asin"],
-                "title": title,
-                "img": item.get("img") or "",
-                "satis": satis,
-                "eski": eski,
-                "ind": ind,
-                "link": link,
-                "mesaj": mesaj,
-            }
-        )
-    return sonuc
-    for item in ham_liste or []:
-        title = baslik_temizle(item.get("rawTitle") or "")
-        if len(title) < 8:
+        img = gorsel_url_temizle(item.get("img") or "")
+        if GORSEL_ZORUNLU and not img:
             continue
-
-        fiyat_sayilari = []
-        for pm in item.get("prices") or []:
-            v = fiyat_sayiya_cevir(pm)
-            if v is not None and v not in fiyat_sayilari:
-                fiyat_sayilari.append(v)
-        if not fiyat_sayilari:
-            continue
-
-        satis = fiyat_sayilari[0]
-        buyukler = [x for x in fiyat_sayilari[1:] if x > satis]
-        eski = min(buyukler) if buyukler else None
-        ind = item.get("discount")
-        if ind is None and eski and eski > satis:
-            ind = round(((eski - satis) / eski) * 100)
 
         link = f"https://www.amazon.com.tr/dp/{item['asin']}?tag={TAG}"
         fiyat_satiri = tr_para(satis)
@@ -351,15 +342,23 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
             {
                 "asin": item["asin"],
                 "title": title,
-                "img": item.get("img") or "",
+                "img": img,
                 "satis": satis,
                 "eski": eski,
-                "ind": ind,
+                "ind": ind or 0,
                 "link": link,
                 "mesaj": mesaj,
             }
         )
-    return sonuc
+
+    yuksek_indirimli = [x for x in sonuc if (x.get("ind") or 0) >= MIN_INDIRIM]
+    digerleri = sorted(
+        [x for x in sonuc if (x.get("ind") or 0) < MIN_INDIRIM],
+        key=lambda x: x.get("ind") or 0,
+        reverse=True,
+    )
+    sirali = yuksek_indirimli + digerleri
+    return sirali[:limit]
 
 
 def telegrama_gonder(foto_url: str, caption: str) -> bool:
@@ -376,6 +375,8 @@ def telegrama_gonder(foto_url: str, caption: str) -> bool:
                 return True
         except Exception:
             pass
+    if GORSEL_ZORUNLU and foto_url:
+        return False
     r = requests.post(
         f"https://api.telegram.org/bot{TOKEN}/sendMessage",
         data={"chat_id": KANAL, "text": caption, "disable_web_page_preview": False},
@@ -506,7 +507,7 @@ def manuel_paylas_cli(args: list[str]) -> None:
     asin, link = asin_ve_link_ayarla(args[2])
     ind = int(re.sub(r"\D", "", args[3])) if len(args) > 3 and re.sub(r"\D", "", args[3]) else None
     eski = fiyat_sayiya_cevir(args[4]) if len(args) > 4 and args[4].strip() else None
-    img = args[5].strip() if len(args) > 5 else ""
+    img = gorsel_url_temizle(args[5]) if len(args) > 5 else ""
 
     if ind is None and eski and eski > satis:
         ind = round(((eski - satis) / eski) * 100)
