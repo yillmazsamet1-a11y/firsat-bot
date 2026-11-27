@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-27 20:27:43",
-  "toplam_paylasim": 306,
-  "paylasilan_adet": 3,
-  "bulunan_link": 12,
+  "son_tarama": "2026-11-27 21:21:03",
+  "toplam_paylasim": 308,
+  "paylasilan_adet": 2,
+  "bulunan_link": 15,
   "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-27 21:21:03",
+      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (15 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-27 20:27:43",
       "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (12 aday incelendi).",
@@ -150,24 +155,39 @@
       "zaman": "2026-11-26 20:30:10",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-26 19:30:19",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
-    "title": "Einhell Akülü Ağaç Kesme ve Dal Kesme Seti ASET26-018 | FORTEXXA 18/30 + GE-GS",
-    "satis": "9.999,00 TL",
-    "ind": "%33",
-    "eski": "14.942,40 TL",
-    "asin": "B0GYQ3RJJR",
-    "link": "https://www.amazon.com.tr/dp/B0GYQ3RJJR?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/711HCC6WVsL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-27 20:27:43"
+    "title": "Einhell Akülü Çim Makası Ve Kenar Kesme Seti ASET26-019 | GC-CG 18 Li + GC-CT 18/24",
+    "satis": "5.799,00 TL",
+    "ind": "%26",
+    "eski": "7.813,20 TL",
+    "asin": "B0GY1ZLLGF",
+    "link": "https://www.amazon.com.tr/dp/B0GY1ZLLGF?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/71jU7CRTFQL._AC_SR480,440_.jpg",
+    "zaman": "2026-11-27 21:21:03"
   },
   "son_paylasimlar": [
+    {
+      "title": "Einhell Akülü Çim Makası Ve Kenar Kesme Seti ASET26-019 | GC-CG 18 Li + GC-CT 18/24",
+      "satis": "5.799,00 TL",
+      "ind": "%26",
+      "eski": "7.813,20 TL",
+      "asin": "B0GY1ZLLGF",
+      "link": "https://www.amazon.com.tr/dp/B0GY1ZLLGF?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/71jU7CRTFQL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 21:21:03"
+    },
+    {
+      "title": "Inissia C40 Kırmızı ve Kireç Çözme Kiti",
+      "satis": "6.999,00 TL",
+      "ind": "%42",
+      "eski": "12.168,00 TL",
+      "asin": "B0HJWNL7BP",
+      "link": "https://www.amazon.com.tr/dp/B0HJWNL7BP?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61uRnNOwJWL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 21:21:03"
+    },
     {
       "title": "Einhell Akülü Ağaç Kesme ve Dal Kesme Seti ASET26-018 | FORTEXXA 18/30 + GE-GS",
       "satis": "9.999,00 TL",
@@ -446,26 +466,6 @@
       "asin": "B09D3N5LHW",
       "link": "https://www.amazon.com.tr/dp/B09D3N5LHW?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/41v9T8VckgL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 16:11:52"
-    },
-    {
-      "title": "Bosch Home And Garden Pwb 600 Çalışma Tezgahı Pwb 600, Yeşil | Çalışma masası PWB 600",
-      "satis": "6.999,00 TL",
-      "ind": "%4",
-      "eski": "7.321,02 TL",
-      "asin": "B007R9WICU",
-      "link": "https://www.amazon.com.tr/dp/B007R9WICU?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61ZLfTz2vyL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 16:11:52"
-    },
-    {
-      "title": "Titanseat Kairo Dark Night Kumaş Oyuncu Koltuğu | 3D ayarlanabilir kolçak, hafızalı",
-      "satis": "7.949,00 TL",
-      "ind": "%12",
-      "eski": "8.999,00 TL",
-      "asin": "B0HHXTZW4F",
-      "link": "https://www.amazon.com.tr/dp/B0HHXTZW4F?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/61opqvjhRbL._AC_SR480,440_.jpg",
       "zaman": "2026-11-27 16:11:52"
     }
   ]
