@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-27 18:10:42",
-  "toplam_paylasim": 302,
-  "paylasilan_adet": 0,
-  "bulunan_link": 9,
-  "durum": "uyari",
+  "son_tarama": "2026-11-27 19:20:10",
+  "toplam_paylasim": 303,
+  "paylasilan_adet": 1,
+  "bulunan_link": 12,
+  "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-27 19:20:10",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (12 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-27 18:10:42",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (9 aday incelendi).",
@@ -150,24 +155,29 @@
       "zaman": "2026-11-26 18:20:33",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-26 17:11:27",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
-    "title": "SKG 8511 Presso Kablosuz Memory Foam Masaj Yastığı | Profesyonel 3D Yoğurma",
-    "satis": "3.999,00 TL",
-    "ind": "%26",
-    "eski": "5.439,32 TL",
-    "asin": "B0H72DJLKT",
-    "link": "https://www.amazon.com.tr/dp/B0H72DJLKT?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/61Z0Siz7t5L._AC_SR480,440_.jpg",
-    "zaman": "2026-11-27 18:01:39"
+    "title": "Ravla Naturel Sızma Zeytinyağı - Sofralık 5L",
+    "satis": "2.300,00 TL",
+    "ind": "%41",
+    "eski": "3.900,00 TL",
+    "asin": "B0FZBHW15X",
+    "link": "https://www.amazon.com.tr/dp/B0FZBHW15X?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/51rIkYzyyXL._AC_SR480,440_.jpg",
+    "zaman": "2026-11-27 19:20:10"
   },
   "son_paylasimlar": [
+    {
+      "title": "Ravla Naturel Sızma Zeytinyağı - Sofralık 5L",
+      "satis": "2.300,00 TL",
+      "ind": "%41",
+      "eski": "3.900,00 TL",
+      "asin": "B0FZBHW15X",
+      "link": "https://www.amazon.com.tr/dp/B0FZBHW15X?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/51rIkYzyyXL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 19:20:10"
+    },
     {
       "title": "SKG 8511 Presso Kablosuz Memory Foam Masaj Yastığı | Profesyonel 3D Yoğurma",
       "satis": "3.999,00 TL",
@@ -456,16 +466,6 @@
       "asin": "B0HJBCXM7M",
       "link": "https://www.amazon.com.tr/dp/B0HJBCXM7M?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/71WbAwLW7OL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 16:11:52"
-    },
-    {
-      "title": "Roborock Qrevo 2 Pro Robot Süpürge | Çift Dolaşma Önleme Sistemi, Otomatik Paspas",
-      "satis": "39.999,00 TL",
-      "ind": "%7",
-      "eski": "42.999,00 TL",
-      "asin": "B0GZZTG9VS",
-      "link": "https://www.amazon.com.tr/dp/B0GZZTG9VS?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/519QS9W7HwL._AC_SR480,440_.jpg",
       "zaman": "2026-11-27 16:11:52"
     }
   ]
