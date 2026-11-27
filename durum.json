@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-28 00:28:51",
-  "toplam_paylasim": 311,
+  "son_tarama": "2026-11-28 01:29:43",
+  "toplam_paylasim": 312,
   "paylasilan_adet": 1,
-  "bulunan_link": 8,
+  "bulunan_link": 9,
   "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-28 01:29:43",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (9 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-28 00:28:51",
       "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (8 aday incelendi).",
@@ -150,24 +155,29 @@
       "zaman": "2026-11-27 00:27:18",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-26 23:29:51",
-      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
-      "tip": "ok"
     }
   ],
   "son_urun": {
-    "title": "URBAN Care Style Guide Deniz Tuzu Etkili Doğal Dalga Sağlayan Saç Spreyi 200 ml",
-    "satis": "150,00 TL",
-    "ind": "%29",
-    "eski": "210,00 TL",
-    "asin": "B09ZTYPVFW",
-    "link": "https://www.amazon.com.tr/dp/B09ZTYPVFW?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/41MjAUW7aUL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-28 00:28:51"
+    "title": "KAFT Unisex Postacı - Dik Çanta (Methone)",
+    "satis": "2.632,00 TL",
+    "ind": "%20",
+    "eski": "3.290,00 TL",
+    "asin": "B0FVM5SLX9",
+    "link": "https://www.amazon.com.tr/dp/B0FVM5SLX9?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/71Fo4XO1BDL._AC_SR480,440_.jpg",
+    "zaman": "2026-11-28 01:29:43"
   },
   "son_paylasimlar": [
+    {
+      "title": "KAFT Unisex Postacı - Dik Çanta (Methone)",
+      "satis": "2.632,00 TL",
+      "ind": "%20",
+      "eski": "3.290,00 TL",
+      "asin": "B0FVM5SLX9",
+      "link": "https://www.amazon.com.tr/dp/B0FVM5SLX9?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/71Fo4XO1BDL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-28 01:29:43"
+    },
     {
       "title": "URBAN Care Style Guide Deniz Tuzu Etkili Doğal Dalga Sağlayan Saç Spreyi 200 ml",
       "satis": "150,00 TL",
@@ -456,16 +466,6 @@
       "asin": "B0DZ6Q2D43",
       "link": "https://www.amazon.com.tr/dp/B0DZ6Q2D43?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/51fT-YHDghL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 16:11:52"
-    },
-    {
-      "title": "Babilden 2 Metre Termal Akım Korumalı 2'li Priz Çoklayıcı, 2 USB 1 Type-C Girişli",
-      "satis": "399,00 TL",
-      "ind": "%23",
-      "eski": "519,00 TL",
-      "asin": "B0HL75XX3X",
-      "link": "https://www.amazon.com.tr/dp/B0HL75XX3X?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71ROh09qKQL._AC_SR480,440_.jpg",
       "zaman": "2026-11-27 16:11:52"
     }
   ]
