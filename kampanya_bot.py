@@ -10,7 +10,9 @@ from playwright.sync_api import sync_playwright
 TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "9203702774:AAHRD7T3aprg_yOozgQv1I_wBCb7yehq4Ck").strip()
 KANAL = os.environ.get("TELEGRAM_CHANNEL_ID", "@anlikiindirim").strip()
 TAG = os.environ.get("AMAZON_ASSOCIATE_TAG", "anlikiindirim-21").strip()
+
 MIN_INDIRIM = int(os.environ.get("MIN_INDIRIM", "20"))
+MIN_FIYAT = float(os.environ.get("MIN_FIYAT", "50"))
 GORSEL_ZORUNLU = os.environ.get("GORSEL_ZORUNLU", "1").strip() != "0"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -33,7 +35,7 @@ def tr_para(tutar: float) -> str:
     return f"{tutar:,.2f} TL".replace(",", "X").replace(".", ",").replace("X", ".")
 
 
-def genel_kampanya_basligi_mi(baslik: str) -> bool:
+def istenmeyen_urun_mu(baslik: str) -> bool:
     t = (baslik or "").strip().lower()
     if len(t) < 8:
         return True
@@ -48,6 +50,10 @@ def genel_kampanya_basligi_mi(baslik: str) -> bool:
         r"\bçok satanlar\b",
         r"\bönceki fiyat\b",
         r"\bkalan süre\b",
+        r"\blego\b",
+        r"\bfigür\b",
+        r"\bmaket\b",
+        r"\bkoleksiyon\b",
     ]
     return any(re.search(pat, t, flags=re.IGNORECASE) for pat in yasakli)
 
@@ -65,7 +71,7 @@ def baslik_temizle(ham_baslik: str) -> str:
         kisa = s[:85].rsplit(" ", 1)[0].strip()
         s = kisa if len(kisa) >= 20 else s[:85].strip()
     s = re.sub(r"\s*[-–—:,;|]+\s*$", "", s).strip()
-    if genel_kampanya_basligi_mi(s):
+    if istenmeyen_urun_mu(s):
         return ""
     return s
 
@@ -193,9 +199,9 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
             pg.goto(hedef_url, wait_until="domcontentloaded", timeout=45000)
             pg.wait_for_timeout(3500)
 
-            for _ in range(5):
-                pg.mouse.wheel(0, 1500)
-                pg.wait_for_timeout(1200)
+            for _ in range(7):
+                pg.mouse.wheel(0, 1600)
+                pg.wait_for_timeout(1100)
 
             sayfa_basligi = pg.title()
             dp_link_sayisi = pg.locator('a[href*="/dp/"]').count()
@@ -287,7 +293,7 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
                     }
                     return out;
                 }""",
-                max(limit * 3, 50),
+                120,
             )
             if ham_liste:
                 break
@@ -309,11 +315,17 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
             continue
 
         satis = fiyat_sayilari[0]
+        if satis < MIN_FIYAT:
+            continue
+
         buyukler = [x for x in fiyat_sayilari[1:] if x > satis]
         eski = min(buyukler) if buyukler else None
         ind = item.get("discount")
         if ind is None and eski and eski > satis:
             ind = round(((eski - satis) / eski) * 100)
+
+        if (ind or 0) < MIN_INDIRIM:
+            continue
 
         img = gorsel_url_temizle(item.get("img") or "")
         if GORSEL_ZORUNLU and not img:
@@ -321,13 +333,10 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
 
         link = f"https://www.amazon.com.tr/dp/{item['asin']}?tag={TAG}"
         fiyat_satiri = tr_para(satis)
-        ek = []
-        if ind:
-            ek.append("%" + str(ind) + " indirim")
+        ek = [f"%{ind} indirim"]
         if eski:
-            ek.append("(Eski: " + tr_para(eski) + ")")
-        if ek:
-            fiyat_satiri = fiyat_satiri + " — " + " ".join(ek)
+            ek.append(f"(Eski: {tr_para(eski)})")
+        fiyat_satiri = f"{fiyat_satiri} — {' '.join(ek)}"
 
         mesaj = "\n\n".join(
             [
@@ -351,14 +360,8 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
             }
         )
 
-    yuksek_indirimli = [x for x in sonuc if (x.get("ind") or 0) >= MIN_INDIRIM]
-    digerleri = sorted(
-        [x for x in sonuc if (x.get("ind") or 0) < MIN_INDIRIM],
-        key=lambda x: x.get("ind") or 0,
-        reverse=True,
-    )
-    sirali = yuksek_indirimli + digerleri
-    return sirali[:limit]
+    sonuc.sort(key=lambda x: x.get("ind") or 0, reverse=True)
+    return sonuc[:limit]
 
 
 def telegrama_gonder(foto_url: str, caption: str) -> bool:
@@ -561,7 +564,7 @@ def main() -> None:
     yeni_paylasilanlar = []
 
     try:
-        adaylar = firsatlari_cek(TARAMA_URL, limit=20)
+        adaylar = firsatlari_cek(TARAMA_URL, limit=15)
     except Exception as exc:
         adaylar = []
         hatalar.append({"zaman": zaman, "mesaj": f"Tarama hatası: {exc}"})
