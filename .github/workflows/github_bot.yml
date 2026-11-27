@@ -24,8 +24,9 @@ jobs:
         run: |
           pip install requests playwright
           playwright install chromium
+          sudo rm -f /etc/apt/sources.list.d/*microsoft* /etc/apt/sources.list.d/*vscode* || true
+          sudo apt-get update -o Acquire::AllowInsecureRepositories=true || true
           playwright install-deps chromium
-
       - name: Botu calistir
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
