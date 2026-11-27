@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-27 16:41:09",
-  "toplam_paylasim": 301,
-  "paylasilan_adet": 0,
-  "bulunan_link": 13,
-  "durum": "uyari",
+  "son_tarama": "2026-11-27 18:01:39",
+  "toplam_paylasim": 302,
+  "paylasilan_adet": 1,
+  "bulunan_link": 11,
+  "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-27 18:01:39",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (11 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-27 16:41:09",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (13 aday incelendi).",
@@ -150,24 +155,29 @@
       "zaman": "2026-11-26 14:44:32",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-26 13:44:51",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
-    "title": "Kawa D11 2 Kameralı Ön/Arka 4K+1080P Sony STARVIS Sensörlü Yapay Zeka Destekli Wi-Fi",
-    "satis": "7.499,00 TL",
-    "ind": "%11",
-    "eski": "8.414,10 TL",
-    "asin": "B0DS68FFRB",
-    "link": "https://www.amazon.com.tr/dp/B0DS68FFRB?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/61u7hGfeuuL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-27 16:29:44"
+    "title": "SKG 8511 Presso Kablosuz Memory Foam Masaj Yastığı | Profesyonel 3D Yoğurma",
+    "satis": "3.999,00 TL",
+    "ind": "%26",
+    "eski": "5.439,32 TL",
+    "asin": "B0H72DJLKT",
+    "link": "https://www.amazon.com.tr/dp/B0H72DJLKT?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/61Z0Siz7t5L._AC_SR480,440_.jpg",
+    "zaman": "2026-11-27 18:01:39"
   },
   "son_paylasimlar": [
+    {
+      "title": "SKG 8511 Presso Kablosuz Memory Foam Masaj Yastığı | Profesyonel 3D Yoğurma",
+      "satis": "3.999,00 TL",
+      "ind": "%26",
+      "eski": "5.439,32 TL",
+      "asin": "B0H72DJLKT",
+      "link": "https://www.amazon.com.tr/dp/B0H72DJLKT?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61Z0Siz7t5L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 18:01:39"
+    },
     {
       "title": "Kawa D11 2 Kameralı Ön/Arka 4K+1080P Sony STARVIS Sensörlü Yapay Zeka Destekli Wi-Fi",
       "satis": "7.499,00 TL",
