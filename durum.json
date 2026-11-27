@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-27 04:57:45",
-  "toplam_paylasim": 260,
-  "paylasilan_adet": 3,
+  "son_tarama": "2026-11-27 05:55:58",
+  "toplam_paylasim": 266,
+  "paylasilan_adet": 6,
   "bulunan_link": 20,
   "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-27 05:55:58",
+      "mesaj": "6 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-27 04:57:45",
       "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
@@ -150,24 +155,79 @@
       "zaman": "2026-11-25 22:26:35",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-25 21:22:19",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
-    "title": "Parex Wondero Flat Şeffaf Temiz Su İle Kirli Suyu Ayıran Otomatik Temizlik Seti Mor",
-    "satis": "1.489,00 TL",
-    "ind": "%17",
-    "eski": "1.799,00 TL",
-    "asin": "B0HBWZ28TH",
-    "link": "https://www.amazon.com.tr/dp/B0HBWZ28TH?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/51m+QAPy0sL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-27 04:57:45"
+    "title": "VegGieg CAT8 40Gbps 2000Mhz STP RJ45 Ethernet Kablosu 1.5 Metre",
+    "satis": "189,00 TL",
+    "ind": "%0",
+    "eski": "",
+    "asin": "B0DMT7T9VQ",
+    "link": "https://www.amazon.com.tr/dp/B0DMT7T9VQ?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/41qvmQ4K63L._AC_SR240,220_.jpg",
+    "zaman": "2026-11-27 05:55:58"
   },
   "son_paylasimlar": [
+    {
+      "title": "VegGieg CAT8 40Gbps 2000Mhz STP RJ45 Ethernet Kablosu 1.5 Metre",
+      "satis": "189,00 TL",
+      "ind": "%0",
+      "eski": "",
+      "asin": "B0DMT7T9VQ",
+      "link": "https://www.amazon.com.tr/dp/B0DMT7T9VQ?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/41qvmQ4K63L._AC_SR240,220_.jpg",
+      "zaman": "2026-11-27 05:55:58"
+    },
+    {
+      "title": "Cadı - Hizmetçi’nin Yazarından Karanlık Sırlarla Dolu Nefes Kesici Bir Psikolojik Gerilim",
+      "satis": "242,40 TL",
+      "ind": "%2",
+      "eski": "247,50 TL",
+      "asin": "6258931162",
+      "link": "https://www.amazon.com.tr/dp/6258931162?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/41W6mYKuFFL._AC_SR240,220_.jpg",
+      "zaman": "2026-11-27 05:55:58"
+    },
+    {
+      "title": "Duru Fresh Sensations Okyanus Esintisi Duş Sabunu, 600 gr",
+      "satis": "103,19 TL",
+      "ind": "%21",
+      "eski": "129,95 TL",
+      "asin": "B0817ZX327",
+      "link": "https://www.amazon.com.tr/dp/B0817ZX327?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/51GbuPFbj+L._AC_SR240,220_.jpg",
+      "zaman": "2026-11-27 05:55:58"
+    },
+    {
+      "title": "Barbie Fındıkkıran Balesi Deluxe Clara",
+      "satis": "999,00 TL",
+      "ind": "%17",
+      "eski": "1.199,00 TL",
+      "asin": "B0G441JJWG",
+      "link": "https://www.amazon.com.tr/dp/B0G441JJWG?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/81A3cP3aYFL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 05:55:58"
+    },
+    {
+      "title": "BIC Hybrid 5 Flex Erkek Tıraş Bıçağı 1 Sap ve 2 Yedek Başlık (5 Bıçak), 5 Nano Teknolojik",
+      "satis": "167,94 TL",
+      "ind": "%14",
+      "eski": "194,98 TL",
+      "asin": "B08ZJKB1DY",
+      "link": "https://www.amazon.com.tr/dp/B08ZJKB1DY?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/71A2JEdcwNL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 05:55:58"
+    },
+    {
+      "title": "Mattel Star Wars Grogu Pelüş YENİ",
+      "satis": "999,00 TL",
+      "ind": "%57",
+      "eski": "2.299,99 TL",
+      "asin": "B0FK1HKMFZ",
+      "link": "https://www.amazon.com.tr/dp/B0FK1HKMFZ?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/81Vez1dTMWL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 05:55:58"
+    },
     {
       "title": "Parex Wondero Flat Şeffaf Temiz Su İle Kirli Suyu Ayıran Otomatik Temizlik Seti Mor",
       "satis": "1.489,00 TL",
@@ -406,66 +466,6 @@
       "asin": "B0DL6FYCJ5",
       "link": "https://www.amazon.com.tr/dp/B0DL6FYCJ5?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/61pItPPBbQL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "Baloncuk yapma özelliği ve solüsyonu ile uzun ve renkli meçli sarı saçları olan Barbie Baloncuk",
-      "satis": "729,00 TL",
-      "ind": "%6",
-      "eski": "778,05 TL",
-      "asin": "B0FK1P8K4N",
-      "link": "https://www.amazon.com.tr/dp/B0FK1P8K4N?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/711PaCp1PsL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "Barbie® Dreamtopia Işıltılı Deniz Kızı",
-      "satis": "999,00 TL",
-      "ind": "%0",
-      "eski": "",
-      "asin": "B09BW2RTN8",
-      "link": "https://www.amazon.com.tr/dp/B09BW2RTN8?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/614wgEJkqTL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "Klasse Pro - 10 Farklı Model Dikişli Kenar 90x40 cm Oyuncu Gaming Mouse Pad (Oki Nami Ura, 90x40 cm)",
-      "satis": "399,90 TL",
-      "ind": "%33",
-      "eski": "599,90 TL",
-      "asin": "B09TTZXWFB",
-      "link": "https://www.amazon.com.tr/dp/B09TTZXWFB?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/81Osj2DTbdL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "Bratz Scorchin' Yasmin Moda Bebek Aksesuarları ile",
-      "satis": "999,00 TL",
-      "ind": "%40",
-      "eski": "1.655,37 TL",
-      "asin": "B0DLZHRK5L",
-      "link": "https://www.amazon.com.tr/dp/B0DLZHRK5L?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/81APzBCZTwL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "BRITA Flow 3x MAXTRA PRO Pure Performance Filtreli Su Arıtma Sebili (8,2L)",
-      "satis": "2.498,17 TL",
-      "ind": "%17",
-      "eski": "2.999,00 TL",
-      "asin": "B0D4QX4TSX",
-      "link": "https://www.amazon.com.tr/dp/B0D4QX4TSX?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71BFHVjpi6L._AC_SR480,440_.jpg",
-      "zaman": "2026-11-26 22:32:18"
-    },
-    {
-      "title": "Rehome 3 Raflı Metal Ayakkabılık | Siyah | Ayakkabı Rafı | Üç Çekmeceli | Metal Ayakkabı Dolabı",
-      "satis": "2.490,00 TL",
-      "ind": "%38",
-      "eski": "3.990,00 TL",
-      "asin": "B0CS6HKR2Z",
-      "link": "https://www.amazon.com.tr/dp/B0CS6HKR2Z?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/612FEQ4rGFL._AC_SR480,440_.jpg",
       "zaman": "2026-11-26 22:32:18"
     }
   ]
