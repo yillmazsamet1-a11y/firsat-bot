@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-27 21:21:03",
-  "toplam_paylasim": 308,
-  "paylasilan_adet": 2,
-  "bulunan_link": 15,
+  "son_tarama": "2026-11-27 22:27:41",
+  "toplam_paylasim": 309,
+  "paylasilan_adet": 1,
+  "bulunan_link": 11,
   "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-27 22:27:41",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (11 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-27 21:21:03",
       "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (15 aday incelendi).",
@@ -150,24 +155,29 @@
       "zaman": "2026-11-26 21:22:53",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-26 20:30:10",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
-    "title": "Einhell Akülü Çim Makası Ve Kenar Kesme Seti ASET26-019 | GC-CG 18 Li + GC-CT 18/24",
-    "satis": "5.799,00 TL",
+    "title": "Toppin Audio DX1 II Gaming DAC & Headphone Amplifier | Silver",
+    "satis": "7.399,90 TL",
     "ind": "%26",
-    "eski": "7.813,20 TL",
-    "asin": "B0GY1ZLLGF",
-    "link": "https://www.amazon.com.tr/dp/B0GY1ZLLGF?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/71jU7CRTFQL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-27 21:21:03"
+    "eski": "9.999,90 TL",
+    "asin": "B0HCMNYGMK",
+    "link": "https://www.amazon.com.tr/dp/B0HCMNYGMK?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/51TfiqMeEjL._AC_SR480,440_.jpg",
+    "zaman": "2026-11-27 22:27:41"
   },
   "son_paylasimlar": [
+    {
+      "title": "Toppin Audio DX1 II Gaming DAC & Headphone Amplifier | Silver",
+      "satis": "7.399,90 TL",
+      "ind": "%26",
+      "eski": "9.999,90 TL",
+      "asin": "B0HCMNYGMK",
+      "link": "https://www.amazon.com.tr/dp/B0HCMNYGMK?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/51TfiqMeEjL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-27 22:27:41"
+    },
     {
       "title": "Einhell Akülü Çim Makası Ve Kenar Kesme Seti ASET26-019 | GC-CG 18 Li + GC-CT 18/24",
       "satis": "5.799,00 TL",
@@ -456,16 +466,6 @@
       "asin": "B0DFX1XG68",
       "link": "https://www.amazon.com.tr/dp/B0DFX1XG68?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/41lOq3fDvaL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 16:11:52"
-    },
-    {
-      "title": "Kitchenaid Classic El Blenderı 5KHBV53EOB -Onyx Black",
-      "satis": "7.499,05 TL",
-      "ind": "%16",
-      "eski": "8.899,00 TL",
-      "asin": "B09D3N5LHW",
-      "link": "https://www.amazon.com.tr/dp/B09D3N5LHW?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/41v9T8VckgL._AC_SR480,440_.jpg",
       "zaman": "2026-11-27 16:11:52"
     }
   ]
