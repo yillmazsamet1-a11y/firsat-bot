@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-27 15:55:51",
+  "son_tarama": "2026-11-27 16:04:28",
   "toplam_paylasim": 271,
   "paylasilan_adet": 0,
   "bulunan_link": 0,
   "durum": "uyari",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-27 16:04:28",
+      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
+      "tip": "uyari"
+    },
     {
       "zaman": "2026-11-27 15:55:51",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
@@ -150,11 +155,6 @@
       "zaman": "2026-11-26 10:07:31",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-26 08:59:09",
-      "mesaj": "18 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
-      "tip": "ok"
     }
   ],
   "son_urun": {
@@ -197,16 +197,6 @@
       "link": "https://www.amazon.com.tr/dp/B0HQ75QSWL?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/61fxfH4QK+L._AC_SR480,440_.jpg",
       "zaman": "2026-11-27 08:08:43"
-    },
-    {
-      "title": "Gülümseten Kasım fırsatı",
-      "satis": "150,95 TL",
-      "ind": "%10",
-      "eski": "167,72 TL",
-      "asin": "6057728459",
-      "link": "https://www.amazon.com.tr/dp/6057728459?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/91jGg42qbVL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 06:58:44"
     },
     {
       "title": "Volume Up Mascara Yoğun Hacim ve Lifting Etkili Kat Kat Uygulanabilir",
