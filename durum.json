@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-27 15:49:14",
+  "son_tarama": "2026-11-27 15:55:51",
   "toplam_paylasim": 271,
   "paylasilan_adet": 0,
   "bulunan_link": 0,
   "durum": "uyari",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-27 15:55:51",
+      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
+      "tip": "uyari"
+    },
     {
       "zaman": "2026-11-27 15:49:14",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
@@ -150,11 +155,6 @@
       "zaman": "2026-11-26 08:59:09",
       "mesaj": "18 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
       "tip": "ok"
-    },
-    {
-      "zaman": "2026-11-26 07:53:08",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
@@ -179,7 +179,7 @@
       "zaman": "2026-11-27 08:08:43"
     },
     {
-      "title": "Naturagen Vitamin D3 + K2 1000 IU 60 Kapsül | Glutensiz Kolay Yutulabilir Vitamin D3 K2 | 60",
+      "title": "Naturagen Vitamin D3 + K2 1000 IU 60 Kapsül | Glutensiz Kolay Yutulabilir",
       "satis": "336,90 TL",
       "ind": "%32",
       "eski": "494,95 TL",
@@ -209,7 +209,7 @@
       "zaman": "2026-11-27 06:58:44"
     },
     {
-      "title": "Volume Up Mascara Yoğun Hacim ve Lifting Etkili Kat Kat Uygulanabilir Maskara",
+      "title": "Volume Up Mascara Yoğun Hacim ve Lifting Etkili Kat Kat Uygulanabilir",
       "satis": "350,00 TL",
       "ind": "%16",
       "eski": "418,00 TL",
@@ -229,7 +229,7 @@
       "zaman": "2026-11-27 05:55:58"
     },
     {
-      "title": "Cadı - Hizmetçi’nin Yazarından Karanlık Sırlarla Dolu Nefes Kesici Bir Psikolojik Gerilim",
+      "title": "Cadı - Hizmetçi’nin Yazarından Karanlık Sırlarla Dolu Nefes Kesici Bir",
       "satis": "242,40 TL",
       "ind": "%2",
       "eski": "247,50 TL",
@@ -259,7 +259,7 @@
       "zaman": "2026-11-27 05:55:58"
     },
     {
-      "title": "BIC Hybrid 5 Flex Erkek Tıraş Bıçağı 1 Sap ve 2 Yedek Başlık (5 Bıçak), 5 Nano Teknolojik",
+      "title": "BIC Hybrid 5 Flex Erkek Tıraş Bıçağı 1 Sap ve 2 Yedek Başlık (5 Bıçak), 5",
       "satis": "167,94 TL",
       "ind": "%14",
       "eski": "194,98 TL",
@@ -279,7 +279,7 @@
       "zaman": "2026-11-27 05:55:58"
     },
     {
-      "title": "Parex Wondero Flat Şeffaf Temiz Su İle Kirli Suyu Ayıran Otomatik Temizlik Seti Mor",
+      "title": "Parex Wondero Flat Şeffaf Temiz Su İle Kirli Suyu Ayıran Otomatik Temizlik",
       "satis": "1.489,00 TL",
       "ind": "%17",
       "eski": "1.799,00 TL",
@@ -289,7 +289,7 @@
       "zaman": "2026-11-27 04:57:45"
     },
     {
-      "title": "BONTEC 13-32 İnç Gazlı Amortisörlü Tekli Monitör Kolu, 9 kg’a Kadar, Tam Hareketli, VESA",
+      "title": "BONTEC 13-32 İnç Gazlı Amortisörlü Tekli Monitör Kolu, 9 kg’a Kadar, Tam",
       "satis": "899,00 TL",
       "ind": "%0",
       "eski": "",
@@ -329,7 +329,7 @@
       "zaman": "2026-11-27 01:29:05"
     },
     {
-      "title": "Einhell Original 18 V 5,2 Ah PXC-Twinpack 4511526 | 2 adet akü seti | 1260 W | PXC | Li-ion |",
+      "title": "Einhell Original 18 V 5,2 Ah PXC-Twinpack 4511526 | 2 adet akü seti | 1260",
       "satis": "7.388,49 TL",
       "ind": "%10",
       "eski": "8.188,90 TL",
@@ -339,7 +339,7 @@
       "zaman": "2026-11-27 01:29:05"
     },
     {
-      "title": "Thrustmaster T128 - PS5, PS4 ve PC Uyumlu Force Feedback Yarış Direksiyonu ve Manyetik Pedal Seti",
+      "title": "Thrustmaster T128 - PS5, PS4 ve PC Uyumlu Force Feedback Yarış Direksiyonu",
       "satis": "10.999,00 TL",
       "ind": "%22",
       "eski": "14.083,08 TL",
@@ -349,7 +349,7 @@
       "zaman": "2026-11-27 01:29:05"
     },
     {
-      "title": "Sony PlayStation Kılıflı Pulse Elite Headset Kulaklık (Resmi Distribütör Bilkom Garantili)",
+      "title": "Sony PlayStation Kılıflı Pulse Elite Headset Kulaklık (Resmi Distribütör",
       "satis": "7.299,00 TL",
       "ind": "%27",
       "eski": "10.056,36 TL",
@@ -359,7 +359,7 @@
       "zaman": "2026-11-27 01:29:05"
     },
     {
-      "title": "STANLEY Quencher H2.0 FlowState Tumbler 40oz Pipetli Termos Bardak 1.18 Litre - Pistachio |",
+      "title": "STANLEY Quencher H2.0 FlowState Tumbler 40oz Pipetli Termos Bardak 1.18",
       "satis": "1.694,96 TL",
       "ind": "%41",
       "eski": "2.849,05 TL",
@@ -369,7 +369,7 @@
       "zaman": "2026-11-27 01:29:05"
     },
     {
-      "title": "MOVA V50 Ultra Complete Robot Süpürge, 24.000 Pa Emiş Gücü, Versalift Sensör, Sıcak Su ile Mop",
+      "title": "MOVA V50 Ultra Complete Robot Süpürge, 24.000 Pa Emiş Gücü, Versalift",
       "satis": "38.899,00 TL",
       "ind": "%0",
       "eski": "",
@@ -399,7 +399,7 @@
       "zaman": "2026-11-27 01:29:05"
     },
     {
-      "title": "Delonghi Magnifica Evo Otomatik Kahve Makinesi, MyLatte, ECAM292.81.B | LatteCrema Hot",
+      "title": "Delonghi Magnifica Evo Otomatik Kahve Makinesi, MyLatte, ECAM292.81.B",
       "satis": "23.999,00 TL",
       "ind": "%8",
       "eski": "25.999,00 TL",
@@ -409,7 +409,7 @@
       "zaman": "2026-11-27 01:29:05"
     },
     {
-      "title": "LEGO Icons Yüzüklerin Efendisi: Minas Tirith 11377 | Yetişkinler için Ak Gandalf İçeren",
+      "title": "LEGO Icons Yüzüklerin Efendisi: Minas Tirith 11377 | Yetişkinler için Ak",
       "satis": "38.699,90 TL",
       "ind": "%21",
       "eski": "49.239,50 TL",
@@ -419,7 +419,7 @@
       "zaman": "2026-11-27 01:29:05"
     },
     {
-      "title": "MSI CYBORG 15 B13WFKG-494XTR Dizüstü Bilgisayar, GeForce RTX5060 GDDR7 8GB, Intel Core",
+      "title": "MSI CYBORG 15 B13WFKG-494XTR Dizüstü Bilgisayar, GeForce RTX5060 GDDR7",
       "satis": "76.599,00 TL",
       "ind": "%4",
       "eski": "79.849,00 TL",
@@ -429,7 +429,7 @@
       "zaman": "2026-11-27 01:29:05"
     },
     {
-      "title": "Lenovo LOQ Ryzen 7 250 16GB 512GB SSD 15.3\" WUXGA 165Hz RTX 5050 8GB GDDR7 FreeDOS 83TN0097TR",
+      "title": "Lenovo LOQ Ryzen 7 250 16GB 512GB SSD 15.3\" WUXGA 165Hz RTX 5050 8GB GDDR7",
       "satis": "65.000,00 TL",
       "ind": "%7",
       "eski": "69.999,00 TL",
@@ -439,7 +439,7 @@
       "zaman": "2026-11-27 01:29:05"
     },
     {
-      "title": "Philips 5500 Serisi LatteGo Tam Otomatik Espresso Makinesi (EP5547/90) Ve Espresso Makinesi",
+      "title": "Philips 5500 Serisi LatteGo Tam Otomatik Espresso Makinesi (EP5547/90) Ve",
       "satis": "22.948,00 TL",
       "ind": "%0",
       "eski": "",
@@ -449,7 +449,7 @@
       "zaman": "2026-11-27 01:29:05"
     },
     {
-      "title": "MSI CYBORG A15 C1WE-057XTR Dizüstü Bilgisayar, RYZEN 7 170, 15.6 FHD 144HZ, 16GB RAM DDR5",
+      "title": "MSI CYBORG A15 C1WE-057XTR Dizüstü Bilgisayar, RYZEN 7 170, 15.6 FHD",
       "satis": "59.999,00 TL",
       "ind": "%0",
       "eski": "",
@@ -459,7 +459,7 @@
       "zaman": "2026-11-27 01:29:05"
     },
     {
-      "title": "PAPILLOW Luxury Aloe Vera Yastık 50x70 Aloe Veralı Yastık (Standart) dokulu kumaş, yumuşak doku",
+      "title": "PAPILLOW Luxury Aloe Vera Yastık 50x70 Aloe Veralı Yastık (Standart)",
       "satis": "1.832,60 TL",
       "ind": "%16",
       "eski": "2.180,00 TL",
