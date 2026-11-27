@@ -2,11 +2,12 @@ from datetime import datetime, timedelta, timezone
 import json
 import os
 import re
+import sys
 import time
 import requests
 from playwright.sync_api import sync_playwright
 
-TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "9203702774:AAHRD7T3aprg_yOozgQv1I_wBCb7yehq4Ck").strip()
 KANAL = os.environ.get("TELEGRAM_CHANNEL_ID", "@anlikiindirim").strip()
 TAG = os.environ.get("AMAZON_ASSOCIATE_TAG", "anlikiindirim-21").strip()
 
@@ -38,10 +39,11 @@ def baslik_temizle(ham_baslik: str) -> str:
         maxsplit=1,
         flags=re.IGNORECASE,
     )[0]
-    s = re.sub(r"\s*[-–—:,;]+\s*$", "", s).strip()
-    if len(s) > 100:
-        s = s[:97].rsplit(" ", 1)[0].strip()
-    return s
+    s = re.sub(r"\s*[-–—:,;|]+\s*$", "", s).strip()
+    if len(s) > 75:
+        kisa = s[:75].rsplit(" ", 1)[0].strip()
+        s = kisa if len(kisa) >= 20 else s[:75].strip()
+    return re.sub(r"\s*[-–—:,;|]+\s*$", "", s).strip()
 
 
 def baslik_normalize(baslik: str) -> str:
@@ -95,7 +97,7 @@ def paylasim_kaydet(baslik: str, fiyat) -> None:
 def fiyat_sayiya_cevir(metin: str) -> float | None:
     if not metin:
         return None
-    norm = re.sub(r"(\d{1,3}(?:\.\d{3})*)\s+(\d{2})\s*(TL|₺)", r"\1,\2", metin, flags=re.IGNORECASE)
+    norm = re.sub(r"(\d{1,3}(?:\.\d{3})*)\s+(\d{2})\s*(TL|₺)", r"\1,\2", str(metin), flags=re.IGNORECASE)
     temiz = re.sub(r"[^\d,\.]", "", norm).strip()
     if not temiz:
         return None
@@ -108,6 +110,23 @@ def fiyat_sayiya_cevir(metin: str) -> float | None:
         return val if 1.0 <= val <= 500000.0 else None
     except ValueError:
         return None
+
+
+def asin_ve_link_ayarla(girdi: str) -> tuple[str, str]:
+    s = (girdi or "").strip()
+    m = re.search(r"/dp/([A-Z0-9]{10})", s, flags=re.IGNORECASE)
+    if not m and re.fullmatch(r"[A-Z0-9]{10}", s, flags=re.IGNORECASE):
+        m = re.match(r"([A-Z0-9]{10})", s, flags=re.IGNORECASE)
+    if m:
+        asin = m.group(1).upper()
+        return asin, f"https://www.amazon.com.tr/dp/{asin}?tag={TAG}"
+    if "tag=" in s:
+        link = re.sub(r"tag=[^&]+", f"tag={TAG}", s)
+    elif "?" in s:
+        link = f"{s}&tag={TAG}"
+    else:
+        link = f"{s}?tag={TAG}"
+    return "", link
 
 
 def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
@@ -138,17 +157,33 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
                     const asin = m[1];
                     if (seenAsin.has(asin)) continue;
 
-                    const card = a.closest('[data-testid*="deal"], [data-testid*="card"], .a-section, .s-result-item, li, div') || a.parentElement;
-                    const text = card ? (card.innerText || '') : (a.innerText || '');
-                    const lines = text.split('\n').map(x => x.trim()).filter(Boolean);
-
-                    let rawTitle = (a.getAttribute('aria-label') || '').trim();
-                    if (rawTitle.length < 8) {
-                        rawTitle = lines.find(l => l.length >= 12 && !/TL|₺|%\s*\d|günün en düşük|önceki fiyat|kalan süre/i.test(l)) || (a.innerText || '').trim();
+                    let container = a;
+                    for (let i = 0; i < 4 && container && container.parentElement; i++) {
+                        const parent = container.parentElement;
+                        const dpLinksInParent = Array.from(parent.querySelectorAll('a[href*="/dp/"]')).filter(el => {
+                            const mm = (el.getAttribute('href') || '').match(/\/dp\/([A-Z0-9]{10})/);
+                            return mm && mm[1] !== asin;
+                        });
+                        if (dpLinksInParent.length > 0) break;
+                        container = parent;
                     }
 
-                    const imgEl = card ? card.querySelector('img') : null;
-                    const img = imgEl ? (imgEl.getAttribute('src') || imgEl.getAttribute('data-src') || '') : '';
+                    const text = container ? (container.innerText || '') : (a.innerText || '');
+                    const lines = text.split('\n').map(x => x.trim()).filter(Boolean);
+
+                    const imgEl = (container && container.querySelector('img')) || a.querySelector('img');
+                    const img = imgEl
+                        ? (imgEl.getAttribute('src') || imgEl.getAttribute('data-src') || imgEl.getAttribute('data-old-hires') || '')
+                        : '';
+                    const imgAlt = imgEl ? (imgEl.getAttribute('alt') || '').trim() : '';
+
+                    let rawTitle = (a.getAttribute('aria-label') || '').trim();
+                    if (rawTitle.length < 10 && imgAlt.length >= 10) {
+                        rawTitle = imgAlt;
+                    }
+                    if (rawTitle.length < 10) {
+                        rawTitle = lines.find(l => l.length >= 12 && !/TL|₺|%\s*\d|günün en düşük|önceki fiyat|kalan süre|sepete ekle/i.test(l)) || '';
+                    }
 
                     const priceMatches = text.match(/(\d{1,3}(?:\.\d{3})*,\d{2}|\d+,\d{2}|\d{1,3}(?:\.\d{3})*)\s*(?:TL|₺)/g) || [];
                     const discMatch = text.match(/%\s*(\d{1,2})\b/);
@@ -228,8 +263,7 @@ def firsatlari_cek(url: str, limit: int = 20) -> list[dict]:
 
 def telegrama_gonder(foto_url: str, caption: str) -> bool:
     if not TOKEN:
-        print("Uyarı: TELEGRAM_BOT_TOKEN tanımlı değil, Telegram gönderimi atlandı.")
-        return False
+        raise RuntimeError("TELEGRAM_BOT_TOKEN ortam değişkeni tanımlı değil.")
     if foto_url:
         try:
             r = requests.post(
@@ -266,35 +300,14 @@ def durum_kaydet(durum: dict) -> None:
         json.dump(durum, f, ensure_ascii=False, indent=2)
 
 
-def main() -> None:
-    durum = mevcut_durumu_oku()
-    zaman = simdi_tr_str()
-    hatalar = []
-    yeni_paylasilanlar = []
-
-    try:
-        adaylar = firsatlari_cek(TARAMA_URL, limit=20)
-    except Exception as exc:
-        adaylar = []
-        hatalar.append({"zaman": zaman, "mesaj": f"Tarama hatası: {exc}"})
-
-    for u in adaylar:
-        baslik = u["title"]
-        fiyat = u["satis"]
-
-        if daha_once_paylasildi_mi(baslik, fiyat):
-            print(f"Atlandı (zaten paylaşıldı): {baslik} - {fiyat}")
-            continue
-
-        try:
-            if telegrama_gonder(u["img"], u["mesaj"]):
-                paylasim_kaydet(baslik, fiyat)
-                yeni_paylasilanlar.append(u)
-                print(f"Paylaşıldı: {baslik} - {fiyat}")
-                time.sleep(1.5)
-        except Exception as exc:
-            hatalar.append({"zaman": zaman, "mesaj": f"Gönderim hatası ({u.get('asin')}): {exc}"})
-
+def durum_guncelle_kayit(
+    durum: dict,
+    yeni_kayitlar: list[dict],
+    aday_sayisi: int,
+    hatalar: list[dict],
+    zaman: str,
+    kaynak_notu: str = "",
+) -> dict:
     onceki_liste = durum.get("son_paylasimlar") or []
     temiz_onceki = []
     if isinstance(onceki_liste, list):
@@ -325,25 +338,12 @@ def main() -> None:
                 }
             )
 
-    eklenen_kayitlar = [
-        {
-            "title": x["title"],
-            "satis": tr_para(x["satis"]),
-            "ind": "%" + str(x["ind"]) if x.get("ind") else "%0",
-            "eski": tr_para(x["eski"]) if x.get("eski") else "",
-            "asin": x["asin"],
-            "link": x["link"],
-            "img": x["img"],
-            "zaman": zaman,
-        }
-        for x in reversed(yeni_paylasilanlar)
-    ]
+    guncel_liste = (yeni_kayitlar + temiz_onceki)[:30]
+    toplam_yeni = int(durum.get("toplam_paylasim") or 0) + len(yeni_kayitlar)
 
-    guncel_liste = (eklenen_kayitlar + temiz_onceki)[:30]
-    toplam_yeni = int(durum.get("toplam_paylasim") or 0) + len(yeni_paylasilanlar)
-
-    bildirim_metni = f"{len(yeni_paylasilanlar)} yeni fırsat {KANAL} kanalına paylaşıldı ({len(adaylar)} aday incelendi)."
-    bildirim_tip = "uyari" if len(yeni_paylasilanlar) == 0 else "ok"
+    ek_not = f" ({kaynak_notu})" if kaynak_notu else ""
+    bildirim_metni = f"{len(yeni_kayitlar)} yeni fırsat {KANAL} kanalına paylaşıldı ({aday_sayisi} aday incelendi){ek_not}."
+    bildirim_tip = "uyari" if len(yeni_kayitlar) == 0 else "ok"
 
     eski_bildirimler = durum.get("bildirimler") or []
     temiz_bildirimler = []
@@ -363,7 +363,7 @@ def main() -> None:
     temiz_bildirimler.insert(0, {"zaman": zaman, "mesaj": bildirim_metni, "tip": bildirim_tip})
     bildirimler = temiz_bildirimler[:30]
 
-    son_urun = eklenen_kayitlar[0] if eklenen_kayitlar else durum.get("son_urun")
+    son_urun = yeni_kayitlar[0] if yeni_kayitlar else durum.get("son_urun")
     if isinstance(son_urun, dict):
         son_urun["title"] = baslik_temizle(str(son_urun.get("title") or ""))
         if not son_urun.get("satis") or str(son_urun.get("satis")).lower() == "undefined":
@@ -376,17 +376,124 @@ def main() -> None:
         if not son_urun.get("link") and asin_val:
             son_urun["link"] = f"https://www.amazon.com.tr/dp/{asin_val}?tag={TAG}"
 
-    yeni_durum = {
+    return {
         "son_tarama": zaman,
         "toplam_paylasim": toplam_yeni,
-        "paylasilan_adet": len(yeni_paylasilanlar),
-        "bulunan_link": len(adaylar),
-        "durum": "hata" if hatalar else ("uyari" if len(yeni_paylasilanlar) == 0 else "ok"),
+        "paylasilan_adet": len(yeni_kayitlar),
+        "bulunan_link": aday_sayisi,
+        "durum": "hata" if hatalar else ("uyari" if len(yeni_kayitlar) == 0 else "ok"),
         "hatalar": hatalar,
         "bildirimler": bildirimler,
         "son_urun": son_urun,
         "son_paylasimlar": guncel_liste,
     }
+
+
+def manuel_paylas_cli(args: list[str]) -> None:
+    if len(args) < 3:
+        print('Kullanım: python kampanya_bot.py --manuel "Başlık" "Fiyat" "Link veya ASIN" ["İndirim %"] ["Eski Fiyat"] ["Görsel URL"]')
+        sys.exit(1)
+
+    title = baslik_temizle(args[0]) or args[0].strip()
+    satis = fiyat_sayiya_cevir(args[1])
+    if not satis:
+        print("Geçersiz fiyat.")
+        sys.exit(1)
+
+    asin, link = asin_ve_link_ayarla(args[2])
+    ind = int(re.sub(r"\D", "", args[3])) if len(args) > 3 and re.sub(r"\D", "", args[3]) else None
+    eski = fiyat_sayiya_cevir(args[4]) if len(args) > 4 and args[4].strip() else None
+    img = args[5].strip() if len(args) > 5 else ""
+
+    if ind is None and eski and eski > satis:
+        ind = round(((eski - satis) / eski) * 100)
+
+    fiyat_satiri = tr_para(satis)
+    ek = []
+    if ind:
+        ek.append("%" + str(ind) + " indirim")
+    if eski:
+        ek.append("(Eski: " + tr_para(eski) + ")")
+    if ek:
+        fiyat_satiri = fiyat_satiri + " — " + " ".join(ek)
+
+    mesaj = "\n\n".join(
+        [
+            title,
+            fiyat_satiri,
+            link,
+            "#tanitim #reklam #işbirliği",
+        ]
+    )
+
+    zaman = simdi_tr_str()
+    telegrama_gonder(img, mesaj)
+    paylasim_kaydet(title, satis)
+
+    kayit = {
+        "title": title,
+        "satis": tr_para(satis),
+        "ind": "%" + str(ind) if ind else "%0",
+        "eski": tr_para(eski) if eski else "",
+        "asin": asin,
+        "link": link,
+        "img": img,
+        "zaman": zaman,
+    }
+    durum = mevcut_durumu_oku()
+    yeni_durum = durum_guncelle_kayit(durum, [kayit], 1, [], zaman, kaynak_notu="manuel")
+    durum_kaydet(yeni_durum)
+    print(f"Manuel paylaşıldı: {title} | {tr_para(satis)} | {link}")
+
+
+def main() -> None:
+    if len(sys.argv) > 1 and sys.argv[1] == "--manuel":
+        manuel_paylas_cli(sys.argv[2:])
+        return
+
+    durum = mevcut_durumu_oku()
+    zaman = simdi_tr_str()
+    hatalar = []
+    yeni_paylasilanlar = []
+
+    try:
+        adaylar = firsatlari_cek(TARAMA_URL, limit=20)
+    except Exception as exc:
+        adaylar = []
+        hatalar.append({"zaman": zaman, "mesaj": f"Tarama hatası: {exc}"})
+
+    for u in adaylar:
+        baslik = u["title"]
+        fiyat = u["satis"]
+
+        if daha_once_paylasildi_mi(baslik, fiyat):
+            print(f"Atlandı (zaten paylaşıldı): {baslik} - {fiyat}")
+            continue
+
+        try:
+            if telegrama_gonder(u["img"], u["mesaj"]):
+                paylasim_kaydet(baslik, fiyat)
+                yeni_paylasilanlar.append(u)
+                print(f"Paylaşıldı: {baslik} - {fiyat}")
+                time.sleep(1.5)
+        except Exception as exc:
+            hatalar.append({"zaman": zaman, "mesaj": f"Gönderim hatası ({u.get('asin')}): {exc}"})
+
+    eklenen_kayitlar = [
+        {
+            "title": x["title"],
+            "satis": tr_para(x["satis"]),
+            "ind": "%" + str(x["ind"]) if x.get("ind") else "%0",
+            "eski": tr_para(x["eski"]) if x.get("eski") else "",
+            "asin": x["asin"],
+            "link": x["link"],
+            "img": x["img"],
+            "zaman": zaman,
+        }
+        for x in reversed(yeni_paylasilanlar)
+    ]
+
+    yeni_durum = durum_guncelle_kayit(durum, eklenen_kayitlar, len(adaylar), hatalar, zaman)
     durum_kaydet(yeni_durum)
     print(f"durum.json güncellendi | Son tarama: {zaman} | Yeni: {len(yeni_paylasilanlar)}")
 
