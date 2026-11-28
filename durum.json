@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-28 11:00:30",
-  "toplam_paylasim": 317,
-  "paylasilan_adet": 0,
-  "bulunan_link": 7,
-  "durum": "uyari",
+  "son_tarama": "2026-11-28 11:55:08",
+  "toplam_paylasim": 318,
+  "paylasilan_adet": 1,
+  "bulunan_link": 8,
+  "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-28 11:55:08",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (8 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-28 11:00:30",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (7 aday incelendi).",
@@ -150,24 +155,29 @@
       "zaman": "2026-11-27 11:50:15",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-27 10:43:11",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
-    "title": "Jacobs Origins Brazil & Colombia Filtre Kahve 200 g",
-    "satis": "272,90 TL",
-    "ind": "%24",
-    "eski": "359,00 TL",
-    "asin": "B0FN4J5HT3",
-    "link": "https://www.amazon.com.tr/dp/B0FN4J5HT3?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/71DXj8-6IyL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-28 08:43:21"
+    "title": "GROHE Vitalio Comfort 110 El Duşu, 2 Akışlı (Yağmur & Jet), SmartSwitch, 110mm Kare",
+    "satis": "1.428,00 TL",
+    "ind": "%39",
+    "eski": "2.348,10 TL",
+    "asin": "B0CN4MVPGP",
+    "link": "https://www.amazon.com.tr/dp/B0CN4MVPGP?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/61WJQutI9eL._AC_SR480,440_.jpg",
+    "zaman": "2026-11-28 11:55:08"
   },
   "son_paylasimlar": [
+    {
+      "title": "GROHE Vitalio Comfort 110 El Duşu, 2 Akışlı (Yağmur & Jet), SmartSwitch, 110mm Kare",
+      "satis": "1.428,00 TL",
+      "ind": "%39",
+      "eski": "2.348,10 TL",
+      "asin": "B0CN4MVPGP",
+      "link": "https://www.amazon.com.tr/dp/B0CN4MVPGP?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61WJQutI9eL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-28 11:55:08"
+    },
     {
       "title": "Jacobs Origins Brazil & Colombia Filtre Kahve 200 g",
       "satis": "272,90 TL",
@@ -456,16 +466,6 @@
       "asin": "B0D6Q7TQCJ",
       "link": "https://www.amazon.com.tr/dp/B0D6Q7TQCJ?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/61x5756j0HL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 16:11:52"
-    },
-    {
-      "title": "Guruss Tutuşturma Bacası",
-      "satis": "1.024,10 TL",
-      "ind": "%26",
-      "eski": "1.389,00 TL",
-      "asin": "B0B5H74VGL",
-      "link": "https://www.amazon.com.tr/dp/B0B5H74VGL?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/513oC+9u0EL._AC_SR480,440_.jpg",
       "zaman": "2026-11-27 16:11:52"
     }
   ]
