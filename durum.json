@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-28 04:49:34",
-  "toplam_paylasim": 315,
-  "paylasilan_adet": 2,
-  "bulunan_link": 9,
+  "son_tarama": "2026-11-28 05:42:41",
+  "toplam_paylasim": 316,
+  "paylasilan_adet": 1,
+  "bulunan_link": 10,
   "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-28 05:42:41",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (10 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-28 04:49:34",
       "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (9 aday incelendi).",
@@ -150,24 +155,29 @@
       "zaman": "2026-11-27 04:57:45",
       "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
       "tip": "ok"
-    },
-    {
-      "zaman": "2026-11-27 03:30:36",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
     }
   ],
   "son_urun": {
-    "title": "Louisiana Polo 3'lü Valiz Seti 4 Teker Kumaş Valiz 1081 (Antrasit)",
-    "satis": "3.329,99 TL",
-    "ind": "%25",
-    "eski": "4.439,99 TL",
-    "asin": "B0CX91612Y",
-    "link": "https://www.amazon.com.tr/dp/B0CX91612Y?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/519SBMr7BFL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-28 04:49:34"
+    "title": "VASAGLE Çamaşır Sepeti, 3 Bölmeli Çamaşır Sepeti, Çıkarılabilir Çamaşır Torbaları",
+    "satis": "3.469,00 TL",
+    "ind": "%32",
+    "eski": "5.129,00 TL",
+    "asin": "B09QM62V5K",
+    "link": "https://www.amazon.com.tr/dp/B09QM62V5K?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/81ahC5x81CL._AC_SR480,440_.jpg",
+    "zaman": "2026-11-28 05:42:41"
   },
   "son_paylasimlar": [
+    {
+      "title": "VASAGLE Çamaşır Sepeti, 3 Bölmeli Çamaşır Sepeti, Çıkarılabilir Çamaşır Torbaları",
+      "satis": "3.469,00 TL",
+      "ind": "%32",
+      "eski": "5.129,00 TL",
+      "asin": "B09QM62V5K",
+      "link": "https://www.amazon.com.tr/dp/B09QM62V5K?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/81ahC5x81CL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-28 05:42:41"
+    },
     {
       "title": "Louisiana Polo 3'lü Valiz Seti 4 Teker Kumaş Valiz 1081 (Antrasit)",
       "satis": "3.329,99 TL",
@@ -456,16 +466,6 @@
       "asin": "B0CFLZN824",
       "link": "https://www.amazon.com.tr/dp/B0CFLZN824?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/71K9d8o591L._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 16:11:52"
-    },
-    {
-      "title": "Juo Yeti 2200RPM RGB Işıklı Led Display Gaming Laptop Notebook Soğutucu Stand",
-      "satis": "1.199,00 TL",
-      "ind": "%0",
-      "eski": "",
-      "asin": "B0DFX69S7F",
-      "link": "https://www.amazon.com.tr/dp/B0DFX69S7F?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71PJKvJrnvL._AC_SR480,440_.jpg",
       "zaman": "2026-11-27 16:11:52"
     }
   ]
