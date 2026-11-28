@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-28 02:27:18",
-  "toplam_paylasim": 312,
-  "paylasilan_adet": 0,
-  "bulunan_link": 8,
-  "durum": "uyari",
+  "son_tarama": "2026-11-28 03:22:35",
+  "toplam_paylasim": 313,
+  "paylasilan_adet": 1,
+  "bulunan_link": 9,
+  "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-28 03:22:35",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (9 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-28 02:27:18",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (8 aday incelendi).",
@@ -150,24 +155,29 @@
       "zaman": "2026-11-27 02:30:26",
       "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
       "tip": "ok"
-    },
-    {
-      "zaman": "2026-11-27 01:29:05",
-      "mesaj": "14 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
-      "tip": "ok"
     }
   ],
   "son_urun": {
-    "title": "KAFT Unisex Postacı - Dik Çanta (Methone)",
-    "satis": "2.632,00 TL",
-    "ind": "%20",
-    "eski": "3.290,00 TL",
-    "asin": "B0FVM5SLX9",
-    "link": "https://www.amazon.com.tr/dp/B0FVM5SLX9?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/71Fo4XO1BDL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-28 01:29:43"
+    "title": "Inissia D40 Siyah ve Kireç Çözme Kiti",
+    "satis": "6.999,00 TL",
+    "ind": "%42",
+    "eski": "12.168,00 TL",
+    "asin": "B0HJWZZVDB",
+    "link": "https://www.amazon.com.tr/dp/B0HJWZZVDB?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/61qnxloIg8L._AC_SR480,440_.jpg",
+    "zaman": "2026-11-28 03:22:35"
   },
   "son_paylasimlar": [
+    {
+      "title": "Inissia D40 Siyah ve Kireç Çözme Kiti",
+      "satis": "6.999,00 TL",
+      "ind": "%42",
+      "eski": "12.168,00 TL",
+      "asin": "B0HJWZZVDB",
+      "link": "https://www.amazon.com.tr/dp/B0HJWZZVDB?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/61qnxloIg8L._AC_SR480,440_.jpg",
+      "zaman": "2026-11-28 03:22:35"
+    },
     {
       "title": "KAFT Unisex Postacı - Dik Çanta (Methone)",
       "satis": "2.632,00 TL",
@@ -456,16 +466,6 @@
       "asin": "B0GS9Y8QZ3",
       "link": "https://www.amazon.com.tr/dp/B0GS9Y8QZ3?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/71FNTfFmakL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 16:11:52"
-    },
-    {
-      "title": "Baseus Bowie MC1 OL Açık Kulak TWS Bluetooth Kablosuz Kulaklık Siyah",
-      "satis": "2.399,00 TL",
-      "ind": "%4",
-      "eski": "2.499,00 TL",
-      "asin": "B0DZ6Q2D43",
-      "link": "https://www.amazon.com.tr/dp/B0DZ6Q2D43?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/51fT-YHDghL._AC_SR480,440_.jpg",
       "zaman": "2026-11-27 16:11:52"
     }
   ]
