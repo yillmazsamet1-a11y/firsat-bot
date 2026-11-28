@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-28 11:55:08",
+  "son_tarama": "2026-11-28 12:48:58",
   "toplam_paylasim": 318,
-  "paylasilan_adet": 1,
-  "bulunan_link": 8,
-  "durum": "ok",
+  "paylasilan_adet": 0,
+  "bulunan_link": 9,
+  "durum": "uyari",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-28 12:48:58",
+      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (9 aday incelendi).",
+      "tip": "uyari"
+    },
     {
       "zaman": "2026-11-28 11:55:08",
       "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (8 aday incelendi).",
@@ -148,11 +153,6 @@
     },
     {
       "zaman": "2026-11-27 12:54:08",
-      "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
-      "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-27 11:50:15",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
     }
