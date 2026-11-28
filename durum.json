@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-28 03:22:35",
-  "toplam_paylasim": 313,
-  "paylasilan_adet": 1,
+  "son_tarama": "2026-11-28 04:49:34",
+  "toplam_paylasim": 315,
+  "paylasilan_adet": 2,
   "bulunan_link": 9,
   "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-28 04:49:34",
+      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (9 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-28 03:22:35",
       "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (9 aday incelendi).",
@@ -150,24 +155,39 @@
       "zaman": "2026-11-27 03:30:36",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (0 aday incelendi).",
       "tip": "uyari"
-    },
-    {
-      "zaman": "2026-11-27 02:30:26",
-      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
-      "tip": "ok"
     }
   ],
   "son_urun": {
-    "title": "Inissia D40 Siyah ve Kireç Çözme Kiti",
-    "satis": "6.999,00 TL",
-    "ind": "%42",
-    "eski": "12.168,00 TL",
-    "asin": "B0HJWZZVDB",
-    "link": "https://www.amazon.com.tr/dp/B0HJWZZVDB?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/61qnxloIg8L._AC_SR480,440_.jpg",
-    "zaman": "2026-11-28 03:22:35"
+    "title": "Louisiana Polo 3'lü Valiz Seti 4 Teker Kumaş Valiz 1081 (Antrasit)",
+    "satis": "3.329,99 TL",
+    "ind": "%25",
+    "eski": "4.439,99 TL",
+    "asin": "B0CX91612Y",
+    "link": "https://www.amazon.com.tr/dp/B0CX91612Y?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/519SBMr7BFL._AC_SR480,440_.jpg",
+    "zaman": "2026-11-28 04:49:34"
   },
   "son_paylasimlar": [
+    {
+      "title": "Louisiana Polo 3'lü Valiz Seti 4 Teker Kumaş Valiz 1081 (Antrasit)",
+      "satis": "3.329,99 TL",
+      "ind": "%25",
+      "eski": "4.439,99 TL",
+      "asin": "B0CX91612Y",
+      "link": "https://www.amazon.com.tr/dp/B0CX91612Y?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/519SBMr7BFL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-28 04:49:34"
+    },
+    {
+      "title": "adidas Terrex Ax4w Yürüyüş ayakkabısı Kadın",
+      "satis": "3.600,00 TL",
+      "ind": "%33",
+      "eski": "5.399,00 TL",
+      "asin": "B0CYV8W48S",
+      "link": "https://www.amazon.com.tr/dp/B0CYV8W48S?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/51jl3cCdafL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-28 04:49:34"
+    },
     {
       "title": "Inissia D40 Siyah ve Kireç Çözme Kiti",
       "satis": "6.999,00 TL",
@@ -446,26 +466,6 @@
       "asin": "B0DFX69S7F",
       "link": "https://www.amazon.com.tr/dp/B0DFX69S7F?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/71PJKvJrnvL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 16:11:52"
-    },
-    {
-      "title": "Minesk G150 Turbo Jet Fan Hava Üfleyici - 【Turbo Modda 150 Gram Hava Basıncı】- Çok",
-      "satis": "1.687,40 TL",
-      "ind": "%5",
-      "eski": "1.781,90 TL",
-      "asin": "B0G4HH2MGF",
-      "link": "https://www.amazon.com.tr/dp/B0G4HH2MGF?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71Ew2hB-8gL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 16:11:52"
-    },
-    {
-      "title": "Enshall 4'ü 1 Arada 20.000mAh Akü Takviye Cihazı Powerbank Özellikli Led Fener 2000A",
-      "satis": "2.927,00 TL",
-      "ind": "%23",
-      "eski": "3.799,75 TL",
-      "asin": "B0GS9Y8QZ3",
-      "link": "https://www.amazon.com.tr/dp/B0GS9Y8QZ3?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71FNTfFmakL._AC_SR480,440_.jpg",
       "zaman": "2026-11-27 16:11:52"
     }
   ]
