@@ -1,11 +1,16 @@
 {
-  "son_tarama": "2026-11-28 07:44:24",
-  "toplam_paylasim": 316,
-  "paylasilan_adet": 0,
-  "bulunan_link": 9,
-  "durum": "uyari",
+  "son_tarama": "2026-11-28 08:43:21",
+  "toplam_paylasim": 317,
+  "paylasilan_adet": 1,
+  "bulunan_link": 10,
+  "durum": "ok",
   "hatalar": [],
   "bildirimler": [
+    {
+      "zaman": "2026-11-28 08:43:21",
+      "mesaj": "1 yeni fırsat @anlikiindirim kanalına paylaşıldı (10 aday incelendi).",
+      "tip": "ok"
+    },
     {
       "zaman": "2026-11-28 07:44:24",
       "mesaj": "0 yeni fırsat @anlikiindirim kanalına paylaşıldı (9 aday incelendi).",
@@ -150,24 +155,29 @@
       "zaman": "2026-11-27 08:08:43",
       "mesaj": "3 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
       "tip": "ok"
-    },
-    {
-      "zaman": "2026-11-27 06:58:44",
-      "mesaj": "2 yeni fırsat @anlikiindirim kanalına paylaşıldı (20 aday incelendi).",
-      "tip": "ok"
     }
   ],
   "son_urun": {
-    "title": "VASAGLE Çamaşır Sepeti, 3 Bölmeli Çamaşır Sepeti, Çıkarılabilir Çamaşır Torbaları",
-    "satis": "3.469,00 TL",
-    "ind": "%32",
-    "eski": "5.129,00 TL",
-    "asin": "B09QM62V5K",
-    "link": "https://www.amazon.com.tr/dp/B09QM62V5K?tag=anlikiindirim-21",
-    "img": "https://m.media-amazon.com/images/I/81ahC5x81CL._AC_SR480,440_.jpg",
-    "zaman": "2026-11-28 05:42:41"
+    "title": "Jacobs Origins Brazil & Colombia Filtre Kahve 200 g",
+    "satis": "272,90 TL",
+    "ind": "%24",
+    "eski": "359,00 TL",
+    "asin": "B0FN4J5HT3",
+    "link": "https://www.amazon.com.tr/dp/B0FN4J5HT3?tag=anlikiindirim-21",
+    "img": "https://m.media-amazon.com/images/I/71DXj8-6IyL._AC_SR480,440_.jpg",
+    "zaman": "2026-11-28 08:43:21"
   },
   "son_paylasimlar": [
+    {
+      "title": "Jacobs Origins Brazil & Colombia Filtre Kahve 200 g",
+      "satis": "272,90 TL",
+      "ind": "%24",
+      "eski": "359,00 TL",
+      "asin": "B0FN4J5HT3",
+      "link": "https://www.amazon.com.tr/dp/B0FN4J5HT3?tag=anlikiindirim-21",
+      "img": "https://m.media-amazon.com/images/I/71DXj8-6IyL._AC_SR480,440_.jpg",
+      "zaman": "2026-11-28 08:43:21"
+    },
     {
       "title": "VASAGLE Çamaşır Sepeti, 3 Bölmeli Çamaşır Sepeti, Çıkarılabilir Çamaşır Torbaları",
       "satis": "3.469,00 TL",
@@ -456,16 +466,6 @@
       "asin": "B0B5H74VGL",
       "link": "https://www.amazon.com.tr/dp/B0B5H74VGL?tag=anlikiindirim-21",
       "img": "https://m.media-amazon.com/images/I/513oC+9u0EL._AC_SR480,440_.jpg",
-      "zaman": "2026-11-27 16:11:52"
-    },
-    {
-      "title": "Hanzade Bitkisel İngiliz Karbonatı 1 KG Sodyum Bikarbonat Besin Türü Katkısız",
-      "satis": "99,00 TL",
-      "ind": "%34",
-      "eski": "149,00 TL",
-      "asin": "B0CFLZN824",
-      "link": "https://www.amazon.com.tr/dp/B0CFLZN824?tag=anlikiindirim-21",
-      "img": "https://m.media-amazon.com/images/I/71K9d8o591L._AC_SR480,440_.jpg",
       "zaman": "2026-11-27 16:11:52"
     }
   ]
